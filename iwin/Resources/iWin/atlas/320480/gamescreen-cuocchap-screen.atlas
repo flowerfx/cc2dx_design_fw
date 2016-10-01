@@ -1,0 +1,150 @@
+
+gamescreen-cuocchap-screen.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bkg_chu
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+bkg_cuocchap_phanloai_giai_duoi
+  rotate: false
+  xy: 133, 69
+  size: 13, 14
+  split: 6, 6, 7, 6
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+bkg_cuocchap_phanloai_giai_tren
+  rotate: false
+  xy: 40, 4
+  size: 13, 8
+  split: 6, 6, 6, 1
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+bkg_doikq
+  rotate: false
+  xy: 192, 99
+  size: 13, 12
+  split: 6, 6, 5, 6
+  pad: 4, 3, 2, 2
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+bkg_gamecuoc_phanloai
+  rotate: false
+  xy: 152, 85
+  size: 5, 6
+  split: 2, 2, 3, 2
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+bkg_hoa
+  rotate: false
+  xy: 208, 115
+  size: 13, 12
+  split: 6, 6, 5, 6
+  pad: 4, 3, 3, 3
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+bkg_khach
+  rotate: false
+  xy: 4, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+bkg_team_info
+  rotate: false
+  xy: 40, 43
+  size: 15, 14
+  split: 7, 7, 7, 6
+  pad: 3, 3, 2, 2
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+bkg_thang
+  rotate: false
+  xy: 40, 14
+  size: 13, 12
+  split: 6, 6, 5, 6
+  pad: 3, 3, 2, 2
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+bkg_thoigian
+  rotate: false
+  xy: 109, 63
+  size: 22, 20
+  split: 10, 11, 9, 10
+  pad: 2, 3, 2, 3
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+bkg_thongtin
+  rotate: false
+  xy: 1, 59
+  size: 56, 68
+  split: 27, 28, 2, 3
+  pad: 4, 5, 2, 3
+  orig: 56, 68
+  offset: 0, 0
+  index: -1
+bkg_thua
+  rotate: false
+  xy: 223, 115
+  size: 13, 12
+  split: 6, 6, 5, 6
+  pad: 3, 3, 2, 3
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+ico_banh_default
+  rotate: false
+  xy: 109, 85
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+ico_dongho
+  rotate: false
+  xy: 192, 113
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ico_tatca_cactran
+  rotate: false
+  xy: 59, 61
+  size: 48, 66
+  orig: 48, 66
+  offset: 0, 0
+  index: -1
+ico_tatca_cactran_tienganh
+  rotate: false
+  xy: 1, 4
+  size: 37, 53
+  orig: 37, 53
+  offset: 0, 0
+  index: -1
+ico_win
+  rotate: false
+  xy: 152, 93
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+vienxanh_chon
+  rotate: false
+  xy: 40, 28
+  size: 14, 13
+  split: 6, 7, 6, 6
+  orig: 14, 13
+  offset: 0, 0
+  index: -1

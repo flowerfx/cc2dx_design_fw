@@ -1,0 +1,297 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<game id="16" name="MAU_BINH" design="960_540">
+		<player id="0">
+			<common name="value_pos"	value="20_20"	/>
+			<common name="anchor_point" value="0_0"		/>
+			<common name="pos_tex1" 	value="10_-50"	/>
+			<common name="pos_tex2" 	value="10_-54"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="1">
+			<common name="value_pos"	value="20_330"	/>
+			<common name="anchor_point" value="0_1"		/>
+			<common name="pos_tex1" 	value="10_-30"	/>
+			<common name="pos_tex2" 	value="10_-32"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="2">
+			<common name="value_pos"	value="280_465"	/>
+			<common name="anchor_point" value="0_1"		/>
+			<common name="pos_tex1" 	value="108_40"	/>
+			<common name="pos_tex2" 	value="108_40"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="3">
+			<common name="value_pos"	value="950_330"	/>
+			<common name="anchor_point" value="1_1"		/>
+			<common name="pos_tex1" 	value="68_-30"	/>
+			<common name="pos_tex2" 	value="68_-32"	/>
+			<common name="pos_chat"     value="-10_10"	/>
+		</player>
+		<player id="4">
+			<common name="value_pos"	value="950_50"	/>
+			<common name="anchor_point" value="1_0"		/>
+			<common name="pos_tex1" 	value="68_-30"	/>
+			<common name="pos_tex2" 	value="68_-32"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="5">
+			<common name="value_pos"	value="680_465"	/>
+			<common name="anchor_point" value="1_1"		/>
+			<common name="pos_tex1" 	value="-30_40"	/>
+			<common name="pos_tex2" 	value="-30_38"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+	</game>
+	
+	<MenuWidget name="MauBinh" designSize="960_540">
+		<Widget id="0" typeRes="layout" name="custom_root" idx_appear="1" >
+			<common_value>							
+				<common			name="stick_screen"	value="1"/>
+				<common			name="anchor_point"	 value="0_0"/>
+			</common_value>
+			<Widget id="0" typeRes="button" name = "panel_trans" idx_appear ="2" visible="0">		
+				<common_value>
+					<common 		name="source" 		value="loginscreen/nine/whitepixel.png"/>
+					<common 		name="press" 		value="loginscreen/nine/whitepixel.png"/>
+					<common 		name="disable" 		value="loginscreen/nine/whitepixel.png"/>
+					<common 		name="use_atlas" 	value="1"/>	
+					<common			name="stick_screen"	value="0"/>
+					<common			name="scale_9"		value="1"/>
+					
+					<common 		name="scale_press" 		value="0.0"/>
+					<common			name="use_nine_path"	value="1"/>
+					<common			name="anchor_point"		value="0_0"/>
+				</common_value>
+			
+				<color 		origin = "0_0_0_255" />	
+				<pos 		origin = "0_0" 	/>
+				<Size 		origin = "960_540" 	/>
+				<opacity	origin = "100"		/>
+			</Widget>	
+			<Widget id="1" typeRes="panel" name = "panel_custom" idx_appear ="1">		
+				<common_value>							
+					<common 		name="source" 		value="gamescreen-newgui-game-common/bkg_btn_bar.9.png"/>				
+					<common			name="scale_9"		value="1"/>
+					<common 		name="use_atlas" 	value="1"/>	
+					<common			name="stick_screen"	value="1"/>
+					<common			name="use_nine_path" value="1"/>
+					<common			name="anchor_point"	 value="0_1"/>
+				</common_value>
+						
+
+					<Widget id="5" typeRes="layout" name = "layout_btn_game_maubinh" idx_appear ="1">		
+						<common_value>
+							<common 		name="clipping_enable"	    value="0"/>
+							<common 		name="background_type" 		value="0"/>
+							<common			name="casca_color"			value="0"/>
+							<common			name="stick_screen"			value="0"/>
+							<common			name="anchor_point"			value="0_0.5"/>
+						</common_value>
+									
+						<Widget id="0" typeRes="button" name = "btn_auto_binh" idx_appear ="1">		
+							<common_value>
+										
+								<common 		name="source" 		value="loginscreen/nine/white.9.png"/>
+								<common 		name="press" 		value="loginscreen/nine/white.9.png"/>
+								<common 		name="disable" 		value="loginscreen/nine/white.9.png"/>
+								
+								<common 		name="scale_press" 	value="-0.05"/>
+											
+								<common 		name="use_atlas" 		value="1"/>	
+								<common			name="stick_screen"		value="0"/>
+								<common			name="scale_9"			value="1"/>
+								<common			name="use_nine_path"	value="1"/>
+								<common			name="anchor_point"		value="0_0.5"/>
+							</common_value>
+							
+							<Widget id="0" typeRes="font" 	name = "title_" idx_appear ="1">		
+								<common_value>
+									<common 		name="source" 		value="Tự Động Binh"/>					
+									<common    		name="font_idx"		value="0"/>	
+									<common			name="anchor_point"	value="0.5_0.5"/>
+									<common			name="bitmap_font" value="1"/>
+								</common_value>
+								<pos 		origin = "90_25" 	/>
+								<Size 		origin = "20_20" 	/>
+								<color		origin="0_0_0_255"/>
+							</Widget>
+							
+							<pos 		origin = "0_33" 	/>
+							<Size 		origin = "180_50" 	/>
+							<color		origin = "255_167_38_255"/>
+							<COMMAND>
+											<cmd id="0" name="SET_DISABLE">
+											{
+												"act0": {
+													"squence":[
+														{
+															"SET_OPACITY":128
+														},
+														{
+															"SET_COLOR":"255_255_255_255"
+														}
+													]
+												}		
+											}	
+											</cmd>
+											<cmd id="1" name="SET_ENABLE">
+											{
+												"act0": {
+													"squence":[
+														{
+															"SET_OPACITY":255
+														},
+														{
+															"SET_COLOR":"255_167_38_255"
+														}
+													]
+												}		
+											}	
+											</cmd>
+							</COMMAND>				
+						</Widget>
+									
+						<Widget id="1" typeRes="button" name = "btn_finish_binh" idx_appear ="2">		
+							<common_value>
+								<common 		name="source" 		value="default-round-yellow.9.png"/>
+								<common 		name="press" 		value="default-round-yellow.9.png"/>
+								<common 		name="disable" 		value="default-round-yellow.9.png"/>
+								<common 		name="use_atlas" 	value="1"/>	
+								<common			name="stick_screen"	value="0"/>
+								<common			name="scale_9"		value="1"/>
+								
+								<common 		name="scale_press" 		value="-0.05"/>
+								<common			name="use_nine_path"	value="1"/>
+								<common			name="anchor_point"		value="0_0.5"/>
+							</common_value>
+							
+							<Widget id="0" typeRes="font" 	name = "title_" idx_appear ="1">		
+								<common_value>
+									<common 		name="source" 		value="Binh Xong"/>					
+									<common    		name="font_idx"		value="0"/>	
+									<common			name="anchor_point"	value="0.5_0.5"/>
+									<common			name="bitmap_font" value="1"/>
+								</common_value>
+								<pos 		origin = "90_25" 	/>
+								<Size 		origin = "20_20" 	/>
+								<color		origin="0_0_0_255"/>
+							</Widget>
+							
+							<pos 		origin = "200_33" 	/>
+							<Size 		origin = "180_50" 	/>
+						</Widget>					
+						<Widget id="2" typeRes="button" name = "btn_sort_again" idx_appear ="2">		
+							<common_value>
+								<common 		name="source" 		value="default-round-yellow.9.png"/>
+								<common 		name="press" 		value="default-round-yellow.9.png"/>
+								<common 		name="disable" 		value="default-round-yellow.9.png"/>
+								<common 		name="use_atlas" 	value="1"/>	
+								<common			name="stick_screen"	value="0"/>
+								<common			name="scale_9"		value="1"/>
+								
+								<common 		name="scale_press" 	value="-0.05"/>
+								<common			name="use_nine_path"	value="1"/>
+								<common			name="anchor_point"	value="0_0.5"/>
+							</common_value>
+							
+							<Widget id="0" typeRes="font" 	name = "title_" idx_appear ="1">		
+								<common_value>
+									<common 		name="source" 		value="Xếp bài"/>					
+									<common    		name="font_idx"		value="0"/>	
+									<common			name="anchor_point"	value="0.5_0.5"/>
+									<common			name="bitmap_font" value="1"/>
+								</common_value>
+								<pos 		origin = "90_25" 	/>
+								<Size 		origin = "20_20" 	/>
+								<color		origin="0_0_0_255"/>
+							</Widget>
+							
+							<pos 		origin = "400_33" 	/>
+							<Size 		origin = "180_50" 	/>
+						</Widget>
+						<pos 		origin = "323_33" 	/>
+						<Size 		origin = "960_67" 	/>
+					</Widget>
+					
+								
+					<Widget id="6" typeRes="button" name = "btn_invite_player" idx_appear ="2" visible="0">		
+						<common_value>
+							<common 		name="source" 		value="default-round-yellow.9.png"/>
+							<common 		name="press" 		value="default-round-yellow.9.png"/>
+							<common 		name="disable" 		value="default-round-yellow.9.png"/>
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="scale_9"		value="1"/>
+							
+							<common 		name="scale_press" 		value="-0.05"/>
+							<common			name="use_nine_path"	value="1"/>
+							<common			name="anchor_point"		value="0_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font" 	name = "title_" idx_appear ="1">		
+								<common_value>
+									<common 		name="source" 		value="Mời người chơi"/>					
+									<common    		name="font_idx"		value="0"/>	
+									<common			name="anchor_point"	value="0.5_0.5"/>
+									<common			name="bitmap_font" value="1"/>
+								</common_value>
+								<pos 		origin = "125_25" 	/>
+								<Size 		origin = "20_20" 	/>
+								<color		origin="0_0_0_255"/>
+						</Widget>
+						
+						<pos 		origin = "323_33" 	/>
+						<Size 		origin = "250_50" 	/>
+					</Widget>													
+								
+				<pos 		origin = "0_67" 	/>
+				<Size 		origin = "960_67" 	/>
+			</Widget>
+			<Widget id="21" typeRes="panel"  name = "progress_bar_panel" idx_appear ="1">		
+					<common_value>
+							<common			name="source"			value="gamescreen-newgui-game-common/countdown_dai/countdown_den.9.png"/>					
+							<common			name="anchor_point"		value="0.5_0.5"/>
+							<common			name="use_atlas"		value="1"/>
+							<common			name="stick_screen"	 	value="0"/>
+							<common			name="scale_9"			value="1"/>
+							<common			name="use_nine_path"	value="1"/>
+					</common_value>
+		
+				
+					<Widget id="1" typeRes="loading_bar" name = "progress_bar_value" idx_appear ="1">		
+						<common_value>
+								<common			name="source"			value="gamescreen-newgui-game-common/countdown_dai/mautrang.9.png"/>					
+								<common			name="anchor_point"		value="0_0"/>
+								<common			name="use_atlas"		value="1"/>
+								<common			name="stick_screen"	 	value="0"/>
+								<common			name="percent"			value="10.0"/>
+								<common			name="scale_9"			value="1"/>
+								<common			name="use_nine_path"	value="1"/>
+						</common_value>
+						<pos 		origin = "0_0" 	/>
+						<Size 		origin = "230_16" 	/>
+						<color 		origin = "0_255_0_255" 	/>
+					</Widget>
+					
+					<Widget id="2" typeRes="font" name = "title_percent_value" idx_appear ="1">		
+						<common_value>
+								<common 		name="source" 		value="0%"/>					
+								<common    		name="font_idx"		value="0"/>	
+								<common			name="anchor_point"	value="0.5_0.5"/>
+								<common			name="bitmap_font" value="1"/>
+						</common_value>
+						<pos 		origin = "115_8" 	/>
+						<Size 		origin = "16_16" 	/>
+						<color 		origin = "255_255_0_255" 	/>
+					</Widget>
+					
+					<pos 		origin = "470_520" 	/>
+					<Size 		origin = "230_16" 	/>
+				</Widget>
+			<pos 		origin = "0_0" 	/>
+			<Size 		origin = "960_540" 	/>	
+		</Widget>
+	</MenuWidget>
+</GAME>

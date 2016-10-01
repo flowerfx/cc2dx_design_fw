@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{bcd0f17b-5359-4ffb-a227-bbe2701ba357}</ItemsProjectGuid>
+    <ItemsRootNamespace>RKUtils</ItemsRootNamespace>
+    <ItemsProjectName>RKUtils.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RK.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKAssert.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKAssertPrivate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKHashTable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKHeap.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKMacros.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKStdSAFE.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKTypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKUtil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\rk_timer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\api.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\checkpoint.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\const.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\formatter.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\logog.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\macro.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\message.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\mutex.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\node.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\object.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\platform.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\socket.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\statics.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\string.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\target.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\thread.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\timer.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\topic.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\include\unittest.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKBaseLog\Assert.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKBaseLog\Debug.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKBaseLog\Enum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKBaseLog\Log.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Include\Ark.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Include\ArkCommon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Include\ArkFileSystem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Include\ArkManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Include\ArkWriter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Include\MemoryFileSystem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Include\NativeFileSystem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\RKFile.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\RKFileInternal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKLog_Code\RKLog.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKPlatform\Win8.1\Win8Shared.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKPlatform\Win8.1\Win8Utils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKPlatform\Win8.1\Windows_lib_version.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKString_Code\RKString.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKString_Code\RKStringFunctions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKString_Code\RKStringUTF.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKThread_Code\RKInterlock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKThread_Code\RKThread.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKThread_Code\RKThreadPipe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKThread_Code\RKThreadPool.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKThread_Code\RKThreadWrapper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKTool_Code\Encryption.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKTool_Code\RKArray.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKTool_Code\RKList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKTool_Code\RKSort.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKMathTrig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKMatrix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKQuaternion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKVector.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKVectorGeneric.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKAssert.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKHeap.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKStdSAFE.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\RKUtil.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Common\rk_timer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\api.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\checkpoint.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\formatter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\lobject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\lstring.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\message.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\mutex.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\node.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\platform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\socket.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\statics.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\target.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\timer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\topic.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Logon\src\unittest.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKBaseLog\Assert.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKBaseLog\Log.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Source\Ark.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Source\ArkFileSystem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Source\ArkManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Source\MemoryFileSystem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Source\NativeFileSystem.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\Source\NativeFileSystemWinRT.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKFile_Code\WP8\RKFile.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKLog_Code\RKLog.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKPlatform\Win8.1\Win8Shared.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKPlatform\Win8.1\Win8Utils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKString_Code\RKString.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKString_Code\RKStringFunctions.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKString_Code\RKStringUTF.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKThread_Code\RKThreadWrapper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKThread_Code\Win8.1\RKThread.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKTool_Code\Encryption.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKMath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKMathTrig.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKMathTrig_NEON.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKMatrix.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKQuaternion.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\RKVector_Code\RKVector.cpp" />
+  </ItemGroup>
+</Project>

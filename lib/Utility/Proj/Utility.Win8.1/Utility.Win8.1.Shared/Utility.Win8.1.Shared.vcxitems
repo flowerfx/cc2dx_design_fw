@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{8eb6af38-329e-453b-852a-fa8e0aa10158}</ItemsProjectGuid>
+    <ItemsRootNamespace>Utility_Win8_1</ItemsRootNamespace>
+    <ItemsProjectName>Utility.Win8.1.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\BGObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\ObjectBGEntity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\DisplayView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Factory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\FileManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\FXFlatform\XFlatform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\IAPManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\Win8.1\WinRT_IAP.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\InputManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\LanguageMgr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\LoadDataXML.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\ObjectTexture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Object\wObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\Downloader\DownloadHandler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\SocialManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\SoundManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionCommand.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionProcess.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerEntity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerMask.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\Screen.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wAnimationWidget.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wButton.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wCheckBox.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wEditBox.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\WidgetEntity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLayout.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListViewTable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLoadingBar.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPageView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanelClipping.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wParticle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wRadioBtn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wScrollView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wSlider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wText.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTextField.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeProcessWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\BGObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\ObjectBGEntity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\DisplayView.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\FileManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\FXFlatform\XFlatform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\IAPManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\Win8.1\WinRT_IAP.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\InputManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\LanguageMgr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\LoadDataXML.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\ObjectTexture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Object\wObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\Downloader\DownloadHandler.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\SocialManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\SoundManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionCommand.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionProcess.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerEntity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerMask.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\Screen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wAnimationWidget.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wButton.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wCheckBox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wEditBox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\WidgetEntity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLayout.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListView.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListViewTable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLoadingBar.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPageView.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanelClipping.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wParticle.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wRadioBtn.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wScrollView.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wSlider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wText.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTextField.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeProcessWidget.cpp" />
+  </ItemGroup>
+</Project>

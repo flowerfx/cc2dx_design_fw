@@ -1,0 +1,51 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<list_loader>
+		<loader id="0" name="language">
+			<path value="xml\Language.xml"/>
+		</loader>
+		<loader id="1" name="texture">
+			<path value="xml\TexturePacker.xml"/>
+		</loader>
+		<loader id="2" name="UIWidget_table">
+			<path value="xml\MenuUIWidget_table.xml"/>
+		</loader>
+		<loader id="3" name="sound_dec">
+			<path value="xml\SoundDec.xml"/>
+		</loader>
+		
+		<loader id="6" name="ListGameDec">
+			<path value="xml\ListGameDec.xml"/>
+		</loader>
+		<loader id="7" name="CardDec">
+			<path value="xml\Game\CardDec.xml"/>
+		</loader>
+		<loader id="8" name="ListPlayer">
+			<path value="xml\LoadListPlayerDec.xml"/>
+		</loader>
+		<loader id="9" name="TLMN_Screen">
+			<path value="xml\Game\TLMN_Screen.xml"/>
+		</loader>
+		<loader id="10" name="MauBinh_Screen">
+			<path value="xml\Game\MauBinh_Screen.xml"/>
+		</loader>
+		<loader id="11" name="BaiCao_Screen">
+			<path value="xml\Game\BaiCao_Screen.xml"/>
+		</loader>
+		<loader id="12" name="Phom_Screen">
+			<path value="xml\Game\Phom_Screen.xml"/>
+		</loader>	
+		<loader id="13" name="listgamelb">
+			<path value="xml\ListGameLBDec.xml"/>
+		</loader>
+		<loader id="14" name="texture_atlas">
+			<path value="xml\TextureAtlas.xml"/>
+		</loader>
+		<loader id="15" name="XiZach_Screen">
+			<path value="xml\Game\XiZach_Screen.xml"/>
+		</loader>
+		<loader id="16" name="CoTuong_Screen">
+			<path value="xml\Game\CoTuong_Screen.xml"/>
+		</loader>
+	</list_loader>
+</GAME>

@@ -1,0 +1,20 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<MenuWidget name="LuckyCrile" designSize="960_540">
+		<Widget name ="layout_crilce"  typeRes="layout" >
+			<common_value>
+				<common 		name="clipping_enable"	    value="0"/>
+				<common 		name="background_type" 		value="3"/>	
+				<common 		name="source" 				value="loadingscreen/textfieldbgbrow.9.png"/>
+				<common			name="stick_screen"			value="0"/>
+				<common			name="scale_9"				value="1"/>
+				<common			name="casca_color"			value="0"/>
+				<common			name="use_nine_path" 		value="1"/>
+				<common			name="anchor_point"			value="0_0"/>
+			</common_value>
+			<pos 		origin = "0_0" 	/>
+			<Size 		origin = "860_480" 	/>
+		</Widget>
+	</MenuWidget>
+
+</GAME>

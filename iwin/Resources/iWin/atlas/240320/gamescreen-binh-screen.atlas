@@ -1,0 +1,155 @@
+
+gamescreen-binh-screen.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ico_break
+  rotate: false
+  xy: 1, 41
+  size: 86, 71
+  orig: 86, 71
+  offset: 0, 0
+  index: -1
+ico_lung
+  rotate: false
+  xy: 89, 41
+  size: 78, 71
+  orig: 78, 71
+  offset: 0, 0
+  index: -1
+nen_bai_hoa_phai
+  rotate: false
+  xy: 153, 22
+  size: 15, 17
+  split: 4, 10, 8, 8
+  pad: 2, 4, 2, 2
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+nen_bai_hoa_trai
+  rotate: false
+  xy: 188, 23
+  size: 15, 17
+  split: 7, 7, 8, 8
+  pad: 4, 2, 1, 2
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+nen_bai_lung_supham_phai
+  rotate: false
+  xy: 111, 22
+  size: 20, 17
+  split: 6, 13, 8, 8
+  pad: 2, 6, 2, 3
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+nen_bai_lung_supham_trai
+  rotate: false
+  xy: 106, 3
+  size: 19, 17
+  split: 8, 10, 7, 9
+  pad: 3, 2, 2, 3
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+nen_bai_maubinh_phai
+  rotate: false
+  xy: 133, 22
+  size: 18, 17
+  split: 5, 12, 8, 8
+  pad: 2, 4, 3, 3
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+nen_bai_maubinh_trai
+  rotate: false
+  xy: 127, 3
+  size: 18, 17
+  split: 8, 9, 7, 9
+  pad: 4, 2, 2, 3
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+nen_bai_thang_phai
+  rotate: false
+  xy: 170, 23
+  size: 16, 17
+  split: 4, 11, 7, 9
+  pad: 2, 4, 2, 3
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+nen_bai_thang_trai
+  rotate: false
+  xy: 147, 3
+  size: 18, 17
+  split: 8, 9, 7, 9
+  pad: 4, 2, 2, 3
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+nen_bai_thua_phai
+  rotate: false
+  xy: 83, 22
+  size: 26, 17
+  split: 7, 18, 7, 9
+  pad: 3, 7, 2, 2
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+nen_bai_thua_trai
+  rotate: false
+  xy: 83, 3
+  size: 21, 17
+  split: 10, 10, 8, 8
+  pad: 4, 3, 2, 3
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+vien_bai_dacbiet
+  rotate: false
+  xy: 1, 1
+  size: 39, 38
+  split: 18, 20, 21, 16
+  pad: 6, 6, 6, 6
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+vien_hoa
+  rotate: false
+  xy: 210, 77
+  size: 32, 35
+  split: 16, 15, 17, 17
+  pad: 6, 6, 6, 6
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+vien_lung
+  rotate: false
+  xy: 169, 42
+  size: 33, 30
+  split: 14, 18, 15, 14
+  pad: 5, 5, 5, 5
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+vien_thang
+  rotate: false
+  xy: 169, 74
+  size: 39, 38
+  split: 18, 20, 21, 16
+  pad: 6, 6, 6, 6
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+vien_thua
+  rotate: false
+  xy: 42, 1
+  size: 39, 38
+  split: 18, 20, 21, 16
+  pad: 6, 6, 6, 6
+  orig: 39, 38
+  offset: 0, 0
+  index: -1

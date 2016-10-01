@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Code\Common\RK.h" />
+    <ClInclude Include="..\..\Code\Common\RKAssert.h" />
+    <ClInclude Include="..\..\Code\Common\RKAssertPrivate.h" />
+    <ClInclude Include="..\..\Code\Common\RKHashTable.h" />
+    <ClInclude Include="..\..\Code\Common\RKHeap.h" />
+    <ClInclude Include="..\..\Code\Common\RKMacros.h" />
+    <ClInclude Include="..\..\Code\Common\RKStdSAFE.h" />
+    <ClInclude Include="..\..\Code\Common\RKTypes.h" />
+    <ClInclude Include="..\..\Code\Common\RKUtil.h" />
+    <ClInclude Include="..\..\Code\Common\rk_timer.h" />
+    <ClInclude Include="..\..\Code\Logon\include\api.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\checkpoint.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\const.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\formatter.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\logog.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\macro.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\message.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\mutex.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\node.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\object.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\platform.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\socket.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\statics.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\string.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\target.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\thread.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\timer.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\topic.hpp" />
+    <ClInclude Include="..\..\Code\Logon\include\unittest.hpp" />
+    <ClInclude Include="..\..\Code\RKBaseLog\Assert.h" />
+    <ClInclude Include="..\..\Code\RKBaseLog\Debug.h" />
+    <ClInclude Include="..\..\Code\RKBaseLog\Enum.h" />
+    <ClInclude Include="..\..\Code\RKBaseLog\Log.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\Include\Ark.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\Include\ArkCommon.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\Include\ArkFileSystem.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\Include\ArkManager.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\Include\ArkWriter.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\Include\MemoryFileSystem.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\Include\NativeFileSystem.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\RKFile.h" />
+    <ClInclude Include="..\..\Code\RKFile_Code\RKFileInternal.h" />
+    <ClInclude Include="..\..\Code\RKLog_Code\RKLog.h" />
+    <ClInclude Include="..\..\Code\RKString_Code\RKString.h" />
+    <ClInclude Include="..\..\Code\RKString_Code\RKStringFunctions.h" />
+    <ClInclude Include="..\..\Code\RKString_Code\RKStringUTF.h" />
+    <ClInclude Include="..\..\Code\RKThread_Code\RKInterlock.h" />
+    <ClInclude Include="..\..\Code\RKThread_Code\RKThread.h" />
+    <ClInclude Include="..\..\Code\RKThread_Code\RKThreadPipe.h" />
+    <ClInclude Include="..\..\Code\RKThread_Code\RKThreadPool.h" />
+    <ClInclude Include="..\..\Code\RKThread_Code\RKThreadWrapper.h" />
+    <ClInclude Include="..\..\Code\RKThread_Code\RKTimer.h" />
+    <ClInclude Include="..\..\Code\RKTool_Code\Encryption.h" />
+    <ClInclude Include="..\..\Code\RKTool_Code\RKArray.h" />
+    <ClInclude Include="..\..\Code\RKTool_Code\RKCallable.h" />
+    <ClInclude Include="..\..\Code\RKTool_Code\RKCallable.hpp" />
+    <ClInclude Include="..\..\Code\RKTool_Code\RKList.h" />
+    <ClInclude Include="..\..\Code\RKTool_Code\RKQueue.h" />
+    <ClInclude Include="..\..\Code\RKTool_Code\RKSort.h" />
+    <ClInclude Include="..\..\Code\RKVector_Code\RKMath.h" />
+    <ClInclude Include="..\..\Code\RKVector_Code\RKMathTrig.h" />
+    <ClInclude Include="..\..\Code\RKVector_Code\RKMatrix.h" />
+    <ClInclude Include="..\..\Code\RKVector_Code\RKQuaternion.h" />
+    <ClInclude Include="..\..\Code\RKVector_Code\RKVector.h" />
+    <ClInclude Include="..\..\Code\RKVector_Code\RKVectorGeneric.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Code\Common\RKAssert.cpp" />
+    <ClCompile Include="..\..\Code\Common\RKHeap.cpp" />
+    <ClCompile Include="..\..\Code\Common\RKStdSAFE.cpp" />
+    <ClCompile Include="..\..\Code\Common\RKUtil.cpp" />
+    <ClCompile Include="..\..\Code\Common\rk_timer.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\api.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\checkpoint.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\formatter.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\lobject.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\lstring.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\message.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\mutex.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\node.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\platform.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\socket.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\statics.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\target.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\timer.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\topic.cpp" />
+    <ClCompile Include="..\..\Code\Logon\src\unittest.cpp" />
+    <ClCompile Include="..\..\Code\RKBaseLog\Assert.cpp" />
+    <ClCompile Include="..\..\Code\RKBaseLog\Log.cpp" />
+    <ClCompile Include="..\..\Code\RKFile_Code\Source\Ark.cpp" />
+    <ClCompile Include="..\..\Code\RKFile_Code\Source\ArkFileSystem.cpp" />
+    <ClCompile Include="..\..\Code\RKFile_Code\Source\ArkManager.cpp" />
+    <ClCompile Include="..\..\Code\RKFile_Code\Source\MemoryFileSystem.cpp" />
+    <ClCompile Include="..\..\Code\RKFile_Code\Source\NativeFileSystem.cpp" />
+    <ClCompile Include="..\..\Code\RKFile_Code\Win32\RKFile.cpp" />
+    <ClCompile Include="..\..\Code\RKLog_Code\RKLog.cpp" />
+    <ClCompile Include="..\..\Code\RKString_Code\RKString.cpp" />
+    <ClCompile Include="..\..\Code\RKString_Code\RKStringFunctions.cpp" />
+    <ClCompile Include="..\..\Code\RKString_Code\RKStringTest.cpp" />
+    <ClCompile Include="..\..\Code\RKString_Code\RKStringUTF.cpp" />
+    <ClCompile Include="..\..\Code\RKThread_Code\RKThreadWrapper.cpp" />
+    <ClCompile Include="..\..\Code\RKThread_Code\Win32\RKThread.cpp" />
+    <ClCompile Include="..\..\Code\RKThread_Code\Win32\RKTimer.cpp" />
+    <ClCompile Include="..\..\Code\RKTool_Code\Encryption.cpp" />
+    <ClCompile Include="..\..\Code\RKVector_Code\RKMath.cpp" />
+    <ClCompile Include="..\..\Code\RKVector_Code\RKMathTrig.cpp" />
+    <ClCompile Include="..\..\Code\RKVector_Code\RKMathTrig_NEON.cpp" />
+    <ClCompile Include="..\..\Code\RKVector_Code\RKMatrix.cpp" />
+    <ClCompile Include="..\..\Code\RKVector_Code\RKQuaternion.cpp" />
+    <ClCompile Include="..\..\Code\RKVector_Code\RKVector.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{837B5491-5897-4003-A2FA-DC0A3D7CD0BD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RKUtils_Win32</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CC_USE_ARK=1;WIN32;GAME_WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Code/Common;../../Code/;../../../WinRTAPIsEmul;../../Code/RKFile_Code;../../Code/RKString_Code;../../Code/RKTool_Code;../../../gameswf/include;../../Code/RKThread_Code;../../Code/RKSWF_Code</AdditionalIncludeDirectories>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CC_USE_ARK=1;WIN32;GAME_WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Code/Common;../../Code/;../../../WinRTAPIsEmul;../../Code/RKFile_Code;../../Code/RKString_Code;../../Code/RKTool_Code;../../../gameswf/include;../../Code/RKThread_Code;../../Code/RKSWF_Code</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

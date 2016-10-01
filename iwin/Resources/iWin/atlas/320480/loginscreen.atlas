@@ -1,0 +1,871 @@
+
+loginscreen.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+login-screen/back
+  rotate: false
+  xy: 802, 456
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+login-screen/back_vien
+  rotate: false
+  xy: 433, 127
+  size: 15, 23
+  orig: 15, 23
+  offset: 0, 0
+  index: -1
+login-screen/bkg
+  rotate: false
+  xy: 1, 191
+  size: 480, 320
+  orig: 480, 320
+  offset: 0, 0
+  index: -1
+login-screen/bkg_girl
+  rotate: false
+  xy: 483, 190
+  size: 205, 321
+  orig: 205, 321
+  offset: 0, 0
+  index: -1
+login-screen/check_active
+  rotate: false
+  xy: 846, 483
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+login-screen/check_active_new
+  rotate: false
+  xy: 360, 105
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+login-screen/check_normal
+  rotate: false
+  xy: 61, 3
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+login-screen/check_normal_new
+  rotate: false
+  xy: 91, 17
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+login-screen/facebook
+  rotate: false
+  xy: 690, 437
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+login-screen/fbinvite_bg
+  rotate: false
+  xy: 690, 340
+  size: 13, 14
+  split: 6, 6, 6, 7
+  pad: 4, 4, 4, 5
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+login-screen/google
+  rotate: false
+  xy: 183, 32
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+login-screen/ico_captcha_default
+  rotate: false
+  xy: 763, 480
+  size: 81, 28
+  orig: 81, 28
+  offset: 0, 0
+  index: -1
+login-screen/ico_hotline
+  rotate: false
+  xy: 433, 152
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+login-screen/ico_refresh
+  rotate: false
+  xy: 732, 410
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+login-screen/ico_sound
+  rotate: false
+  xy: 763, 441
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+login-screen/ico_sound_off
+  rotate: false
+  xy: 690, 356
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+login-screen/ico_support
+  rotate: false
+  xy: 690, 395
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+login-screen/iwin
+  rotate: false
+  xy: 360, 118
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+login-screen/line
+  rotate: false
+  xy: 690, 510
+  size: 262, 1
+  orig: 262, 1
+  offset: 0, 0
+  index: -1
+login-screen/loading
+  rotate: false
+  xy: 256, 63
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+login-screen/logo
+  rotate: false
+  xy: 1, 30
+  size: 180, 159
+  orig: 180, 159
+  offset: 0, 0
+  index: -1
+login-screen/logonew
+  rotate: false
+  xy: 183, 105
+  size: 175, 84
+  orig: 175, 84
+  offset: 0, 0
+  index: -1
+login-screen/radio_off
+  rotate: false
+  xy: 1, 1
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+login-screen/radio_ogran_off
+  rotate: false
+  xy: 256, 41
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+login-screen/radio_ogran_on
+  rotate: false
+  xy: 298, 83
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+login-screen/radio_on
+  rotate: false
+  xy: 31, 1
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+login-screen/tabbutton
+  rotate: false
+  xy: 876, 494
+  size: 13, 14
+  split: 4, 4, 5, 0
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+login-screen/tabbutton_arrow
+  rotate: false
+  xy: 732, 402
+  size: 12, 6
+  orig: 12, 6
+  offset: 0, 0
+  index: -1
+
+loginscreen2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nine/arrowchat
+  rotate: false
+  xy: 119, 142
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+nine/avatarbg
+  rotate: false
+  xy: 10, 148
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+nine/backpixelnoeffect
+  rotate: false
+  xy: 96, 143
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+nine/bg_money
+  rotate: false
+  xy: 50, 62
+  size: 8, 8
+  split: 3, 3, 3, 3
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+nine/bg_transfermoney
+  rotate: false
+  xy: 169, 223
+  size: 32, 32
+  split: 15, 14, 15, 14
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+nine/bkg_baoloi
+  rotate: false
+  xy: 91, 205
+  size: 5, 6
+  split: 0, 0, 0, 2
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+nine/bkg_capdo
+  rotate: false
+  xy: 53, 126
+  size: 13, 13
+  split: 5, 5, 5, 5
+  pad: 0, 0, 0, 0
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+nine/bkg_toast
+  rotate: false
+  xy: 203, 248
+  size: 52, 7
+  split: 0, 0, 0, 0
+  orig: 52, 7
+  offset: 0, 0
+  index: -1
+nine/black
+  rotate: false
+  xy: 241, 174
+  size: 14, 14
+  split: 6, 6, 6, 6
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+nine/black0
+  rotate: false
+  xy: 67, 146
+  size: 30, 57
+  split: 0, 0, 3, 0
+  orig: 30, 57
+  offset: 0, 0
+  index: -1
+nine/black1
+  rotate: false
+  xy: 99, 164
+  size: 19, 47
+  split: 6, 6, 6, 6
+  orig: 19, 47
+  offset: 0, 0
+  index: -1
+nine/black10
+  rotate: false
+  xy: 63, 99
+  size: 3, 25
+  split: 1, 0, 0, 1
+  orig: 3, 25
+  offset: 0, 0
+  index: -1
+nine/black11
+  rotate: false
+  xy: 198, 177
+  size: 1, 44
+  split: 0, 0, 3, 0
+  orig: 1, 44
+  offset: 0, 0
+  index: -1
+nine/black16
+  rotate: false
+  xy: 99, 143
+  size: 18, 19
+  split: 5, 6, 4, 5
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+nine/black3
+  rotate: false
+  xy: 185, 144
+  size: 11, 15
+  split: 4, 4, 4, 4
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+nine/black7
+  rotate: false
+  xy: 50, 72
+  size: 3, 24
+  split: 1, 0, 1, 1
+  orig: 3, 24
+  offset: 0, 0
+  index: -1
+nine/black8
+  rotate: false
+  xy: 34, 93
+  size: 10, 31
+  split: 3, 3, 4, 3
+  orig: 10, 31
+  offset: 0, 0
+  index: -1
+nine/black9
+  rotate: false
+  xy: 55, 72
+  size: 3, 24
+  split: 1, 0, 0, 2
+  orig: 3, 24
+  offset: 0, 0
+  index: -1
+nine/blackpixel
+  rotate: false
+  xy: 10, 121
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+nine/blue1
+  rotate: false
+  xy: 223, 181
+  size: 16, 36
+  split: 7, 7, 7, 7
+  orig: 16, 36
+  offset: 0, 0
+  index: -1
+nine/boder_red
+  rotate: false
+  xy: 96, 128
+  size: 13, 13
+  split: 6, 6, 5, 7
+  pad: 4, 4, 4, 4
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+nine/boder_yellow
+  rotate: false
+  xy: 84, 103
+  size: 13, 13
+  split: 6, 6, 6, 6
+  pad: 4, 4, 4, 4
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+nine/chatleft
+  rotate: false
+  xy: 171, 192
+  size: 25, 29
+  split: 13, 7, 16, 8
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+nine/chatright
+  rotate: false
+  xy: 171, 161
+  size: 25, 29
+  split: 7, 12, 16, 8
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+nine/edit_fornullcolor
+  rotate: false
+  xy: 51, 52
+  size: 8, 8
+  split: 3, 4, 3, 4
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+nine/gray10
+  rotate: false
+  xy: 1, 121
+  size: 7, 134
+  split: 0, 0, 0, 0
+  orig: 7, 134
+  offset: 0, 0
+  index: -1
+nine/gray11
+  rotate: false
+  xy: 96, 118
+  size: 12, 8
+  split: 4, 3, 3, 4
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+nine/gray12
+  rotate: false
+  xy: 154, 144
+  size: 13, 19
+  split: 5, 5, 6, 6
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+nine/gray13
+  rotate: false
+  xy: 50, 98
+  size: 11, 26
+  split: 4, 4, 5, 4
+  orig: 11, 26
+  offset: 0, 0
+  index: -1
+nine/gray14
+  rotate: false
+  xy: 111, 130
+  size: 5, 11
+  split: 0, 0, 0, 2
+  orig: 5, 11
+  offset: 0, 0
+  index: -1
+nine/gray2
+  rotate: false
+  xy: 1, 1
+  size: 40, 31
+  split: 14, 14, 12, 11
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+nine/gray3
+  rotate: false
+  xy: 167, 172
+  size: 2, 46
+  split: 0, 0, 1, 1
+  orig: 2, 46
+  offset: 0, 0
+  index: -1
+nine/gray4
+  rotate: false
+  xy: 5, 35
+  size: 2, 84
+  orig: 2, 84
+  offset: 0, 0
+  index: -1
+nine/gray5
+  rotate: false
+  xy: 1, 34
+  size: 2, 85
+  split: 0, 0, 1, 0
+  orig: 2, 85
+  offset: 0, 0
+  index: -1
+nine/gray7
+  rotate: false
+  xy: 16, 43
+  size: 7, 11
+  split: 0, 0, 0, 2
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+nine/gray8
+  rotate: false
+  xy: 9, 43
+  size: 5, 12
+  split: 0, 0, 0, 2
+  orig: 5, 12
+  offset: 0, 0
+  index: -1
+nine/grayborder
+  rotate: false
+  xy: 91, 213
+  size: 41, 42
+  split: 7, 8, 7, 7
+  pad: 8, 8, 6, 6
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+nine/green
+  rotate: false
+  xy: 9, 57
+  size: 6, 62
+  split: 2, 2, 3, 3
+  orig: 6, 62
+  offset: 0, 0
+  index: -1
+nine/green5
+  rotate: false
+  xy: 99, 104
+  size: 13, 12
+  split: 5, 5, 5, 5
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+nine/green6
+  rotate: false
+  xy: 10, 205
+  size: 79, 50
+  split: 7, 5, 6, 7
+  pad: 0, 0, 0, 0
+  orig: 79, 50
+  offset: 0, 0
+  index: -1
+nine/hightlight
+  rotate: false
+  xy: 46, 94
+  size: 2, 30
+  split: 0, 0, 0, 0
+  orig: 2, 30
+  offset: 0, 0
+  index: -1
+nine/item_bg
+  rotate: false
+  xy: 62, 144
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+nine/line-hor
+  rotate: false
+  xy: 37, 46
+  size: 4, 4
+  split: 0, 0, 1, 2
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+nine/line_xam
+  rotate: false
+  xy: 201, 181
+  size: 11, 1
+  split: 0, 0, 0, 0
+  orig: 11, 1
+  offset: 0, 0
+  index: -1
+nine/list_bg
+  rotate: false
+  xy: 167, 166
+  size: 2, 4
+  split: 0, 2, 2, 1
+  pad: 0, 0, -1, -1
+  orig: 2, 4
+  offset: 0, 0
+  index: -1
+nine/listview_select
+  rotate: false
+  xy: 201, 178
+  size: 11, 1
+  split: 0, 0, 0, 0
+  orig: 11, 1
+  offset: 0, 0
+  index: -1
+nine/listview_title
+  rotate: false
+  xy: 203, 241
+  size: 50, 5
+  split: 0, 0, 0, 0
+  orig: 50, 5
+  offset: 0, 0
+  index: -1
+nine/locbg
+  rotate: false
+  xy: 10, 141
+  size: 50, 5
+  split: 0, 0, 0, 0
+  orig: 50, 5
+  offset: 0, 0
+  index: -1
+nine/material_select
+  rotate: false
+  xy: 231, 226
+  size: 24, 13
+  split: 3, 17, 0, 12
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+nine/playerstatus
+  rotate: false
+  xy: 10, 124
+  size: 21, 15
+  split: 15, 5, 4, 10
+  pad: 13, 3, 3, 9
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+nine/popupchat
+  rotate: false
+  xy: 169, 146
+  size: 14, 13
+  split: 7, 6, 6, 6
+  pad: 4, 4, 4, 4
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+nine/progress_bg
+  rotate: false
+  xy: 25, 34
+  size: 12, 8
+  split: 4, 4, 3, 4
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+nine/progress_value
+  rotate: false
+  xy: 37, 52
+  size: 12, 8
+  split: 4, 4, 4, 3
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+nine/red0
+  rotate: false
+  xy: 134, 165
+  size: 31, 23
+  split: 13, 12, 8, 12
+  orig: 31, 23
+  offset: 0, 0
+  index: -1
+nine/red1
+  rotate: false
+  xy: 120, 160
+  size: 12, 51
+  split: 5, 6, 4, 5
+  orig: 12, 51
+  offset: 0, 0
+  index: -1
+nine/red10
+  rotate: false
+  xy: 13, 121
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+nine/red11
+  rotate: false
+  xy: 19, 34
+  size: 3, 7
+  split: 0, 0, 0, 2
+  orig: 3, 7
+  offset: 0, 0
+  index: -1
+nine/red13
+  rotate: false
+  xy: 37, 62
+  size: 11, 29
+  split: 4, 3, 4, 4
+  orig: 11, 29
+  offset: 0, 0
+  index: -1
+nine/red3
+  rotate: false
+  xy: 134, 190
+  size: 31, 28
+  split: 4, 7, 5, 7
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+nine/red4
+  rotate: false
+  xy: 68, 132
+  size: 15, 12
+  split: 6, 5, 5, 5
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+nine/red5
+  rotate: false
+  xy: 68, 118
+  size: 15, 12
+  split: 6, 5, 4, 4
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+nine/red6
+  rotate: false
+  xy: 201, 184
+  size: 20, 33
+  split: 0, 0, 1, 1
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+nine/red9
+  rotate: false
+  xy: 241, 190
+  size: 12, 34
+  split: 5, 5, 4, 3
+  orig: 12, 34
+  offset: 0, 0
+  index: -1
+nine/scroll_bg
+  rotate: false
+  xy: 62, 141
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+nine/select_list_bg
+  rotate: false
+  xy: 68, 99
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+nine/selectboxbg
+  rotate: false
+  xy: 134, 220
+  size: 33, 35
+  split: 5, 24, 3, 3
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+nine/selectboxlistbg
+  rotate: false
+  xy: 85, 118
+  size: 9, 9
+  split: 3, 3, 3, 4
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+nine/selectboxlistitem
+  rotate: false
+  xy: 198, 173
+  size: 1, 2
+  split: 0, 0, 0, 1
+  orig: 1, 2
+  offset: 0, 0
+  index: -1
+nine/setting_line
+  rotate: false
+  xy: 136, 143
+  size: 10, 1
+  split: 0, 0, 0, 0
+  orig: 10, 1
+  offset: 0, 0
+  index: -1
+nine/tabBg
+  rotate: false
+  xy: 231, 219
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+nine/textfieldchat
+  rotate: false
+  xy: 17, 93
+  size: 15, 29
+  split: 5, 5, 6, 6
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+nine/thanh_dangcap
+  rotate: false
+  xy: 203, 219
+  size: 26, 20
+  split: 9, 10, 9, 9
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+nine/time_chat_line
+  rotate: false
+  xy: 43, 48
+  size: 1, 2
+  orig: 1, 2
+  offset: 0, 0
+  index: -1
+nine/transbg
+  rotate: false
+  xy: 9, 34
+  size: 8, 7
+  split: 4, 3, 3, 3
+  pad: 2, 2, 2, 2
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+nine/white
+  rotate: false
+  xy: 25, 44
+  size: 10, 10
+  split: 3, 3, 3, 4
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+nine/white-border
+  rotate: false
+  xy: 136, 146
+  size: 16, 17
+  split: 6, 6, 6, 6
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+nine/white3
+  rotate: false
+  xy: 68, 103
+  size: 14, 13
+  split: 5, 5, 5, 5
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+nine/whitepixel
+  rotate: false
+  xy: 65, 141
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+nine/yellow
+  rotate: false
+  xy: 238, 220
+  size: 1, 4
+  orig: 1, 4
+  offset: 0, 0
+  index: -1
+nine/yellow-outer-grow
+  rotate: false
+  xy: 33, 126
+  size: 18, 13
+  split: 4, 4, 4, 4
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+nine/yellow1
+  rotate: false
+  xy: 85, 129
+  size: 9, 15
+  split: 3, 3, 4, 4
+  orig: 9, 15
+  offset: 0, 0
+  index: -1
+nine/yellow2
+  rotate: false
+  xy: 17, 56
+  size: 8, 35
+  split: 5, 0, 5, 1
+  orig: 8, 35
+  offset: 0, 0
+  index: -1
+nine/yellow3
+  rotate: false
+  xy: 27, 56
+  size: 8, 35
+  split: 0, 5, 3, 0
+  orig: 8, 35
+  offset: 0, 0
+  index: -1

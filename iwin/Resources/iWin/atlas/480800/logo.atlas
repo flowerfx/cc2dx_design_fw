@@ -1,0 +1,20 @@
+
+logo.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loading_logo
+  rotate: false
+  xy: 1, 1
+  size: 108, 110
+  orig: 108, 110
+  offset: 0, 0
+  index: -1
+login_logo
+  rotate: false
+  xy: 111, 15
+  size: 114, 96
+  orig: 114, 96
+  offset: 0, 0
+  index: -1

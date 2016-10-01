@@ -1,0 +1,52 @@
+
+gamescreen-caro-screen.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: false
+  xy: 47, 37
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 67, 41
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 1, 11
+  size: 44, 44
+  split: 6, 5, 6, 5
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 57, 34
+  size: 1, 1
+  split: 0, 0, 0, 0
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+move
+  rotate: false
+  xy: 1, 1
+  size: 8, 8
+  split: 3, 3, 3, 3
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+win
+  rotate: false
+  xy: 47, 10
+  size: 8, 25
+  split: 3, 3, 3, 3
+  orig: 8, 25
+  offset: 0, 0
+  index: -1

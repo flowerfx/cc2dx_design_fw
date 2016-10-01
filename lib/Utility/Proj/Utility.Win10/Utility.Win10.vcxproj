@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Code\Background\BGObject.cpp" />
+    <ClCompile Include="..\..\Code\Background\ObjectBGEntity.cpp" />
+    <ClCompile Include="..\..\Code\DisplayView.cpp" />
+    <ClCompile Include="..\..\Code\FileManager.cpp" />
+    <ClCompile Include="..\..\Code\FXFlatform\XFlatform.cpp" />
+    <ClCompile Include="..\..\Code\IAP\IAPManager.cpp" />
+    <ClCompile Include="..\..\Code\IAP\Win8.1\WinRT_IAP.cpp" />
+    <ClCompile Include="..\..\Code\InputManager.cpp" />
+    <ClCompile Include="..\..\Code\LanguageMgr.cpp" />
+    <ClCompile Include="..\..\Code\LoadDataXML.cpp" />
+    <ClCompile Include="..\..\Code\ObjectTexture.cpp" />
+    <ClCompile Include="..\..\Code\Object\wObject.cpp" />
+    <ClCompile Include="..\..\Code\Social\Downloader\DownloadHandler.cpp" />
+    <ClCompile Include="..\..\Code\Social\SocialManager.cpp" />
+    <ClCompile Include="..\..\Code\SoundManager.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\ActionCommand.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\ActionProcess.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\LayerEntity.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\LayerMask.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\Screen.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wAnimationWidget.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wButton.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wCheckBox.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wEditBox.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\WidgetEntity.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wLayout.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wListView.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wListViewTable.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wLoadingBar.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPageView.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPanel.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPanelClipping.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wParticle.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wRadioBtn.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wScrollView.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wSlider.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wText.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTextField.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTimeProcessWidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Code\Background\BGObject.h" />
+    <ClInclude Include="..\..\Code\Background\ObjectBGEntity.h" />
+    <ClInclude Include="..\..\Code\DisplayView.h" />
+    <ClInclude Include="..\..\Code\Factory.h" />
+    <ClInclude Include="..\..\Code\FileManager.h" />
+    <ClInclude Include="..\..\Code\FXFlatform\XFlatform.h" />
+    <ClInclude Include="..\..\Code\IAP\IAPManager.h" />
+    <ClInclude Include="..\..\Code\IAP\Win8.1\WinRT_IAP.h" />
+    <ClInclude Include="..\..\Code\InputManager.h" />
+    <ClInclude Include="..\..\Code\LanguageMgr.h" />
+    <ClInclude Include="..\..\Code\LoadDataXML.h" />
+    <ClInclude Include="..\..\Code\ObjectTexture.h" />
+    <ClInclude Include="..\..\Code\Object\wObject.h" />
+    <ClInclude Include="..\..\Code\Social\Downloader\DownloadHandler.h" />
+    <ClInclude Include="..\..\Code\Social\SocialManager.h" />
+    <ClInclude Include="..\..\Code\SoundManager.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\ActionCommand.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\ActionProcess.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\LayerEntity.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\LayerMask.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\Screen.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wAnimationWidget.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wButton.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wCheckBox.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wEditBox.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\WidgetEntity.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wLayout.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wListView.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wListViewTable.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wLoadingBar.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPageView.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPanel.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPanelClipping.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wParticle.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wRadioBtn.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wScrollView.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wSlider.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wText.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTextField.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTimeProcessWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\proj.win10\libcocos2d.vcxproj">
+      <Project>{07c2895d-720c-487d-b7b4-12c293ea533f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\json\project\vs2015_w10\jsoncpp.vcxproj">
+      <Project>{42abb4f7-ae8a-3393-b7a2-be6923019af4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\RKUtils\Proj\Win10\RKUtils.vcxproj">
+      <Project>{f7dccfec-d7f8-4977-bb07-a3ade2aab85f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\WinRTAPIsEmul\WinRTAPIsEmul_w10\WinRTAPIsEmul_w10.vcxproj">
+      <Project>{41f7f754-7b23-4704-b9d7-8cf9cc366fbe}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19972077-aafc-447c-bb69-0512ea92d79f}</ProjectGuid>
+    <Keyword>StaticLibrary</Keyword>
+    <RootNamespace>Utility_Win10</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GAME_WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_LIB;OS_W10;WINRT;_VARIADIC_MAX=10;NOMINMAX;GL_GLEXT_PROTOTYPES;RAPIDJSON_ENDIAN=RAPIDJSON_LITTLEENDIAN;WINAPI_FAMILY=WINAPI_FAMILY_APP;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\RKUtils\Code;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\winrt_8.1-specific\angle\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\freetype2\include\winrt_8.1\freetype2;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\curl\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\websockets\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform\winrt;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\editor-support;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\sqlite3\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\audio\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos;$(ProjectDir)..\..\..\..\cocos2dx-lib\extensions;$(ProjectDir)..\..\..\..\cocos2dx-lib\external;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\edtaa3func;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\unzip;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\tinyxml2;$(ProjectDir)..\..\..\..\cocos2dx-lib\;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\ConvertUTF;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\xxhash;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\common;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\sweep%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory);$(ProjectDir)..\..\Code;$(ProjectDir)..\..\..\..\..\cocos2dx-lib;C:\Program Files (x86)\Visual Leak Detector\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GAME_WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_LIB;OS_W10;WINRT;_VARIADIC_MAX=10;NOMINMAX;GL_GLEXT_PROTOTYPES;RAPIDJSON_ENDIAN=RAPIDJSON_LITTLEENDIAN;WINAPI_FAMILY=WINAPI_FAMILY_APP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\RKUtils\Code;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\winrt_8.1-specific\angle\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\freetype2\include\winrt_8.1\freetype2;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\curl\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\websockets\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform\winrt;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\editor-support;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\sqlite3\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\audio\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos;$(ProjectDir)..\..\..\..\cocos2dx-lib\extensions;$(ProjectDir)..\..\..\..\cocos2dx-lib\external;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\edtaa3func;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\unzip;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\tinyxml2;$(ProjectDir)..\..\..\..\cocos2dx-lib\;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\ConvertUTF;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\xxhash;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\common;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\sweep%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory);$(ProjectDir)..\..\Code;$(ProjectDir)..\..\..\..\..\cocos2dx-lib;C:\Program Files (x86)\Visual Leak Detector\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GAME_WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_LIB;OS_W10;WINRT;_VARIADIC_MAX=10;NOMINMAX;GL_GLEXT_PROTOTYPES;RAPIDJSON_ENDIAN=RAPIDJSON_LITTLEENDIAN;WINAPI_FAMILY=WINAPI_FAMILY_APP;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\RKUtils\Code;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\winrt_8.1-specific\angle\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\freetype2\include\winrt_8.1\freetype2;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\curl\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\websockets\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform\winrt;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\editor-support;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\sqlite3\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\audio\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos;$(ProjectDir)..\..\..\..\cocos2dx-lib\extensions;$(ProjectDir)..\..\..\..\cocos2dx-lib\external;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\edtaa3func;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\unzip;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\tinyxml2;$(ProjectDir)..\..\..\..\cocos2dx-lib\;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\ConvertUTF;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\xxhash;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\common;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\sweep%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory);$(ProjectDir)..\..\Code;$(ProjectDir)..\..\..\..\..\cocos2dx-lib;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|arm'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GAME_WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_LIB;OS_W10;WINRT;_VARIADIC_MAX=10;NOMINMAX;GL_GLEXT_PROTOTYPES;RAPIDJSON_ENDIAN=RAPIDJSON_LITTLEENDIAN;WINAPI_FAMILY=WINAPI_FAMILY_APP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\RKUtils\Code;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\winrt_8.1-specific\angle\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\freetype2\include\winrt_8.1\freetype2;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\curl\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\websockets\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform\winrt;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\editor-support;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\sqlite3\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\audio\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos;$(ProjectDir)..\..\..\..\cocos2dx-lib\extensions;$(ProjectDir)..\..\..\..\cocos2dx-lib\external;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\edtaa3func;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\unzip;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\tinyxml2;$(ProjectDir)..\..\..\..\cocos2dx-lib\;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\ConvertUTF;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\xxhash;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\common;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\sweep%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory);$(ProjectDir)..\..\Code;$(ProjectDir)..\..\..\..\..\cocos2dx-lib;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GAME_WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_LIB;OS_W10;WINRT;_VARIADIC_MAX=10;NOMINMAX;GL_GLEXT_PROTOTYPES;RAPIDJSON_ENDIAN=RAPIDJSON_LITTLEENDIAN;WINAPI_FAMILY=WINAPI_FAMILY_APP;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\RKUtils\Code;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\winrt_8.1-specific\angle\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\freetype2\include\winrt_8.1\freetype2;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\curl\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\websockets\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform\winrt;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\editor-support;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\sqlite3\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\audio\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos;$(ProjectDir)..\..\..\..\cocos2dx-lib\extensions;$(ProjectDir)..\..\..\..\cocos2dx-lib\external;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\edtaa3func;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\unzip;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\tinyxml2;$(ProjectDir)..\..\..\..\cocos2dx-lib\;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\ConvertUTF;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\xxhash;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\common;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\sweep%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory);$(ProjectDir)..\..\Code;$(ProjectDir)..\..\..\..\..\cocos2dx-lib;C:\Program Files (x86)\Visual Leak Detector\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GAME_WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_LIB;OS_W10;WINRT;_VARIADIC_MAX=10;NOMINMAX;GL_GLEXT_PROTOTYPES;RAPIDJSON_ENDIAN=RAPIDJSON_LITTLEENDIAN;WINAPI_FAMILY=WINAPI_FAMILY_APP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\RKUtils\Code;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\winrt_8.1-specific\angle\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\freetype2\include\winrt_8.1\freetype2;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\curl\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\websockets\include\winrt_8.1;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform\winrt;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\platform;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\editor-support;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\sqlite3\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos\audio\include;$(ProjectDir)..\..\..\..\cocos2dx-lib\cocos;$(ProjectDir)..\..\..\..\cocos2dx-lib\extensions;$(ProjectDir)..\..\..\..\cocos2dx-lib\external;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\edtaa3func;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\unzip;$(ProjectDir)..\..\..\..\cocos2dx-lib\external\tinyxml2;$(ProjectDir)..\..\..\..\cocos2dx-lib\;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\ConvertUTF;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\xxhash;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\common;$(ProjectDir)..\..\..\..\..\cocos2dx-lib\external\poly2tri\sweep%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory);$(ProjectDir)..\..\Code;$(ProjectDir)..\..\..\..\..\cocos2dx-lib;C:\Program Files (x86)\Visual Leak Detector\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

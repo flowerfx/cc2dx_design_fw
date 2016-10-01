@@ -1,0 +1,104 @@
+
+gamescreen-poker-screen.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b
+  rotate: false
+  xy: 97, 6
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+chipblue
+  rotate: false
+  xy: 139, 43
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+chipgreen
+  rotate: false
+  xy: 174, 51
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+chipred
+  rotate: false
+  xy: 209, 51
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+chipyellow
+  rotate: false
+  xy: 63, 52
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+dealer
+  rotate: false
+  xy: 1, 52
+  size: 60, 75
+  orig: 60, 75
+  offset: 0, 0
+  index: -1
+ico_allin
+  rotate: false
+  xy: 1, 1
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+ico_check
+  rotate: false
+  xy: 49, 1
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+ico_checked_check
+  rotate: false
+  xy: 159, 86
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+ico_checked_fold
+  rotate: false
+  xy: 201, 86
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+ico_fold
+  rotate: false
+  xy: 63, 78
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+ico_raise
+  rotate: false
+  xy: 111, 78
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+ico_uncheck_button
+  rotate: false
+  xy: 97, 35
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 139, 14
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1

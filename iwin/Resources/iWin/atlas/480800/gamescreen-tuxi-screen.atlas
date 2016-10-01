@@ -1,0 +1,97 @@
+
+gamescreen-tuxi-screen.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chip
+  rotate: false
+  xy: 1, 1
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+diamond
+  rotate: false
+  xy: 549, 415
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+tuxi_baovang
+  rotate: false
+  xy: 1, 309
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_baoxanh
+  rotate: false
+  xy: 1, 172
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_bgvang
+  rotate: false
+  xy: 138, 309
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_bgxanh
+  rotate: false
+  xy: 1, 35
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_buavang
+  rotate: false
+  xy: 138, 172
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_buaxanh
+  rotate: false
+  xy: 275, 309
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_haoquang
+  rotate: false
+  xy: 138, 35
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_hi_vang
+  rotate: false
+  xy: 275, 172
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_hi_xanh
+  rotate: false
+  xy: 412, 309
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_keovang
+  rotate: false
+  xy: 275, 35
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+tuxi_keoxanh
+  rotate: false
+  xy: 412, 172
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1

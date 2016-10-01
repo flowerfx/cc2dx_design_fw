@@ -1,0 +1,261 @@
+<GAME>
+	<texture>
+		<texture_pack id="0" fit_size="320_240" range_size_x="-1_399" >
+			<tex id="0" name="atlas_GUI">
+				<path id="0" texture="texture_atlas_320x240\tex_atlas_GUI.png" plist="texture_atlas_320x240\tex_atlas_GUI.plist"/>
+			</tex>	
+			<tex id="1" name="atlas_Init">
+				<path id="0" texture="texture_atlas_320x240\tex_atlas_init_screen.png" plist="texture_atlas_320x240\tex_atlas_init_screen.plist"/>
+			</tex>
+			<tex id="2" name="atlas_Game">
+				<path id="0" texture="texture_atlas_320x240\tex_atlas_main_screen.png" plist="texture_atlas_320x240\tex_atlas_main_screen.plist"/>
+			</tex>
+			<font>
+				<fontdetail id="0" namepath="fonts\SF_Lig.ttf" name="arial">
+					<default size="12" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\SF_reg.ttf" name="times">
+					<default size="12" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				
+				<fontdetail id="0" 	namepath="fonts\240320\SF_Bitmap.fnt" 			name="SF_lig_bmp">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\240320\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\240320\SF_Bitmap_1.fnt" 		name="SF_reg_bmp">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\240320\xanhla.fnt" 				name="xanhla">
+					<default size="11" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\240320\trang.fnt" 				name="trang">
+					<default size="11" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\240320\titleFont.fnt" 			name="titleFont">
+					<default size="16" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\240320\timeFont.fnt" 			name="timeFont">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\240320\small.fnt" 				name="small">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\240320\numberFont.fnt" 			name="numberFont">
+					<default size="40" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\240320\medium.fnt" 				name="medium">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\240320\emotions.fnt" 			name="emotions">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\240320\defaultBold.fnt" 		name="defaultBold">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\240320\cam.fnt" 				name="cam">
+					<default size="11" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\240320\boderFont.fnt" 			name="boderFont">
+					<default size="8" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			
+			</font>
+		</texture_pack>	
+		<texture_pack id="1" fit_size="480_320" range_size_x="400_639" >
+			<tex id="0" name="atlas_GUI">
+				<path id="0" texture="texture_atlas_480x320\tex_atlas_GUI.png" plist="texture_atlas_480x320\tex_atlas_GUI.plist"/>
+			</tex>	
+			<tex id="1" name="atlas_Init">
+				<path id="0" texture="texture_atlas_480x320\tex_atlas_init_screen.png" plist="texture_atlas_480x320\tex_atlas_init_screen.plist"/>
+			</tex>
+			<tex id="2" name="atlas_Game">
+				<path id="0" texture="texture_atlas_480x320\tex_atlas_main_screen.png" plist="texture_atlas_480x320\tex_atlas_main_screen.plist"/>
+			</tex>
+			<font>
+				<fontdetail id="0" namepath="fonts\SF_Lig.ttf" name="arial">
+					<default size="15" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\SF_reg.ttf" name="times">
+					<default size="15" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				
+				<fontdetail id="0" 	namepath="fonts\320480\SF_Bitmap.fnt" 			name="SF_lig_bmp">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\320480\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\320480\SF_Bitmap_1.fnt" 		name="SF_reg_bmp">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\320480\xanhla.fnt" 				name="xanhla">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\320480\trang.fnt" 				name="trang">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\320480\titleFont.fnt" 			name="titleFont">
+					<default size="20" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\320480\timeFont.fnt" 			name="timeFont">
+					<default size="40" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\320480\small.fnt" 				name="small">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\320480\numberFont.fnt" 			name="numberFont">
+					<default size="54" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\320480\medium.fnt" 				name="medium">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\320480\emotions.fnt" 			name="emotions">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\320480\defaultBold.fnt" 		name="defaultBold">
+					<default size="16" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\320480\cam.fnt" 				name="cam">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\320480\boderFont.fnt" 			name="boderFont">
+					<default size="10" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			
+			</font>
+		</texture_pack>
+		<texture_pack id="2" fit_size="800_480" range_size_x="640_879">
+		  <tex id="0" name="atlas_GUI">
+			<path id="0" texture="texture_atlas_960x640\tex_atlas_GUI.png" plist="texture_atlas_960x640\tex_atlas_GUI.plist"/>
+		  </tex>
+		  <tex id="1" name="atlas_Init">
+			<path id="0" texture="texture_atlas_960x640\tex_atlas_init_screen_0.png" plist="texture_atlas_960x640\tex_atlas_init_screen_0.plist"/>
+			<path id="1" texture="texture_atlas_960x640\tex_atlas_init_screen_1.png" plist="texture_atlas_960x640\tex_atlas_init_screen_1.plist"/>
+		  </tex>
+		  <tex id="2" name="atlas_Game">
+			<path id="0" texture="texture_atlas_960x640\tex_atlas_main_screen_0.png" plist="texture_atlas_960x640\tex_atlas_main_screen_0.plist"/>
+			<path id="1" texture="texture_atlas_960x640\tex_atlas_main_screen_1.png" plist="texture_atlas_960x640\tex_atlas_main_screen_1.plist"/>
+		  </tex>
+				<font>
+				<fontdetail id="0" namepath="fonts\SF_Lig.ttf" name="arial">
+					<default size="22" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\SF_reg.ttf" name="times">
+					<default size="22" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+								
+				<fontdetail id="0" 	namepath="fonts\480800\SF_Bitmap.fnt" 			name="SF_lig_bmp">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\480800\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="24" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\480800\SF_Bitmap_1.fnt" 		name="SF_reg_bmp">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\480800\xanhla.fnt" 				name="xanhla">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\480800\trang.fnt" 				name="trang">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\480800\titleFont.fnt" 			name="titleFont">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\480800\timeFont.fnt" 			name="timeFont">
+					<default size="54" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\480800\small.fnt" 				name="small">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\480800\numberFont.fnt" 			name="numberFont">
+					<default size="70" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\480800\medium.fnt" 				name="medium">
+					<default size="16" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\480800\emotions.fnt" 			name="emotions">
+					<default size="17" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\480800\defaultBold.fnt" 		name="defaultBold">
+					<default size="20" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\480800\cam.fnt" 				name="cam">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\480800\boderFont.fnt" 			name="boderFont">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			
+			</font>
+		</texture_pack>
+		<texture_pack id="3" fit_size="960_640" range_size_x="880_-1">
+			<tex id="0" name="atlas_GUI">
+				<path id="0" texture="texture_atlas_960x640\tex_atlas_GUI.png" plist="texture_atlas_960x640\tex_atlas_GUI.plist"/>
+			</tex>	
+			<tex id="1" name="atlas_Init">
+				<path id="0" texture="texture_atlas_960x640\tex_atlas_init_screen_0.png" plist="texture_atlas_960x640\tex_atlas_init_screen_0.plist"/>
+				<path id="1" texture="texture_atlas_960x640\tex_atlas_init_screen_1.png" plist="texture_atlas_960x640\tex_atlas_init_screen_1.plist"/>	
+				<path id="1" texture="texture_atlas_960x640\tex_atlas_init_screen_2.png" plist="texture_atlas_960x640\tex_atlas_init_screen_2.plist"/>
+			</tex>
+			<tex id="2" name="atlas_Game">
+				<path id="0" texture="texture_atlas_960x640\tex_atlas_main_screen_0.png" plist="texture_atlas_960x640\tex_atlas_main_screen_0.plist"/>
+				<path id="1" texture="texture_atlas_960x640\tex_atlas_main_screen_1.png" plist="texture_atlas_960x640\tex_atlas_main_screen_1.plist"/>
+			</tex>
+			<font>
+				<fontdetail id="0" namepath="fonts\SF_reg.ttf" 					name="SF_reg">
+					<default size="30" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\SF_Lig.ttf" 					name="SF_Lig">
+					<default size="30" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				
+				<fontdetail id="0" 	namepath="fonts\640960\SF_Bitmap.fnt" 			name="SF_lig_bmp">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\640960\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\640960\SF_Bitmap_1.fnt" 		name="SF_reg_bmp">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\640960\xanhla.fnt" 				name="xanhla">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\640960\trang.fnt" 				name="trang">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\640960\titleFont.fnt" 			name="titleFont">
+					<default size="36" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\640960\timeFont.fnt" 			name="timeFont">
+					<default size="76" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\640960\small.fnt" 				name="small">
+					<default size="18" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\640960\numberFont.fnt" 			name="numberFont">
+					<default size="100" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\640960\medium.fnt" 				name="medium">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\640960\emotions.fnt" 			name="emotions">
+					<default size="29" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\640960\defaultBold.fnt" 		name="defaultBold">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\640960\cam.fnt" 				name="cam">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\640960\boderFont.fnt" 			name="boderFont">
+					<default size="18" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			
+			</font>
+		</texture_pack>
+	</texture>
+</GAME>

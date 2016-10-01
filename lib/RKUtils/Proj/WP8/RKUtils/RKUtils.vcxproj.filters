@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RKFile_Code">
+      <UniqueIdentifier>{b6990be2-4e1a-426d-a8aa-e34de676158c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKFile_Code\Include">
+      <UniqueIdentifier>{15ea061c-c214-4705-8cda-1a9a94f558bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKFile_Code\Source">
+      <UniqueIdentifier>{ca81bccd-9919-44fd-b285-1506bf57aaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{f324286e-2fc4-4116-a58b-f5dd75487ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKLog_Code">
+      <UniqueIdentifier>{8a0835a4-a6b4-410b-b5da-8770a436780c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKVector_Code">
+      <UniqueIdentifier>{9198e169-80ab-46f7-a103-f26cddb429dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKTool_Code">
+      <UniqueIdentifier>{2dcf9371-4792-4f0e-be4a-b0e9cb587365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKString_Code">
+      <UniqueIdentifier>{9aa83031-24d4-4132-be74-816ddb589aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKFile_Code\WP8">
+      <UniqueIdentifier>{476c9597-1fd9-4d81-bc31-076613cb6de3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Code\Common\RK.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKTypes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\Include\Ark.h">
+      <Filter>RKFile_Code\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\Include\ArkCommon.h">
+      <Filter>RKFile_Code\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKLog_Code\RKLog.h">
+      <Filter>RKLog_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKAssertPrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKAssert.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKMacros.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKHeap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKVector_Code\RKMath.h">
+      <Filter>RKVector_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKVector_Code\RKMathTrig.h">
+      <Filter>RKVector_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKVector_Code\RKMatrix.h">
+      <Filter>RKVector_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKVector_Code\RKVector.h">
+      <Filter>RKVector_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKVector_Code\RKVectorGeneric.h">
+      <Filter>RKVector_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKVector_Code\RKQuaternion.h">
+      <Filter>RKVector_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKTool_Code\Encryption.h">
+      <Filter>RKTool_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKStdSAFE.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKString_Code\RKString.h">
+      <Filter>RKString_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKString_Code\RKStringFunctions.h">
+      <Filter>RKString_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKString_Code\RKStringUTF.h">
+      <Filter>RKString_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKTool_Code\RKArray.h">
+      <Filter>RKTool_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKTool_Code\RKList.h">
+      <Filter>RKTool_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKTool_Code\RKSort.h">
+      <Filter>RKTool_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\RKFile.h">
+      <Filter>RKFile_Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\Include\ArkFileSystem.h">
+      <Filter>RKFile_Code\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\Include\ArkManager.h">
+      <Filter>RKFile_Code\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\Include\ArkWriter.h">
+      <Filter>RKFile_Code\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\Include\MemoryFileSystem.h">
+      <Filter>RKFile_Code\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\Include\NativeFileSystem.h">
+      <Filter>RKFile_Code\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Common\RKHashTable.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\RKFile_Code\RKFileInternal.h">
+      <Filter>RKFile_Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Code\RKFile_Code\Source\Ark.cpp">
+      <Filter>RKFile_Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKLog_Code\RKLog.cpp">
+      <Filter>RKLog_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Common\RKAssert.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Common\RKHeap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Common\RKUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKVector_Code\RKMath.cpp">
+      <Filter>RKVector_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKVector_Code\RKMathTrig.cpp">
+      <Filter>RKVector_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKVector_Code\RKMathTrig_NEON.cpp">
+      <Filter>RKVector_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKVector_Code\RKMatrix.cpp">
+      <Filter>RKVector_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKVector_Code\RKVector.cpp">
+      <Filter>RKVector_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKVector_Code\RKQuaternion.cpp">
+      <Filter>RKVector_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKTool_Code\Encryption.cpp">
+      <Filter>RKTool_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Common\RKStdSAFE.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKString_Code\RKString.cpp">
+      <Filter>RKString_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKString_Code\RKStringFunctions.cpp">
+      <Filter>RKString_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKString_Code\RKStringUTF.cpp">
+      <Filter>RKString_Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKFile_Code\WP8\RKFile.cpp">
+      <Filter>RKFile_Code\WP8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKFile_Code\Source\ArkFileSystem.cpp">
+      <Filter>RKFile_Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKFile_Code\Source\ArkManager.cpp">
+      <Filter>RKFile_Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKFile_Code\Source\MemoryFileSystem.cpp">
+      <Filter>RKFile_Code\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\RKFile_Code\Source\NativeFileSystemWinRT.cpp">
+      <Filter>RKFile_Code\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

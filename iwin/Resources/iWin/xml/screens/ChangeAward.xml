@@ -1,0 +1,1172 @@
+<?xml version="1.0" ?>
+<GAME>
+    <MenuWidget designSize="960_540" name="ui_changeaward">
+        <fade_process max_idx_first="0">
+			<sound_click value="SFX_CLICK" delayTime="0.1" loop ="1"/>
+			<time_process id="0" val="0.0">
+				<sound FadeIn="" FadeOut="" delayTime="0.0" loop ="1"/>
+			</time_process>
+		</fade_process>
+
+        <Widget id="0" name="changeaward_ui" typeRes="layer_widget">
+            <common_value>
+                <common name="root" value="1"/>
+                <common name="stick_screen" value="1"/>
+            </common_value>
+            <Size origin="960_540"/>
+            <pos origin="480_270"/>
+            <Widget id="0" name="change_award_sc_2" typeRes="layout">
+                <common_value>
+                    <common name="anchor_point" value="0.0_0.0"/>
+                    <common name="source" value="change_award_sc.png"/>
+                </common_value>
+                <Size origin="960_540"/>
+                <pos origin="0_0"/>
+                <color origin="255_255_255_255"/>
+            </Widget>
+            <Widget id="1" name="Image_1" typeRes="panel">
+                <common_value>
+                    <common name="background_type" value="3"/>
+                    <common name="anchor_point" value="0.5_0.5"/>
+                    <common name="source" value="background/mainbg.png"/>
+                </common_value>
+                <Size origin="960_640"/>
+                <pos origin="480_270"/>
+                <color origin="255_255_255_255"/>
+            </Widget>
+            <Widget id="2" name="top_panel" typeRes="layout">
+                <common_value>
+                    <common name="anchor_point" value="0.0_1.0"/>
+                </common_value>
+                <Size origin="960_60"/>
+                <Widget id="0" name="Image_2" typeRes="panel">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="background_type" value="3"/>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                        <common name="source" value="loginscreen/nine/red6.9.png"/>
+                    </common_value>
+                    <Size origin="960_60"/>
+                    <pos origin="0_0"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="1" name="group_reward" typeRes="layout">
+                    <common_value>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                    </common_value>
+                    <Size origin="145_40"/>
+                    <Widget id="0" name="Image_3" typeRes="panel">
+                        <common_value>
+                            <common name="background_type" value="3"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                            <common name="source" value="otherscreen/winfree-screen/bg_btnlichsu_off.9.png"/>
+                        </common_value>
+                        <rotate origin="180.0000"/>
+                        <Size origin="145_40"/>
+                        <pos origin="145_40"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="1" name="icon_select" typeRes="panel">
+                        <common_value>
+                            <common name="background_type" value="3"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                            <common name="source" value="otherscreen/winfree-screen/bg_btndoithuong_on.9.png"/>
+                        </common_value>
+                        <Size origin="145_40"/>
+                        <pos origin="0_0"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="2" name="Text_2" typeRes="font">
+                        <common_value>
+                            <common name="source" value="reward"/>
+                            <common name="font_idx" value="1"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <Size origin="27_27"/>
+                        <pos origin="85_20"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <pos origin="335_9"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="2" name="group_history" typeRes="layout">
+                    <common_value>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                    </common_value>
+                    <Size origin="145_40"/>
+                    <Widget id="0" name="Image_3_0" typeRes="panel">
+                        <common_value>
+                            <common name="background_type" value="3"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                            <common name="source" value="otherscreen/winfree-screen/bg_btnlichsu_off.9.png"/>
+                        </common_value>
+                        <Size origin="145_40"/>
+                        <pos origin="0_0"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="1" name="icon_select" typeRes="panel">
+                        <common_value>
+                            <common name="background_type" value="3"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                            <common name="source" value="otherscreen/winfree-screen/bg_btndoithuong_on.9.png"/>
+                        </common_value>
+                        <rotate origin="180.0000"/>
+                        <Size origin="145_40"/>
+                        <pos origin="145_40"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="2" name="Text_2_0" typeRes="font">
+                        <common_value>
+                            <common name="source" value="history"/>
+                            <common name="font_idx" value="1"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <Size origin="27_27"/>
+                        <pos origin="64_20"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <pos origin="480_9"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="3" name="btn_reward" typeRes="button">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="scale_press" value="-0.05"/>
+                        <common name="title_size" value="14_14"/>
+                        <common name="title_alige" value="1"/>
+                        <common name="anchor_point" value="1.0_0.5"/>
+                        <common name="title_color" value="65_65_70_255"/>
+                        <common name="disable" value="loginscreen/nine/whitepixel.png"/>
+                        <common name="press" value="loginscreen/nine/whitepixel.png"/>
+                        <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                    </common_value>
+                    <opacity origin="0"/>
+                    <Size origin="145_40"/>
+                    <pos origin="480_30"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="4" name="btn_back" typeRes="button">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="scale_press" value="-0.05"/>
+                        <common name="title_size" value="14_14"/>
+                        <common name="title_alige" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="title_color" value="65_65_70_255"/>
+                        <common name="disable" value="otherscreen/pickroom-screen/back.png"/>
+                        <common name="press" value="otherscreen/pickroom-screen/back.png"/>
+                        <common name="source" value="otherscreen/pickroom-screen/back.png"/>
+                    </common_value>
+                    <Size origin="28_43"/>
+                    <pos origin="28_30"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="5" name="btn_history" typeRes="button">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="scale_press" value="-0.05"/>
+                        <common name="title_size" value="14_14"/>
+                        <common name="title_alige" value="1"/>
+                        <common name="anchor_point" value="1.0_0.5"/>
+                        <common name="title_color" value="65_65_70_255"/>
+                        <common name="disable" value="loginscreen/nine/whitepixel.png"/>
+                        <common name="press" value="loginscreen/nine/whitepixel.png"/>
+                        <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                    </common_value>
+                    <rotate origin="180.0000"/>
+                    <opacity origin="0"/>
+                    <Size origin="145_40"/>
+                    <pos origin="480_30"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="6" name="btn_help" typeRes="button">
+                    <common_value>
+                        <common name="scale_press" value="-0.05"/>
+                        <common name="title_size" value="14_14"/>
+                        <common name="title_alige" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="title_color" value="65_65_70_255"/>
+                        <common name="disable" value="mainscreen/icon/ico_question.png"/>
+                        <common name="press" value="mainscreen/icon/ico_question.png"/>
+                        <common name="source" value="mainscreen/icon/ico_question.png"/>
+                    </common_value>
+                    <Size origin="33_33"/>
+                    <pos origin="935_28"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <pos origin="0_541"/>
+                <color origin="255_255_255_255"/>
+            </Widget>
+            <Widget id="3" name="lbl_ruby" typeRes="font">
+                <common_value>
+                    <common name="source" value="YOU HAVE"/>
+                    <common name="bitmap_font" value="1"/>
+                    <common name="anchor_point" value="0.5_0.5"/>
+                </common_value>
+                <rotate origin="-0.0262"/>
+                <Size origin="23_23"/>
+                <pos origin="455_455"/>
+                <color origin="255_236_0_255"/>
+            </Widget>
+            <Widget id="4" name="icon_ruby" typeRes="panel">
+                <common_value>
+                    <common name="background_type" value="3"/>
+                    <common name="anchor_point" value="0.0_0.5"/>
+                    <common name="source" value="otherscreen/topup-screen/ruby_don.png"/>
+                </common_value>
+                <Size origin="29_23"/>
+                <pos origin="507_455"/>
+                <color origin="255_255_255_255"/>
+            </Widget>
+            <Widget id="5" name="body_panel" typeRes="layout" visible="0">
+                <common_value>
+                    <common name="stick_screen" value="1"/>
+                    <common name="anchor_point" value="0.0_0.0"/>
+                </common_value>
+                <Size origin="960_480"/>
+                <Widget id="0" name="text" typeRes="font">
+                    <common_value>
+                        <common name="source" value="CHOOSE REWARD YOU WANT"/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                    </common_value>
+                    <Size origin="23_23"/>
+                    <pos origin="469_412"/>
+                    <color origin="255_236_0_255"/>
+                </Widget>
+                <Widget id="1" name="lbl_notice" typeRes="font">
+                    <common_value>
+                        <common name="source" value="Notice: The ballance must be at least 10.000 Ruby after the exchange. You can buy up to 3 phone cards each time."/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                    </common_value>
+                    <Size origin="15_15"/>
+                    <pos origin="477_393"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="2" name="text_0_0" typeRes="font">
+                    <common_value>
+                        <common name="source" value="Amount"/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.0_0.5"/>
+                    </common_value>
+                    <Size origin="17_17"/>
+                    <pos origin="98_220"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="3" name="text_1" typeRes="font">
+                    <common_value>
+                        <common name="source" value="Price"/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.0_0.5"/>
+                    </common_value>
+                    <Size origin="17_17"/>
+                    <pos origin="96_159"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="4" name="Image_4" typeRes="panel">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="background_type" value="3"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="source" value="otherscreen/winfree-screen/bg_textfield_doithuong.9.png"/>
+                    </common_value>
+                    <Size origin="230_54"/>
+                    <pos origin="358_225"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="5" name="textfield_amount" typeRes="text_field">
+                    <common_value>
+                        <common name="source" value="0"/>
+                        <common name="max_lenght" value="3"/>
+                        <common name="type_text" value="2"/>
+                        <common name="touch_zone" value="84_23"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="tint_place_holder" value="255_236_0_255"/>
+                        <common name="panel" value="otherscreen/winfree-screen/bg_textfield_doithuong.9.png"/>
+                    </common_value>
+                    <Size origin="20_20"/>
+                    <pos origin="358_225"/>
+                </Widget>
+                <Widget id="6" name="Image_4_0" typeRes="panel">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="background_type" value="3"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="source" value="otherscreen/winfree-screen/bg_textfield_doithuong.9.png"/>
+                    </common_value>
+                    <Size origin="230_54"/>
+                    <pos origin="358_162"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="7" name="Image_6" typeRes="panel">
+                    <common_value>
+                        <common name="background_type" value="3"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="source" value="otherscreen/topup-screen/ruby_don.png"/>
+                    </common_value>
+                    <Size origin="31_24"/>
+                    <pos origin="444_162"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="8" name="lbl_need_ruby" typeRes="font">
+                    <common_value>
+                        <common name="source" value="Text Label"/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                    </common_value>
+                    <Size origin="23_23"/>
+                    <pos origin="355_162"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="9" name="Image_4_0_0" typeRes="panel">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="background_type" value="3"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="source" value="otherscreen/winfree-screen/bg_textfield_doithuong.9.png"/>
+                    </common_value>
+                    <Size origin="202_41"/>
+                    <pos origin="197_95"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="10" name="textfield_captcha" typeRes="text_field">
+                    <common_value>
+                        <common name="source" value=""/>
+                        <common name="touch_zone" value="167_28"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="tint_place_holder" value="255_255_255_255"/>
+                        <common name="panel" value="otherscreen/winfree-screen/bg_textfield_doithuong.9.png"/>
+                    </common_value>
+                    <Size origin="20_20"/>
+                    <pos origin="198_96"/>
+                </Widget>
+                <Widget id="11" name="panel_captcha" typeRes="layout">
+                    <common_value>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                    </common_value>
+                    <Size origin="122_39"/>
+                    <pos origin="304_77"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="12" name="btn_refresh_captcha" typeRes="button">
+                    <common_value>
+                        <common name="scale_press" value="-0.05"/>
+                        <common name="title_size" value="14_14"/>
+                        <common name="title_alige" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="title_color" value="65_65_70_255"/>
+                        <common name="disable" value="loginscreen/login-screen/ico_refresh.png"/>
+                        <common name="press" value="loginscreen/login-screen/ico_refresh.png"/>
+                        <common name="source" value="loginscreen/login-screen/ico_refresh.png"/>
+                    </common_value>
+                    <Size origin="38_38"/>
+                    <pos origin="452_96"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="13" name="btn_pay" typeRes="button">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="scale_press" value="-0.05"/>
+                        <common name="title_size" value="14_14"/>
+                        <common name="title_alige" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                        <common name="title_color" value="65_65_70_255"/>
+                        <common name="disable" value="default-round-blue.9.png"/>
+                        <common name="press" value="default-round-blue.9.png"/>
+                        <common name="source" value="default-round-blue.9.png"/>
+                    </common_value>
+                    <Size origin="374_51"/>
+                    <Widget id="0" name="Text_25" typeRes="font">
+                        <common_value>
+                            <common name="source" value="PAY"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <Size origin="23_23"/>
+                        <pos origin="195_24"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <pos origin="283_42"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="14" name="bg_right" typeRes="panel">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="background_type" value="3"/>
+                        <common name="anchor_point" value="0.0_1.0"/>
+                        <common name="source" value="otherscreen/winfree-screen/bg_price.9.png"/>
+                    </common_value>
+                    <Size origin="377_355"/>
+                    <Widget id="0" name="lbl_ruby_0" typeRes="font">
+                        <common_value>
+                            <common name="source" value="Item"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <Size origin="23_23"/>
+                        <pos origin="95_332"/>
+                        <color origin="255_236_0_255"/>
+                    </Widget>
+                    <Widget id="1" name="lbl_ruby_0_0" typeRes="font">
+                        <common_value>
+                            <common name="source" value="Price"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <Size origin="23_23"/>
+                        <pos origin="285_333"/>
+                        <color origin="255_236_0_255"/>
+                    </Widget>
+                    <Widget id="2" name="listview_price" typeRes="list_view">
+                        <common_value>
+                            <common name="direction" value="1"/>
+                            <common name="clipping_enable" value="1"/>
+                            <common name="inner_size" value="372_307"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                        </common_value>
+                        <Size origin="372_307"/>
+                        <pos origin="0_0"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="3" name="panel_price_item" typeRes="layout">
+                        <common_value>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                        </common_value>
+                        <Size origin="367_40"/>
+                        <Widget id="0" name="lbl_vnd" typeRes="font">
+                            <common_value>
+                                <common name="source" value="Item"/>
+                                <common name="bitmap_font" value="1"/>
+                                <common name="anchor_point" value="0.5_0.5"/>
+                            </common_value>
+                            <Size origin="23_23"/>
+                            <pos origin="85_20"/>
+                            <color origin="255_255_255_255"/>
+                        </Widget>
+                        <Widget id="1" name="lbl_ruby" typeRes="font">
+                            <common_value>
+                                <common name="source" value="Item"/>
+                                <common name="bitmap_font" value="1"/>
+                                <common name="anchor_point" value="1.0_0.5"/>
+                            </common_value>
+                            <Size origin="23_23"/>
+                            <pos origin="279_20"/>
+                            <color origin="255_255_255_255"/>
+                        </Widget>
+                        <Widget id="2" name="Image_52" typeRes="panel">
+                            <common_value>
+                                <common name="background_type" value="3"/>
+                                <common name="anchor_point" value="0.5_0.5"/>
+                                <common name="source" value="otherscreen/topup-screen/ruby_don.png"/>
+                            </common_value>
+                            <Size origin="24_19"/>
+                            <pos origin="296_20"/>
+                            <color origin="255_255_255_255"/>
+                        </Widget>
+                        <pos origin="2_232"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <pos origin="485_373"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="15" name="select_box_price" typeRes="layout">
+                    <common_value>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                    </common_value>
+                    <Size origin="375_50"/>
+                    <Widget id="0" name="btn_select" typeRes="button">
+                        <common_value>
+                            <common name="scale_9" value="1"/>
+                            <common name="use_nine_path" value="1"/>
+                            <common name="scale_press" value="-0.05"/>
+                            <common name="title_size" value="14_14"/>
+                            <common name="title_alige" value="1"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                            <common name="title_color" value="65_65_70_255"/>
+                            <common name="disable" value="default-select.9.png"/>
+                            <common name="press" value="default-select.9.png"/>
+                            <common name="source" value="default-select.9.png"/>
+                        </common_value>
+                        <Size origin="375_50"/>
+                        <pos origin="0_0"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="1" name="select_item" typeRes="layout">
+                        <common_value>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                        </common_value>
+                        <Size origin="375_50"/>
+                        <Widget id="0" name="btn_select_item" typeRes="button">
+                            <common_value>
+                                <common name="scale_9" value="1"/>
+                                <common name="use_nine_path" value="1"/>
+                                <common name="stick_screen" value="1"/>
+                                <common name="scale_press" value="-0.05"/>
+                                <common name="title_size" value="14_14"/>
+                                <common name="title_alige" value="1"/>
+                                <common name="anchor_point" value="0.0_0.0"/>
+                                <common name="title_color" value="65_65_70_255"/>
+                                <common name="disable" value="loginscreen/nine/whitepixel.png"/>
+                                <common name="press" value="loginscreen/nine/whitepixel.png"/>
+                                <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                            </common_value>
+                            <opacity origin="0"/>
+                            <Size origin="375_50"/>
+                            <pos origin="0_0"/>
+                            <color origin="56_0_0_255"/>
+                        </Widget>
+                        <Widget id="1" name="img_normal" typeRes="panel" visible="0">
+                            <common_value>
+                                <common name="scale_9" value="1"/>
+                                <common name="use_nine_path" value="1"/>
+                                <common name="background_type" value="3"/>
+                                <common name="anchor_point" value="0.0_0.0"/>
+                                <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                            </common_value>
+                            <Size origin="375_50"/>
+                            <pos origin="0_0"/>
+                            <color origin="56_0_0_255"/>
+                        </Widget>
+                        <Widget id="2" name="img_selected" typeRes="panel" visible="0">
+                            <common_value>
+                                <common name="scale_9" value="1"/>
+                                <common name="use_nine_path" value="1"/>
+                                <common name="background_type" value="3"/>
+                                <common name="anchor_point" value="0.0_0.0"/>
+                                <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                            </common_value>
+                            <Size origin="375_50"/>
+                            <pos origin="0_0"/>
+                            <color origin="255_174_0_255"/>
+                        </Widget>
+                        <Widget id="3" name="lbl_content" typeRes="font">
+                            <common_value>
+                                <common name="source" value="Text Label"/>
+                                <common name="bitmap_font" value="1"/>
+                                <common name="anchor_point" value="0.0_0.5"/>
+                            </common_value>
+                            <Size origin="23_23"/>
+                            <pos origin="24_25"/>
+                            <color origin="255_255_255_255"/>
+                        </Widget>
+                        <pos origin="0_0"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="2" name="list_select" typeRes="list_view" visible="0">
+                        <common_value>
+                            <common name="direction" value="1"/>
+                            <common name="clipping_enable" value="1"/>
+                            <common name="inner_size" value="375_154"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                        </common_value>
+                        <Size origin="375_154"/>
+                        <pos origin="0_-156"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <pos origin="97_258"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="16" name="select_box_telco" typeRes="layout">
+                    <common_value>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                    </common_value>
+                    <Size origin="375_50"/>
+                    <Widget id="0" name="btn_select" typeRes="button">
+                        <common_value>
+                            <common name="scale_9" value="1"/>
+                            <common name="use_nine_path" value="1"/>
+                            <common name="scale_press" value="-0.05"/>
+                            <common name="title_size" value="14_14"/>
+                            <common name="title_alige" value="1"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                            <common name="title_color" value="65_65_70_255"/>
+                            <common name="disable" value="default-select.9.png"/>
+                            <common name="press" value="default-select.9.png"/>
+                            <common name="source" value="default-select.9.png"/>
+                        </common_value>
+                        <Size origin="375_50"/>
+                        <pos origin="0_0"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="1" name="select_item" typeRes="layout">
+                        <common_value>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                        </common_value>
+                        <Size origin="375_50"/>
+                        <Widget id="0" name="btn_select_item" typeRes="button">
+                            <common_value>
+                                <common name="scale_9" value="1"/>
+                                <common name="use_nine_path" value="1"/>
+                                <common name="stick_screen" value="1"/>
+                                <common name="scale_press" value="-0.05"/>
+                                <common name="title_size" value="14_14"/>
+                                <common name="title_alige" value="1"/>
+                                <common name="anchor_point" value="0.0_0.0"/>
+                                <common name="title_color" value="65_65_70_255"/>
+                                <common name="disable" value="loginscreen/nine/whitepixel.png"/>
+                                <common name="press" value="loginscreen/nine/whitepixel.png"/>
+                                <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                            </common_value>
+                            <opacity origin="0"/>
+                            <Size origin="375_50"/>
+                            <pos origin="0_0"/>
+                            <color origin="56_0_0_255"/>
+                        </Widget>
+                        <Widget id="1" name="img_normal" typeRes="panel" visible="0">
+                            <common_value>
+                                <common name="scale_9" value="1"/>
+                                <common name="use_nine_path" value="1"/>
+                                <common name="background_type" value="3"/>
+                                <common name="anchor_point" value="0.0_0.0"/>
+                                <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                            </common_value>
+                            <Size origin="375_50"/>
+                            <pos origin="0_0"/>
+                            <color origin="56_0_0_255"/>
+                        </Widget>
+                        <Widget id="2" name="img_selected" typeRes="panel" visible="0">
+                            <common_value>
+                                <common name="scale_9" value="1"/>
+                                <common name="use_nine_path" value="1"/>
+                                <common name="background_type" value="3"/>
+                                <common name="anchor_point" value="0.0_0.0"/>
+                                <common name="source" value="loginscreen/nine/whitepixel.png"/>
+                            </common_value>
+                            <Size origin="375_50"/>
+                            <pos origin="0_0"/>
+                            <color origin="255_174_0_255"/>
+                        </Widget>
+                        <Widget id="3" name="lbl_content" typeRes="font">
+                            <common_value>
+                                <common name="source" value="Text Label"/>
+                                <common name="bitmap_font" value="1"/>
+                                <common name="anchor_point" value="0.0_0.5"/>
+                            </common_value>
+                            <Size origin="23_23"/>
+                            <pos origin="22_25"/>
+                            <color origin="255_255_255_255"/>
+                        </Widget>
+                        <pos origin="0_0"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="2" name="list_select" typeRes="list_view" visible="0">
+                        <common_value>
+                            <common name="direction" value="1"/>
+                            <common name="clipping_enable" value="1"/>
+                            <common name="inner_size" value="375_154"/>
+                            <common name="anchor_point" value="0.0_0.0"/>
+                        </common_value>
+                        <Size origin="375_154"/>
+                        <pos origin="0_-156"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <pos origin="97_319"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <pos origin="0_0"/>
+                <color origin="255_255_255_255"/>
+            </Widget>
+            <Widget id="6" name="body_history" typeRes="layout">
+                <common_value>
+                    <common name="anchor_point" value="0.0_0.0"/>
+                </common_value>
+                <Size origin="960_480"/>
+                <Widget id="0" name="Image_5" typeRes="panel">
+                    <common_value>
+                        <common name="scale_9" value="1"/>
+                        <common name="use_nine_path" value="1"/>
+                        <common name="background_type" value="3"/>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                        <common name="source" value="otherscreen/winfree-screen/bg_price.9.png"/>
+                    </common_value>
+                    <opacity origin="195"/>
+                    <Size origin="941_411"/>
+                    <pos origin="9_19"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="1" name="panel_history_item" typeRes="layout" visible="0">
+                    <common_value>
+                        <common name="anchor_point" value="0.0_0.0"/>
+                    </common_value>
+                    <Size origin="934_54"/>
+                    <Widget id="0" name="lbl_time" typeRes="font">
+                        <common_value>
+                            <common name="source" value="Time"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <rotate origin="-0.0262"/>
+                        <Size origin="18_18"/>
+                        <pos origin="94_30"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="1" name="lbl_item" typeRes="font">
+                        <common_value>
+                            <common name="source" value="Time"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <rotate origin="-0.0262"/>
+                        <Size origin="18_18"/>
+                        <pos origin="448_29"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="2" name="lbl_status" typeRes="font">
+                        <common_value>
+                            <common name="source" value="Time"/>
+                            <common name="bitmap_font" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                        </common_value>
+                        <Size origin="18_18"/>
+                        <pos origin="776_29"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="3" name="btn_detail" typeRes="button">
+                        <common_value>
+                            <common name="scale_9" value="1"/>
+                            <common name="use_nine_path" value="1"/>
+                            <common name="scale_press" value="-0.05"/>
+                            <common name="title_size" value="14_14"/>
+                            <common name="title_alige" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                            <common name="title_color" value="65_65_70_255"/>
+                            <common name="disable" value="default-round-blue.9.png"/>
+                            <common name="press" value="default-round-blue.9.png"/>
+                            <common name="source" value="default-round-blue.9.png"/>
+                        </common_value>
+                        <Size origin="76_39"/>
+                        <Widget id="0" name="Text_5" typeRes="font">
+                            <common_value>
+                                <common name="source" value="Detail"/>
+                                <common name="bitmap_font" value="1"/>
+                                <common name="anchor_point" value="0.5_0.5"/>
+                            </common_value>
+                            <Size origin="23_23"/>
+                            <pos origin="37_21"/>
+                            <color origin="255_255_255_255"/>
+                        </Widget>
+                        <pos origin="889_27"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <Widget id="4" name="btn_cancel" typeRes="button">
+                        <common_value>
+                            <common name="scale_9" value="1"/>
+                            <common name="use_nine_path" value="1"/>
+                            <common name="scale_press" value="-0.05"/>
+                            <common name="title_size" value="14_14"/>
+                            <common name="title_alige" value="1"/>
+                            <common name="anchor_point" value="0.5_0.5"/>
+                            <common name="title_color" value="65_65_70_255"/>
+                            <common name="disable" value="default-round.9.png"/>
+                            <common name="press" value="default-round.9.png"/>
+                            <common name="source" value="default-round.9.png"/>
+                        </common_value>
+                        <Size origin="76_39"/>
+                        <Widget id="0" name="Text_5" typeRes="font">
+                            <common_value>
+                                <common name="source" value="Cancel"/>
+                                <common name="bitmap_font" value="1"/>
+                                <common name="anchor_point" value="0.5_0.5"/>
+                            </common_value>
+                            <Size origin="23_23"/>
+                            <pos origin="37_21"/>
+                            <color origin="255_255_255_255"/>
+                        </Widget>
+                        <pos origin="890_27"/>
+                        <color origin="255_255_255_255"/>
+                    </Widget>
+                    <pos origin="0_0"/>
+                    <color origin="255_255_255_255"/>
+                </Widget>
+                <Widget id="0" idx_appear="4" name="tableview_board" typeRes="list_view_table">
+                    		
+		
+                    <common_value>
+                        
+			
+                        <common name="inner_size" value="936_362"/>
+                        
+			
+                        <common name="direction" value="1"/>
+                         
+			
+                        <common name="anchor_point_list" value="0_0"/>
+                        
+				
+			
+                        <common name="background_type" value="0"/>
+                        			
+			
+                        <common name="stick_screen" value="1"/>
+                        
+			
+                        <common name="casca_color" value="0"/>
+                        
+			
+                        <common name="casca_opacity" value="0"/>
+                        
+			
+                        <common name="anchor_point" value="0_0"/>
+                        
+			
+                        <common name="clipping_enable" value="1"/>
+                        
+						
+			
+                        <common name="size_child" value="630_90"/>
+                        
+			
+                        <common name="no_add_event" value="1"/>
+                        
+			
+                        <common name="number_cell" value="0"/>
+                        
+			
+                        <common name="vertical_fill_order" value="0"/>
+                        
+		
+                    </common_value>
+                    
+		
+                    <Widget id="1" name="panel_history_item" typeRes="layout">
+                        
+            
+                        <common_value>
+                            
+                
+                            <common name="anchor_point" value="0.0_0.0"/>
+                            
+            
+                        </common_value>
+                        
+            
+                        <Size origin="934_54"/>
+                        
+            
+                        <Widget id="0" name="lbl_time" typeRes="font">
+                            
+                
+                            <common_value>
+                                
+                    
+                                <common name="source" value="Time"/>
+                                
+                    
+                                <common name="bitmap_font" value="1"/>
+                                
+                    
+                                <common name="anchor_point" value="0.5_0.5"/>
+                                
+                
+                            </common_value>
+                            
+                
+                            <rotate origin="-0.0262"/>
+                            
+                
+                            <Size origin="18_18"/>
+                            
+                
+                            <pos origin="94_30"/>
+                            
+                
+                            <color origin="255_255_255_255"/>
+                            
+            
+                        </Widget>
+                        
+            
+                        <Widget id="1" name="lbl_item" typeRes="font">
+                            
+                
+                            <common_value>
+                                
+                    
+                                <common name="source" value="Time"/>
+                                
+                    
+                                <common name="bitmap_font" value="1"/>
+                                
+                    
+                                <common name="anchor_point" value="0.5_0.5"/>
+                                
+                
+                            </common_value>
+                            
+                
+                            <rotate origin="-0.0262"/>
+                            
+                
+                            <Size origin="18_18"/>
+                            
+                
+                            <pos origin="448_29"/>
+                            
+                
+                            <color origin="255_255_255_255"/>
+                            
+            
+                        </Widget>
+                        
+            
+                        <Widget id="2" name="lbl_status" typeRes="font">
+                            
+                
+                            <common_value>
+                                
+                    
+                                <common name="source" value="Time"/>
+                                
+                    
+                                <common name="bitmap_font" value="1"/>
+                                
+                    
+                                <common name="anchor_point" value="0.5_0.5"/>
+                                
+                
+                            </common_value>
+                            
+                
+                            <Size origin="18_18"/>
+                            
+                
+                            <pos origin="776_29"/>
+                            
+                
+                            <color origin="255_255_255_255"/>
+                            
+            
+                        </Widget>
+                        
+            
+                        <Widget id="3" name="btn_detail" typeRes="button">
+                            
+                
+                            <common_value>
+                                
+                    
+                                <common name="scale_9" value="1"/>
+                                
+                    
+                                <common name="use_nine_path" value="1"/>
+                                
+                    
+                                <common name="scale_press" value="-0.05"/>
+                                
+                    
+                                <common name="title_size" value="14_14"/>
+                                
+                    
+                                <common name="title_alige" value="1"/>
+                                
+                    
+                                <common name="anchor_point" value="0.5_0.5"/>
+                                
+                    
+                                <common name="title_color" value="65_65_70_255"/>
+                                
+                    
+                                <common name="disable" value="default-round-blue.9.png"/>
+                                
+                    
+                                <common name="press" value="default-round-blue.9.png"/>
+                                
+                    
+                                <common name="source" value="default-round-blue.9.png"/>
+                                
+                
+                            </common_value>
+                            
+                
+                            <Size origin="76_39"/>
+                            
+                
+                            <Widget id="0" name="Text_5" typeRes="font">
+                                
+                    
+                                <common_value>
+                                    
+                        
+                                    <common name="source" value="Detail"/>
+                                    
+                        
+                                    <common name="bitmap_font" value="1"/>
+                                    
+                        
+                                    <common name="anchor_point" value="0.5_0.5"/>
+                                    
+                    
+                                </common_value>
+                                
+                    
+                                <Size origin="23_23"/>
+                                
+                    
+                                <pos origin="37_21"/>
+                                
+                    
+                                <color origin="255_255_255_255"/>
+                                
+                
+                            </Widget>
+                            
+                
+                            <pos origin="889_27"/>
+                            
+                
+                            <color origin="255_255_255_255"/>
+                            
+            
+                        </Widget>
+                        
+            
+                        <Widget id="4" name="btn_cancel" typeRes="button">
+                            
+                
+                            <common_value>
+                                
+                    
+                                <common name="scale_9" value="1"/>
+                                
+                    
+                                <common name="use_nine_path" value="1"/>
+                                
+                    
+                                <common name="scale_press" value="-0.05"/>
+                                
+                    
+                                <common name="title_size" value="14_14"/>
+                                
+                    
+                                <common name="title_alige" value="1"/>
+                                
+                    
+                                <common name="anchor_point" value="0.5_0.5"/>
+                                
+                    
+                                <common name="title_color" value="65_65_70_255"/>
+                                
+                    
+                                <common name="disable" value="default-round.9.png"/>
+                                
+                    
+                                <common name="press" value="default-round.9.png"/>
+                                
+                    
+                                <common name="source" value="default-round.9.png"/>
+                                
+                
+                            </common_value>
+                            
+                
+                            <Size origin="76_39"/>
+                            
+                
+                            <Widget id="0" name="Text_5" typeRes="font">
+                                
+                    
+                                <common_value>
+                                    
+                        
+                                    <common name="source" value="Cancel"/>
+                                    
+                        
+                                    <common name="bitmap_font" value="1"/>
+                                    
+                        
+                                    <common name="anchor_point" value="0.5_0.5"/>
+                                    
+                    
+                                </common_value>
+                                
+                    
+                                <Size origin="23_23"/>
+                                
+                    
+                                <pos origin="37_21"/>
+                                
+                    
+                                <color origin="255_255_255_255"/>
+                                
+                
+                            </Widget>
+                            
+                
+                            <pos origin="890_27"/>
+                            
+                
+                            <color origin="255_255_255_255"/>
+                            
+            
+                        </Widget>
+                        
+            
+                        <pos origin="0_0"/>
+                        
+            
+                        <color origin="255_255_255_255"/>
+                        
+        
+                    </Widget>
+                    						
+	    
+                    <pos origin="10_20"/>
+                    
+	    
+                    <Size origin="936_362"/>
+                    
+	
+                </Widget>
+                
+
+                <Widget id="2" name="text1" typeRes="font">
+                    <common_value>
+                        <common name="source" value="Time"/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                    </common_value>
+                    <rotate origin="-0.0262"/>
+                    <Size origin="18_18"/>
+                    <pos origin="105_408"/>
+                    <color origin="255_236_0_255"/>
+                </Widget>
+                <Widget id="3" name="text2" typeRes="font">
+                    <common_value>
+                        <common name="source" value="Item"/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                    </common_value>
+                    <rotate origin="-0.0262"/>
+                    <Size origin="18_18"/>
+                    <pos origin="455_412"/>
+                    <color origin="255_236_0_255"/>
+                </Widget>
+                <Widget id="4" name="text3" typeRes="font">
+                    <common_value>
+                        <common name="source" value="Status"/>
+                        <common name="bitmap_font" value="1"/>
+                        <common name="anchor_point" value="0.5_0.5"/>
+                    </common_value>
+                    <rotate origin="-0.0245"/>
+                    <Size origin="18_18"/>
+                    <pos origin="826_409"/>
+                    <color origin="255_236_0_255"/>
+                </Widget>
+                <pos origin="0_0"/>
+                <color origin="255_255_255_255"/>
+            </Widget>
+        </Widget>
+    </MenuWidget>
+</GAME>

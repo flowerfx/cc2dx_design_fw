@@ -1,0 +1,267 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<list_game>
+		<game id="3">
+			<contain name="killer_13s" 		dec="Tiến lên MN" 			str="GAMEID_TIENLEN" 	img="mainscreen/newgui-game-icon/ico_tlmn.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="7">
+			<contain name="rummyvn" 		dec="Bài Phỏm" 				str="GAMEID_PHOM_MB" 	img="mainscreen/newgui-game-icon/ico_phom.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="4">
+			<contain name="poker" 			dec="Bài POKER" 			str="GAMEID_POKER" 		img="mainscreen/newgui-game-icon/ico_poker.png"/>
+			<name_tex name="atlas_card" 	/>
+			<name_tex name="atlas_poker" 	/>
+		</game>
+		<game id="1">
+			<contain name="caro" 			dec="Cờ Caro" 				str="GAMEID_CARO" 		img="mainscreen/newgui-game-icon/ico_caro.png"/>
+			<name_tex name="atlas_caro" 	/>
+		</game>
+		<game id="20">
+			<contain name="hidden_chess" 	dec="Cờ up" 				str="GAMEID_CO_UP" 		img="mainscreen/newgui-game-icon/ico_coup.png"/>
+			<name_tex name="atlas_cotuong" 	/>
+		</game>
+		<game id="8">
+			<contain name="tetris" 			dec="Xếp gạch" 				str="GAMEID_TETRIS" 	img="mainscreen/newgui-game-icon/ico_xepgach.png"/>
+			<name_tex name="atlas_caro" 	/>
+		</game>
+		<game id="9">
+			<contain name="chess" 			dec="Cờ vua" 				str="GAMEID_COVUA" 		img="mainscreen/newgui-game-icon/ico_covua.png"/>
+			<name_tex name="atlas_covua" 	/>
+		</game>
+		<game id="11">
+			<contain name="3_cards" 		dec="Bài cào" 				str="GAMEID_BAICAO" 	img="mainscreen/newgui-game-icon/ico_baicao.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="17">
+			<contain name="cao_rua" 		dec="Bài cào rùa" 			str="GAMEID_BAICAORUA" 	img="mainscreen/newgui-game-icon/ico_caorua.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="2">
+			<contain name="blackjack"		dec="Bài Black jack" 		str="GAMEID_BLACKJACK" 	img="mainscreen/newgui-game-icon/ico_xidach.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="12">
+			<contain name="killer_13n"  	dec="Tiến lên MB" 			str="GAMEID_TIENLEN_MB" img="mainscreen/newgui-game-icon/ico_tlmb.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="13">
+			<contain name="rummyvn" 		dec="Bài Phỏm MB" 		str="GAMEID_PHOM_MB" 	img="mainscreen/newgui-game-icon/ico_phom.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="16">
+			<contain name="chinese_poker" 	dec="Bài binh" 			str="GAMEID_BINH" 		img="mainscreen/newgui-game-icon/ico_maubinh.png"/>
+			<name_tex name="atlas_card" 	/>
+			<name_tex name="atlas_binh" 	/>
+		</game>
+		<game id="5">
+			<contain name="chinese_chess" 	dec="Cờ tướng" 			str="GAMEID_CHESS" 		img="mainscreen/newgui-game-icon/ico_cotuong.png"/>
+			<name_tex name="atlas_cotuong" 	/>
+		</game>
+		<game id="18">
+			<contain name="bau_cua" 		dec="Bầu cua" 			str="GAMEID_BAUCUA" 		img="mainscreen/newgui-game-icon/ico_baucua.png"/>
+			<name_tex name="atlas_baucua" 	/>
+		</game>
+		<game id="6">
+			<contain name="poker_hk" 		dec="Bài POKER HK" 		str="GAMEID_POKER_HK" 		img="mainscreen/newgui-game-icon/ico_xito.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="21">
+			<contain name="lieng" 			dec="Bài Liêng" 		str="GAMEID_LIENG" 			img="mainscreen/newgui-game-icon/ico_lieng.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="22">
+			<contain name="13s_solo" 		dec="Tiến lên solo" 	str="GAMEID_TIENLEN_SOLO" 	img="mainscreen/newgui-game-icon/ico_tlmn_solo.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="31">
+			<contain name="gamename_xapxam" dec="Xập xám" 			str="GAMEID_XAM" 			img="mainscreen/newgui-game-icon/ico_xam.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="24">
+			<contain name="catte" 			dec="Cát tê" 			str="GAMEID_CATTE" 			img="mainscreen/newgui-game-icon/ico_catte.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+		<game id="25">
+			<contain name="WC cổ phiếu" 	dec="World cup cổ phiếu" str="wccophieu" 			img="mainscreen/newgui-game-icon/ico_cuochap.png"/>
+			<name_tex name="atlas_cuocchap" 	/>
+		</game>
+		<game id="26">
+			<contain name="bet" 			dec="cược chấp" 		str="GAMEID_WORLDCUP_CUOCCHAUA" img="mainscreen/newgui-game-icon/ico_cuochap.png"/>
+			<name_tex name="atlas_cuocchap" 	/>
+		</game>
+		<game id="27">
+			<contain name="Domino" 			dec="Cờ Domino" 		str="GAMEID_DOMINO" 		img="mainscreen/newgui-game-icon/ico_domino.png"/>
+			<name_tex name="atlas_domino" 	/>
+		</game>
+		<game id="29">
+			<contain name="gamename_luckycircle" dec="Vòng xoay" 	str="GAMEID_VONGQUAYTAILOC" img="mainscreen/newgui-game-icon/ico_vongquay_tailoc.png"/>
+		</game>
+		<game id="30">
+			<contain name="tournament" 		dec="Giải đấu cờ úp" 	str="GAMEID_GIAI_DAU_CO_UP" img="mainscreen/newgui-game-icon/ico_coup.png"/>
+			<name_tex name="atlas_cotuong" 	/>
+		</game>
+		<game id="32">
+			<contain name="Tù Xì" 			dec="tù xì" 			str="GAMEID_TUXI" 			img="mainscreen/newgui-game-icon/ico_tuxi.png"/>
+			<name_tex name="atlas_tuxi" 	/>
+		</game>
+		<game id="35">
+			<contain name="Lucky circle" dec="Lucky circle" str="luckycirle" img="mainscreen/newgui-game-icon/ico_vongquay_tailoc.png"/>
+		</game>
+		<game id="-1">
+			<contain name="more_games" dec="game khác" 				str="NULL_TYPE" 			img="mainscreen/newgui-game-icon/ico_gamekhac.png"/>
+			<name_tex name="atlas_card" 	/>
+		</game>
+	</list_game>
+	<sample_ui_dec>
+		<Widget id="0" typeRes="layout" name = "ico_" idx_appear ="3">		
+			<common_value>
+				<common 		name="background_type" 		value="0"/>	
+				<common			name="stick_screen"			value="0"/>	
+				<common 		name="clipping_enable"	    value="0"/>
+				<common			name="not_default_layout"	value="1"/>
+				<common			name="anchor_point"			value="0_0"/>
+				<common			name="state_scale"				value="1"/>
+			</common_value>
+			
+			<Widget id="0" typeRes="layout" name = "panel_card" idx_appear ="3">		
+				<common_value>
+					<common 		name="background_type" 		value="0"/>	
+					<common			name="stick_screen"			value="0"/>	
+					<common 		name="clipping_enable"	    value="0"/>
+					<common			name="not_default_layout"	value="1"/>
+					<common			name="anchor_point"			value="0_0"/>
+					<common			name="state_scale"			value="1"/>
+				</common_value>
+				<Widget id="100" typeRes="button" 	name = "btn_" idx_appear ="4">		
+					<common_value>
+						<common 		name="source" 			value="mainscreen/newgui-game-icon/ico_tlmn.png"/>	
+						<common 		name="press" 			value="mainscreen/newgui-game-icon/ico_tlmn.png"/>
+						<common 		name="disable" 			value="mainscreen/newgui-game-icon/ico_tlmn.png"/>
+						<common 		name="scale_press" 		value="-0.1"/>									
+						<common 		name="use_atlas" 		value="1"/>
+						<common 		name="anchor_point" 	value="0_0"/>
+						<common			name="stick_screen"		value="0"/>	
+						<common			name="no_add_event"		value="1"/>
+						<common			name="state_scale"		value="1"/>
+					</common_value>
+					
+					<Widget id="1" typeRes="layout" name = "page_" idx_appear ="3">		
+						<common_value>
+							<common 		name="background_type" 		value="0"/>	
+							<common			name="stick_screen"			value="0"/>	
+							<common 		name="clipping_enable"	    value="0"/>
+							<common			name="not_default_layout"	value="1"/>
+							<common			name="state_scale"			value="2"/>
+							<common			name="anchor_point"			value="0.5_0.5"/>
+						</common_value>
+						<Widget id="0" typeRes="panel" name = "panel_1" idx_appear ="3">		
+							<common_value>
+								<common 		name="source" 				value="mainscreen/newgui-game-icon/bg.png"/>	
+								<common			name="stick_screen"			value="0"/>	
+								<common			name="anchor_point"			value="0.5_0"/>
+								<common			name="scale_9"				value="0"/>								
+								<common			name="state_scale"			value="2"/>
+							</common_value>
+							<pos 		origin = "84_0" 	/>
+							<Size 		origin = "160_30" 	/>
+						</Widget>	
+						<Widget id="1" typeRes="panel" name = "panel_2" idx_appear ="3">		
+							<common_value>
+								<common 		name="source" 				value="mainscreen/newgui-game-icon/bg.png"/>	
+								<common			name="stick_screen"			value="0"/>	
+								<common			name="anchor_point"			value="0.5_0"/>
+								<common			name="scale_9"				value="0"/>	
+								<common			name="state_scale"				value="2"/>
+							</common_value>	
+							<pos 		origin = "84_40" 	/>
+							<Size 		origin = "160_30" 	/>
+						</Widget>	
+						<Widget id="2" typeRes="panel" name = "icon_1" idx_appear ="3">		
+							<common_value>
+								<common 		name="source" 				value="mainscreen/newgui-game-icon/people.png"/>	
+								<common			name="stick_screen"			value="0"/>	
+								<common			name="not_default_layout"	value="1"/>
+								<common			name="anchor_point"			value="0_0"/>
+								<common			name="state_scale"				value="2"/>
+							</common_value>	
+							<pos 		origin = "10_42" 	/>
+							<Size 		origin = "22_26" 	/>
+						</Widget>
+						<Widget id="3" typeRes="panel" name = "icon_2" idx_appear ="3">		
+							<common_value>
+								<common 		name="source" 				value="mainscreen/newgui-game-icon/room.png"/>	
+								<common			name="stick_screen"			value="0"/>	
+								<common			name="not_default_layout"	value="1"/>
+								<common			name="anchor_point"			value="0_0"/>
+								<common			name="state_scale"				value="2"/>
+							</common_value>	
+							<pos 		origin = "10_2" 	/>
+							<Size 		origin = "20_24" 	/>
+						</Widget>
+						<Widget id="4" typeRes="font"   name = "number_player" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="10"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0"/>
+								<common			name="bitmap_font"   	value="1"/>
+								<common			name="state_scale"		value="2"/>
+							</common_value>
+							<pos 		origin = "84_45" 	/>
+							<Size 		origin = "17_17" 	/>
+						</Widget>
+						<Widget id="5" typeRes="font"   name = "number_room" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="5"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0"/>
+								<common			name="bitmap_font"   	value="1"/>
+								<common			name="state_scale"		value="2"/>
+							</common_value>
+							<pos 		origin = "84_7" 	/>
+							<Size 		origin = "17_17" 	/>
+							<color		origin = "255_167_0_255" />
+						</Widget>						
+						<pos 		origin = "84_110" 	/>
+						<Size 		origin = "168_220" 	/>
+					</Widget>
+					
+					
+					<pos 		origin = "0_0" 	/>
+					<Size 		origin = "168_220" 	/>
+				</Widget>
+				<Widget id="101" typeRes="font" 	name = "name_game" idx_appear ="1">			
+					<common_value>
+						<common 		name="source" 			value="Tien Len Mien Nam"/>					
+						<common    		name="font_idx"			value="2"/>	
+						<common			name="bitmap_font" 		value="1"/>
+						<common			name="anchor_point" 	value="0.5_1"/>
+						<common			name="use_origin_size" 	value="1"/>
+					</common_value>
+					<pos 		origin = "84_0" 	/>
+					<Size 		origin = "20_20" 	/>				
+					<color		origin = "255_210_100_255" />
+				</Widget>
+				<pos 		origin = "16_50" 	/>
+				<Size 		origin = "168_220" 	/>
+			</Widget>
+			<pos 		origin = "0_0" 	/>
+			<Size 		origin = "200_300" 	/>
+		</Widget>
+		<Widget id="1" typeRes="layout" name = "page_" idx_appear ="3">		
+			<common_value>
+				<common 		name="background_type" 		value="0"/>	
+				<common			name="stick_screen"			value="1"/>	
+				<common 		name="clipping_enable"	    value="0"/>
+				<common			name="not_default_layout"	value="1"/>
+				<common			name="anchor_point"			value="0_0"/>
+			</common_value>
+				
+				
+									
+			<pos 		origin = "80_0" 	/>
+			<Size 		origin = "800_300" 	/>
+		</Widget>
+	</sample_ui_dec>
+</GAME>

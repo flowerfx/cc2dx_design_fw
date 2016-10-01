@@ -1,0 +1,1790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Classes\Common">
+      <UniqueIdentifier>{5d824d12-3427-4caa-9288-25a5c38780ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network">
+      <UniqueIdentifier>{731ffe1e-253d-4402-9ae7-80473f00cacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\Core">
+      <UniqueIdentifier>{bd9f97e4-89c9-4a81-9311-fb8cfdd993f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\Game">
+      <UniqueIdentifier>{97cbe207-81dc-49b8-8473-d823286312cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject">
+      <UniqueIdentifier>{649844ea-d984-46ad-96c0-712836621e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Platform">
+      <UniqueIdentifier>{8fbaf54f-1a97-4bc6-a1a6-edb3e4544c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens">
+      <UniqueIdentifier>{bc6d14be-2979-4e83-822c-d3bfa2dd6a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\ClientUI">
+      <UniqueIdentifier>{17879cea-fb17-45ca-a5b6-898b0a5a74bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\CuocChauA">
+      <UniqueIdentifier>{f4630355-e59b-47bf-a9f3-c02ae5487450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Dice">
+      <UniqueIdentifier>{1f89329c-67a8-40f7-a5ca-f54b1fbf1138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Event">
+      <UniqueIdentifier>{21b264f7-ca27-4d1b-8803-3ddd5a1ffcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Facebook">
+      <UniqueIdentifier>{d19fe359-2b15-469b-9611-ac93f5357499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Friend">
+      <UniqueIdentifier>{9e2f17fa-be60-427d-a1b2-e0b8fe4470c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Game">
+      <UniqueIdentifier>{a34ad763-c443-4c36-8822-682358780681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Heartbeat">
+      <UniqueIdentifier>{a76c31e0-2b7c-4638-87b3-b450273c9167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Login">
+      <UniqueIdentifier>{03b5c69f-63da-4ee8-9162-756f993e9b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Mobo">
+      <UniqueIdentifier>{333ef20a-dfb0-42ea-824f-67991d31f6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Payment">
+      <UniqueIdentifier>{199291c5-2b80-41e6-b00e-c1370bf5cb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Promotion">
+      <UniqueIdentifier>{8e85c205-b003-41ee-bea3-647dc6faafe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Quest">
+      <UniqueIdentifier>{0ee39d55-04ce-42f7-83ab-00caf16b958c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\SmartPhone">
+      <UniqueIdentifier>{49a5fa5d-9199-49fb-8286-d3d513628a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Stock">
+      <UniqueIdentifier>{c02d9500-5d37-401e-aeef-310cd92b9a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\Avatar">
+      <UniqueIdentifier>{4ff28583-5cc7-409e-ac9f-31796804a284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Models">
+      <UniqueIdentifier>{5b77c596-e515-4808-b42a-cceef1d7eb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\Global">
+      <UniqueIdentifier>{a9e62350-b614-4b42-9aa9-fe62ccb27578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\GameScreens">
+      <UniqueIdentifier>{f68af51d-f7f8-4e56-b184-44dfa48b9214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\Object">
+      <UniqueIdentifier>{989e4000-0cc8-456e-a8cf-341f43277ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\GameScreens\TienLen">
+      <UniqueIdentifier>{5256e624-0cac-4f09-8c02-f8ef249c6165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\GameScreens\MauBinh">
+      <UniqueIdentifier>{1fc9f98b-7820-4915-b41c-94b4bae449f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\GameScreens\BaiCao">
+      <UniqueIdentifier>{f94d7205-d94f-4523-9ca8-33121a66111d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\GameScreens\Phom">
+      <UniqueIdentifier>{4028bbd1-e228-4e5f-8b5b-954d72d366b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Features">
+      <UniqueIdentifier>{517b846d-6a1f-4c0e-941d-f4d194dcc0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\Services">
+      <UniqueIdentifier>{7e99d4f6-f380-49c9-a5a0-62e6ab8ac544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\lobby">
+      <UniqueIdentifier>{82e679ef-b682-4109-9a05-4efd865ee016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\cashoutruby">
+      <UniqueIdentifier>{f0138ab2-0e32-4f83-b552-869b7e574e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\captcha">
+      <UniqueIdentifier>{f2e2e2c9-f1f4-4acd-9e49-05ddb9461c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\GameScreens\XiZach">
+      <UniqueIdentifier>{b8438ea5-0b32-44d7-a031-a9dc5a7b9460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\taixiu">
+      <UniqueIdentifier>{4152edd4-29d8-4fd0-98c4-fa6b03312455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\GameScreens\CoTuong">
+      <UniqueIdentifier>{78789042-b757-4417-ba5d-7e7a6ca42f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Network\JsonObject\LuckyCircle">
+      <UniqueIdentifier>{0d4576e9-5221-4695-b409-b69458ae368a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Screens\CommonScreens">
+      <UniqueIdentifier>{11a6975b-df18-4e44-93be-ffcddb5a4559}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\iwin\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\GameController.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\DataOutputStream.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\DataReader.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\DataWriter.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\IMessagehandler.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\JsonMessage.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\Message.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\MobileClient.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\TEA.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\DataInputStream.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Platform\Platform.cpp">
+      <Filter>Classes\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\MainScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\ProfileScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\ScreenManager.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\LobbyScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\LoginScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\MainGame.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\DialogScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\LoadingScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Avatar\Avatar.cpp">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Avatar\AvatarCat.cpp">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Avatar\AvatarCatList.cpp">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Avatar\AvatarList.cpp">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Avatar\BuyingAvatar.cpp">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Avatar\ImageLinkContainerObject.cpp">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\ClientUI\ServerControlButtonObject.cpp">
+      <Filter>Classes\Network\JsonObject\ClientUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\ClientUI\ServerControlDialogObject.cpp">
+      <Filter>Classes\Network\JsonObject\ClientUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\BetMatch.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\GetMatchWinMoney.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\League.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\LeagueList.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\Match.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\MatchList.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\MyMatch.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\MyMatchList.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\Team.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\TicketPrice.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\UserRanking.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\CuocChauA\UserRankingList.cpp">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Dice\BetStars.cpp">
+      <Filter>Classes\Network\JsonObject\Dice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\BaseResultObject.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\EventAward.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\EventAwardList.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\EventInfo.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\EventItem.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\EventItemId.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\EventItemList.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\EventType.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\ShopId.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\UpgrageItem.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\UserInfo.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Event\UserReceiveEventItem.cpp">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriend.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriendList.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriendListPage.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriendListPageCursor.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookIdsList.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookMyInfo.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookPicture.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookPictureData.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookPostWallData.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookRequestResponse.cpp">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\Contact.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\FacebookRequest.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\Friend.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\FriendContact.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\InviteUser.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\Location.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\OpenFacebookRequest.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFacebookRequest.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFriendFromContact.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFriendFromFacebook.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFriendFromLocation.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFacebookRequest.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFriendFromContact.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFriendFromFacebook.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFriendFromLocation.cpp">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\BoardOwner.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\ClientInforObject.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\CreateBoard.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\GameEvent.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\GameEventList.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\GameList.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\GameState.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\GetMinMaxBoard.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\GetOnwerBoardListResponse.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Game\GetOwnerBoardListRequest.cpp">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Heartbeat\HeartBeatConfiguration.cpp">
+      <Filter>Classes\Network\JsonObject\Heartbeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Login\AppleVerify.cpp">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Login\Guest.cpp">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Login\InvalidLoginToken.cpp">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Login\LoginWithToken.cpp">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Login\LoginWithTokenSuccess.cpp">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Login\MustRegisterWithToken.cpp">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Login\RegisterWithToken.cpp">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Mobo\APIResult.cpp">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Mobo\IwinUser.cpp">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Mobo\MoboData.cpp">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Mobo\MoboMap.cpp">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Stock\BuyingStock.cpp">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Stock\GetStockDividend.cpp">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Stock\MyStock.cpp">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Stock\MyStockList.cpp">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Stock\Stock.cpp">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Stock\StockCommand.cpp">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Stock\StockList.cpp">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\SmartPhone\ButtonFeature.cpp">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\SmartPhone\ErrorInfo.cpp">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\SmartPhone\GetGui.cpp">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\SmartPhone\RegisterInfor.cpp">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\SmartPhone\RequestFeature.cpp">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\SmartPhone\StickerInfo.cpp">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\ConfirmBox.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\GetQuestList.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\OptionItem.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\OptionList.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\Quest.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\QuestCategory.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\QuestCategoryList.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\RequestQuest.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\ResponseQuestList.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Quest\ScreenID.cpp">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Promotion\PromotionGetWin.cpp">
+      <Filter>Classes\Network\JsonObject\Promotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Promotion\PromotionItem.cpp">
+      <Filter>Classes\Network\JsonObject\Promotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Promotion\PromotionList.cpp">
+      <Filter>Classes\Network\JsonObject\Promotion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Payment\GoogleCallbackData.cpp">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Payment\GoogleCallbackPurchaseData.cpp">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Payment\GooglePurchaseData.cpp">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Payment\Payment.cpp">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\AppleReviewObject.cpp">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\Guides.cpp">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\ReviewApp.cpp">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\HUDScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Services\GuideService.cpp">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Services\ReviewService.cpp">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\Player.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\User.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Utils.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Game\GameMessageHandler.cpp">
+      <Filter>Classes\Network\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Core\ServerMgr.cpp">
+      <Filter>Classes\Network\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Game\GameLogicHandler.cpp">
+      <Filter>Classes\Network\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\IwinCommand.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JSONMessageHandler.cpp">
+      <Filter>Classes\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Global\GlobalLogicHandler.cpp">
+      <Filter>Classes\Network\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Global\GlobalMessageHandler.cpp">
+      <Filter>Classes\Network\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Global\Globalservice.cpp">
+      <Filter>Classes\Network\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\Game\GameService.cpp">
+      <Filter>Classes\Network\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\Province.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Services\DatabaseService.cpp">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Services\ImageService.cpp">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GamePlayMgr.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\GameScreens.cpp">
+      <Filter>Classes\Screens\GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\ObjectEntity.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenScreen.cpp">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\PlayerGroup.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenMsgHandler.cpp">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenPlayer.cpp">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenService.cpp">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\Card.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\GameObject.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\CardUtils.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhMsgHandler.cpp">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhPlayer.cpp">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhScreen.cpp">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhService.cpp">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\BaseScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\AnimUtils.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\IwinScale9Sprite.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\BaiCao\BaiCaoScreen.cpp">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\BaiCao\BaiCaoMsgHandler.cpp">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\BaiCao\BaiCaoPlayer.cpp">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomScreen.cpp">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomMsgHandler.cpp">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\BaiCao\FlopCardUI.cpp">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\ActionParallel.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomUtils.cpp">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Features\FacebookMgr.cpp">
+      <Filter>Classes\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\SliderBet.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\EventScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\FriendScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\LeaderboardScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Features\IapMgr.cpp">
+      <Filter>Classes\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\Achievement.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\TimeBarProcess.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\IAPScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\heartbeat\NetworkStrength.cpp">
+      <Filter>Classes\Network\JsonObject\Heartbeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\IwinListView.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\IwinScrollView.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\FocusScrollView.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\ChipParticle.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\SpriteIap.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\captcha\CaptchaAnswer.cpp">
+      <Filter>Classes\Network\JsonObject\captcha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\captcha\CaptchaInfo.cpp">
+      <Filter>Classes\Network\JsonObject\captcha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\captcha\CaptchaResult.cpp">
+      <Filter>Classes\Network\JsonObject\captcha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\SpriteUrl.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\NewLobbyScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\lobby\ChatLobbyItem.cpp">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\lobby\ChatLobbyList.cpp">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\lobby\DoPlayNow.cpp">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\lobby\LobbyChatMessage.cpp">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\lobby\LobbyItem.cpp">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\lobby\LobbyList.cpp">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\lobby\RequestLobbyList.cpp">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\EmotionBoard.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\ChatBoard.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\BannerInvite.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\SpriteIapMgr.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\ChangeAwardScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreen.cpp">
+      <Filter>Classes\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\CustomSelectedBox.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\CancelGetCard.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\CancelResult.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\ChargeRate.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentHistory.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentHistoryList.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentInfo.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentResult.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\RequestHistoryCharge.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\RubyToVNDInfo.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\cashoutruby\CardTelco.cpp">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\DealCardLayer.cpp">
+      <Filter>Classes\Screens\GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\ChatMessage.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\iWinPlayer.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\MauBinh\LabelBG.cpp">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Common\FlyMoney.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\Phom\CardPhomBox.cpp">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomService.cpp">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\SpecialCardsBound.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\Object\RectProcessTime.cpp">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\XiZach\XiZachMsgHandler.cpp">
+      <Filter>Classes\Screens\GameScreens\XiZach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\XiZach\XiZachScreen.cpp">
+      <Filter>Classes\Screens\GameScreens\XiZach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\XiZach\XiZachPlayer.cpp">
+      <Filter>Classes\Screens\GameScreens\XiZach</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\Board.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\Category.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Models\Item.cpp">
+      <Filter>Classes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuGameInfo.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuInfoRequest.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUnsupportedList.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserHistory.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserHistoryList.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserOrder.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserOrderList.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\MoneyObject.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuBetRequest.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuBetResult.cpp">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongScreen.cpp">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongBoard.cpp">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongPiece.cpp">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongMsgHandler.cpp">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleQuestList.cpp">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleQuestListItem.cpp">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleResultList.cpp">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleResultListItem.cpp">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\NewCircleInfoRequest.cpp">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\NewCircleTurnRequest.cpp">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\NewLuckyGetTiketsObject.cpp">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongPlayer.cpp">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\TaiXiuLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\LuckyCircleScreen.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\LeaderboardLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\DialogLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\PlayerInfoLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\ChangePassLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\InviteLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\AnnouceServerLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iwin\Classes\Screens\CommonScreens\ConfirmCodeLayer.cpp">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\iwin\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\GameController.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\DataOutputStream.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\DataReader.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\DataWriter.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\IMessagehandler.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\JsonMessage.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\Message.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\MobileClient.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\NetworkMacros.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\TEA.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\DataInputStream.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\MainScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\ProfileScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\ScreenManager.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\LobbyScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\LoginScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\MainGame.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\DialogScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\LoadingScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Avatar\Avatar.h">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Avatar\AvatarCat.h">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Avatar\AvatarCatList.h">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Avatar\AvatarList.h">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Avatar\BuyingAvatar.h">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Avatar\ImageLinkContainerObject.h">
+      <Filter>Classes\Network\JsonObject\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\ClientUI\ServerControlButtonObject.h">
+      <Filter>Classes\Network\JsonObject\ClientUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\ClientUI\ServerControlDialogObject.h">
+      <Filter>Classes\Network\JsonObject\ClientUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\BetMatch.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\GetMatchWinMoney.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\League.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\LeagueList.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\Match.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\MatchList.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\MyMatch.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\MyMatchList.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\Team.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\TicketPrice.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\UserRanking.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\CuocChauA\UserRankingList.h">
+      <Filter>Classes\Network\JsonObject\CuocChauA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Dice\BetStars.h">
+      <Filter>Classes\Network\JsonObject\Dice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\BaseResultObject.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\EventAward.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\EventAwardList.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\EventInfo.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\EventItem.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\EventItemId.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\EventItemList.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\EventType.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\ShopId.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\UpgrageItem.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\UserInfo.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Event\UserReceiveEventItem.h">
+      <Filter>Classes\Network\JsonObject\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriend.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriendList.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriendListPage.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookFriendListPageCursor.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookIdsList.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookMyInfo.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookPicture.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookPictureData.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookPostWallData.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Facebook\FacebookRequestResponse.h">
+      <Filter>Classes\Network\JsonObject\Facebook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\Contact.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\FacebookRequest.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\Friend.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\FriendContact.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\InviteUser.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\Location.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\OpenFacebookRequest.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFacebookRequest.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFriendFromContact.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFriendFromFacebook.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\RequestFriendFromLocation.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFacebookRequest.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFriendFromContact.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFriendFromFacebook.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Friend\ResponseFriendFromLocation.h">
+      <Filter>Classes\Network\JsonObject\Friend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\BoardOwner.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\ClientInforObject.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\CreateBoard.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\GameEvent.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\GameEventList.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\GameList.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\GameState.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\GetMinMaxBoard.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\GetOnwerBoardListResponse.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Game\GetOwnerBoardListRequest.h">
+      <Filter>Classes\Network\JsonObject\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Heartbeat\HeartBeatConfiguration.h">
+      <Filter>Classes\Network\JsonObject\Heartbeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Heartbeat\NetworkStrength.h">
+      <Filter>Classes\Network\JsonObject\Heartbeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Login\AppleVerify.h">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Login\Guest.h">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Login\InvalidLoginToken.h">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Login\LoginWithToken.h">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Login\LoginWithTokenSuccess.h">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Login\MustRegisterWithToken.h">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Login\RegisterWithToken.h">
+      <Filter>Classes\Network\JsonObject\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Mobo\APIResult.h">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Mobo\IwinUser.h">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Mobo\MoboData.h">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Mobo\MoboMap.h">
+      <Filter>Classes\Network\JsonObject\Mobo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Stock\BuyingStock.h">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Stock\GetStockDividend.h">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Stock\MyStock.h">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Stock\MyStockList.h">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Stock\Stock.h">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Stock\StockCommand.h">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Stock\StockList.h">
+      <Filter>Classes\Network\JsonObject\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\SmartPhone\ButtonFeature.h">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\SmartPhone\ErrorInfo.h">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\SmartPhone\GetGui.h">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\SmartPhone\RegisterInfor.h">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\SmartPhone\RequestFeature.h">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\SmartPhone\StickerInfo.h">
+      <Filter>Classes\Network\JsonObject\SmartPhone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\ConfirmBox.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\GetQuestList.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\OptionItem.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\OptionList.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\Quest.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\QuestCategory.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\QuestCategoryList.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\RequestQuest.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\ResponseQuestList.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Quest\ScreenID.h">
+      <Filter>Classes\Network\JsonObject\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Promotion\ActionType.h">
+      <Filter>Classes\Network\JsonObject\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Promotion\PromotionGetWin.h">
+      <Filter>Classes\Network\JsonObject\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Promotion\PromotionItem.h">
+      <Filter>Classes\Network\JsonObject\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Promotion\PromotionList.h">
+      <Filter>Classes\Network\JsonObject\Promotion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Payment\CardID.h">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Payment\ChargeType.h">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Payment\GoogleCallbackData.h">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Payment\GoogleCallbackPurchaseData.h">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Payment\GooglePurchaseData.h">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Payment\Payment.h">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Payment\Type.h">
+      <Filter>Classes\Network\JsonObject\Payment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\AppleReviewObject.h">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\Guides.h">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\IWINCommand.h">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\ReviewApp.h">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\HUDScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Services\GuideService.h">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Services\ReviewService.h">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\Player.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\User.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Utils.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\Common.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Game\GameMessageHandler.h">
+      <Filter>Classes\Network\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Core\ServerMgr.h">
+      <Filter>Classes\Network\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Game\GameLogicHandler.h">
+      <Filter>Classes\Network\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\IwinCommand.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\IwinProtocol.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JSONMessageHandler.h">
+      <Filter>Classes\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Global\GlobalLogicHandler.h">
+      <Filter>Classes\Network\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Global\GlobalMessageHandler.h">
+      <Filter>Classes\Network\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Global\Globalservice.h">
+      <Filter>Classes\Network\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\Game\GameService.h">
+      <Filter>Classes\Network\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\Province.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Services\DatabaseService.h">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Services\ImageService.h">
+      <Filter>Classes\Screens\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GamePlayMgr.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\GameScreens.h">
+      <Filter>Classes\Screens\GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\ObjectEntity.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Platform\Platform.h">
+      <Filter>Classes\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenScreen.h">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\PlayerGroup.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenMsgHandler.h">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenPlayer.h">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\TienLen\TienLenService.h">
+      <Filter>Classes\Screens\GameScreens\TienLen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\Card.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\GameObject.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\CardUtils.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhMsgHandler.h">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhPlayer.h">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhScreen.h">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\MauBinh\MauBinhService.h">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\BaseScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\AnimUtils.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\MauBinh\Result.h">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\IwinScale9Sprite.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\BaiCao\BaiCaoScreen.h">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\BaiCao\BaiCaoMsgHandler.h">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\BaiCao\BaiCaoPlayer.h">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomScreen.h">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomMsgHandler.h">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\BaiCao\FlopCardUI.h">
+      <Filter>Classes\Screens\GameScreens\BaiCao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\ActionParallel.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomUtils.h">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Features\FacebookMgr.h">
+      <Filter>Classes\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\SliderBet.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\EventScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\FriendScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\LeaderboardScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Features\IapMgr.h">
+      <Filter>Classes\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\Achievement.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\TimeBarProcess.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\IAPScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\IwinListView.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\IwinScrollView.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\FocusScrollView.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\ChipParticle.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\SpriteIap.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\captcha\CaptchaAnswer.h">
+      <Filter>Classes\Network\JsonObject\captcha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\captcha\CaptchaInfo.h">
+      <Filter>Classes\Network\JsonObject\captcha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\captcha\CaptchaResult.h">
+      <Filter>Classes\Network\JsonObject\captcha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\SpriteUrl.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\NewLobbyScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\lobby\ChatLobbyItem.h">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\lobby\ChatLobbyList.h">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\lobby\DoPlayNow.h">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\lobby\LobbyChatMessage.h">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\lobby\LobbyItem.h">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\lobby\LobbyList.h">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\lobby\RequestLobbyList.h">
+      <Filter>Classes\Network\JsonObject\lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\EmotionBoard.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\ChatBoard.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\BannerInvite.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\SpriteIapMgr.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\JsonHeader.h">
+      <Filter>Classes\Network\JsonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\ChangeAwardScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreen.h">
+      <Filter>Classes\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\CustomSelectedBox.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\CancelGetCard.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\CancelResult.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\ChargeRate.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentHistory.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentHistoryList.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentInfo.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\PaymentResult.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\RequestHistoryCharge.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\RubyToVNDInfo.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\cashoutruby\CardTelco.h">
+      <Filter>Classes\Network\JsonObject\cashoutruby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\DealCardLayer.h">
+      <Filter>Classes\Screens\GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Constants.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\ChatMessage.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\iWinPlayer.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\MauBinh\LabelBG.h">
+      <Filter>Classes\Screens\GameScreens\MauBinh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Common\FlyMoney.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\Phom\CardPhomBox.h">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\Phom\PhomService.h">
+      <Filter>Classes\Screens\GameScreens\Phom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\SpecialCardsBound.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\Object\RectProcessTime.h">
+      <Filter>Classes\Screens\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\XiZach\XiZachMsgHandler.h">
+      <Filter>Classes\Screens\GameScreens\XiZach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\XiZach\XiZachScreen.h">
+      <Filter>Classes\Screens\GameScreens\XiZach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\XiZach\XiZachPlayer.h">
+      <Filter>Classes\Screens\GameScreens\XiZach</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\Board.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\Category.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Models\Item.h">
+      <Filter>Classes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuGameInfo.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuInfoRequest.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUnsupportedList.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserHistory.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserHistoryList.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserOrder.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuUserOrderList.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\MoneyObject.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuBetRequest.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\taixiu\TaiXiuBetResult.h">
+      <Filter>Classes\Network\JsonObject\taixiu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongScreen.h">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongBoard.h">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongPiece.h">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongMsgHandler.h">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleQuestList.h">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleQuestListItem.h">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleResultList.h">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\LuckyCircleResultListItem.h">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\NewCircleInfoRequest.h">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\NewCircleTurnRequest.h">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Network\JsonObject\LuckyCircle\NewLuckyGetTiketsObject.h">
+      <Filter>Classes\Network\JsonObject\LuckyCircle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\GameScreens\CoTuong\CoTuongPlayer.h">
+      <Filter>Classes\Screens\GameScreens\CoTuong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\LuckyCircleScreen.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\TaiXiuLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\LeaderboardLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\DialogLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\PlayerInfoLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\ChangePassLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\InviteLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\AnnouceServerLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iwin\Classes\Screens\CommonScreens\ConfirmCodeLayer.h">
+      <Filter>Classes\Screens\CommonScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="iwin_win32.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+</Project>

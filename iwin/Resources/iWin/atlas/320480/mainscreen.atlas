@@ -1,0 +1,1423 @@
+
+mainscreen.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon/addfriend
+  rotate: false
+  xy: 177, 51
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+icon/avatar_default
+  rotate: false
+  xy: 345, 73
+  size: 46, 54
+  orig: 46, 54
+  offset: 0, 0
+  index: -1
+icon/btnDeny
+  rotate: false
+  xy: 99, 51
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+icon/cup
+  rotate: false
+  xy: 84, 37
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+icon/dlg_question_ico_dongho
+  rotate: false
+  xy: 1, 17
+  size: 34, 36
+  orig: 34, 36
+  offset: 0, 0
+  index: -1
+icon/dlg_question_ico_dongwin
+  rotate: false
+  xy: 1, 55
+  size: 96, 72
+  orig: 96, 72
+  offset: 0, 0
+  index: -1
+icon/doi mat khau
+  rotate: false
+  xy: 37, 17
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+icon/ico_canhbao
+  rotate: false
+  xy: 41, 1
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+icon/ico_close_error
+  rotate: false
+  xy: 425, 103
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+icon/ico_nhac
+  rotate: false
+  xy: 430, 90
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+icon/ico_question
+  rotate: false
+  xy: 37, 28
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+icon/icon_bat-chuc-nang-moi-choi
+  rotate: false
+  xy: 64, 32
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+icon/icon_chedorung
+  rotate: false
+  xy: 471, 109
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+icon/icon_dangxuat
+  rotate: false
+  xy: 451, 106
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+icon/icon_draw
+  rotate: false
+  xy: 344, 59
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+icon/icon_edit_camera
+  rotate: false
+  xy: 430, 76
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+icon/icon_edit_pass
+  rotate: false
+  xy: 282, 56
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+icon/icon_edit_photo
+  rotate: false
+  xy: 312, 60
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+icon/icon_edit_shop
+  rotate: false
+  xy: 329, 58
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+icon/icon_fb
+  rotate: false
+  xy: 491, 109
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+icon/icon_giftbox
+  rotate: false
+  xy: 177, 73
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+icon/icon_given_up
+  rotate: false
+  xy: 356, 60
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+icon/icon_goihotro
+  rotate: false
+  xy: 222, 53
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+icon/icon_gopy
+  rotate: false
+  xy: 1, 1
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+icon/icon_lose
+  rotate: false
+  xy: 382, 59
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+icon/icon_more
+  rotate: false
+  xy: 393, 97
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+icon/icon_ngon-ngu
+  rotate: false
+  xy: 242, 53
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+icon/icon_received_gift
+  rotate: false
+  xy: 233, 73
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+icon/icon_requested_gift
+  rotate: false
+  xy: 289, 74
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+icon/icon_so-nguoi-choi
+  rotate: false
+  xy: 21, 1
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+icon/icon_support
+  rotate: false
+  xy: 393, 75
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+icon/icon_tiencuoc
+  rotate: false
+  xy: 99, 34
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+icon/icon_time
+  rotate: false
+  xy: 262, 53
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+icon/icon_warning
+  rotate: false
+  xy: 200, 54
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+icon/icon_win
+  rotate: false
+  xy: 369, 60
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+icon/playing
+  rotate: false
+  xy: 119, 31
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+icon/pulltoupdate
+  rotate: false
+  xy: 416, 79
+  size: 12, 16
+  orig: 12, 16
+  offset: 0, 0
+  index: -1
+icon/sound
+  rotate: false
+  xy: 157, 37
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+icon/star
+  rotate: false
+  xy: 296, 58
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+icon/tiencuoc
+  rotate: false
+  xy: 177, 37
+  size: 18, 12
+  orig: 18, 12
+  offset: 0, 0
+  index: -1
+icon/wait
+  rotate: false
+  xy: 138, 31
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+
+mainscreen2.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+logindialog/bkg_khung_login_moi
+  rotate: false
+  xy: 1, 1
+  size: 15, 18
+  split: 7, 7, 9, 8
+  pad: 4, 5, 5, 5
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+logindialog/btn_facebook
+  rotate: false
+  xy: 108, 59
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+logindialog/btn_gamecenter
+  rotate: false
+  xy: 155, 61
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+logindialog/btn_ggs
+  rotate: false
+  xy: 201, 61
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+logindialog/btn_google
+  rotate: false
+  xy: 155, 16
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+logindialog/btn_guest
+  rotate: false
+  xy: 108, 13
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+logindialog/khung_logo_iwin1.9
+  rotate: false
+  xy: 1, 21
+  size: 105, 84
+  split: 81, 16, 0, 84
+  orig: 105, 84
+  offset: 0, 0
+  index: -1
+
+mainscreen3.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+new_account/popupdo
+  rotate: false
+  xy: 1, 1
+  size: 392, 206
+  orig: 392, 206
+  offset: 0, 0
+  index: -1
+new_account/popupxam
+  rotate: false
+  xy: 395, 1
+  size: 392, 206
+  orig: 392, 206
+  offset: 0, 0
+  index: -1
+
+mainscreen4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+newgui-game-icon/bg
+  rotate: false
+  xy: 115, 16
+  size: 75, 14
+  orig: 75, 14
+  offset: 0, 0
+  index: -1
+newgui-game-icon/bg_tong
+  rotate: false
+  xy: 400, 666
+  size: 86, 35
+  orig: 86, 35
+  offset: 0, 0
+  index: -1
+newgui-game-icon/bgnew
+  rotate: false
+  xy: 1, 703
+  size: 480, 320
+  orig: 480, 320
+  offset: 0, 0
+  index: -1
+newgui-game-icon/group_peoples
+  rotate: false
+  xy: 115, 1
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+newgui-game-icon/group_rooms
+  rotate: false
+  xy: 192, 16
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_baicao
+  rotate: false
+  xy: 483, 897
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_baicao_sau
+  rotate: false
+  xy: 201, 187
+  size: 97, 126
+  orig: 97, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_baucua
+  rotate: false
+  xy: 1, 571
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_caorua
+  rotate: false
+  xy: 301, 572
+  size: 97, 125
+  orig: 97, 125
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_caro
+  rotate: false
+  xy: 483, 769
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_catte
+  rotate: false
+  xy: 583, 897
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_cotuong
+  rotate: false
+  xy: 1, 443
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_coup
+  rotate: false
+  xy: 101, 571
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_covua
+  rotate: false
+  xy: 583, 769
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_cuochap
+  rotate: false
+  xy: 683, 897
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_domino
+  rotate: false
+  xy: 1, 315
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_gamekhac
+  rotate: false
+  xy: 101, 443
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_lieng
+  rotate: false
+  xy: 201, 571
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_maubinh
+  rotate: false
+  xy: 683, 769
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_menu_gamebai
+  rotate: false
+  xy: 215, 33
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_menu_gameco
+  rotate: false
+  xy: 375, 545
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_menu_gamekhac
+  rotate: false
+  xy: 301, 468
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_menu_haychoi
+  rotate: false
+  xy: 797, 745
+  size: 24, 22
+  orig: 24, 22
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_menu_highlight
+  rotate: false
+  xy: 301, 498
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_menu_normal
+  rotate: false
+  xy: 983, 985
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_phom
+  rotate: false
+  xy: 783, 897
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_poker
+  rotate: false
+  xy: 1, 187
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_tlmb
+  rotate: false
+  xy: 101, 315
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_tlmn
+  rotate: false
+  xy: 201, 443
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_tlmn_solo
+  rotate: false
+  xy: 783, 769
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_tuxi
+  rotate: false
+  xy: 883, 897
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_vongquay_tailoc
+  rotate: false
+  xy: 1, 59
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_win
+  rotate: false
+  xy: 697, 716
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_xam
+  rotate: false
+  xy: 101, 187
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_xepgach
+  rotate: false
+  xy: 201, 315
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_xidach
+  rotate: false
+  xy: 883, 769
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ico_xito
+  rotate: false
+  xy: 101, 59
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/icon
+  rotate: false
+  xy: 201, 59
+  size: 97, 126
+  orig: 97, 126
+  offset: 0, 0
+  index: -1
+newgui-game-icon/leftchoose
+  rotate: false
+  xy: 597, 742
+  size: 98, 25
+  orig: 98, 25
+  offset: 0, 0
+  index: -1
+newgui-game-icon/leftchoosehighlight
+  rotate: false
+  xy: 483, 713
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+newgui-game-icon/leftnochoose
+  rotate: false
+  xy: 115, 32
+  size: 98, 25
+  orig: 98, 25
+  offset: 0, 0
+  index: -1
+newgui-game-icon/linemain
+  rotate: false
+  xy: 1, 699
+  size: 335, 2
+  orig: 335, 2
+  offset: 0, 0
+  index: -1
+newgui-game-icon/people
+  rotate: false
+  xy: 133, 1
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+newgui-game-icon/rightchoose
+  rotate: false
+  xy: 597, 715
+  size: 98, 25
+  orig: 98, 25
+  offset: 0, 0
+  index: -1
+newgui-game-icon/rightchoosehighlight
+  rotate: false
+  xy: 1, 3
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+newgui-game-icon/rightnochoose
+  rotate: false
+  xy: 697, 742
+  size: 98, 25
+  orig: 98, 25
+  offset: 0, 0
+  index: -1
+newgui-game-icon/room
+  rotate: false
+  xy: 983, 971
+  size: 9, 12
+  orig: 9, 12
+  offset: 0, 0
+  index: -1
+newgui-game-icon/ruby_don
+  rotate: false
+  xy: 400, 645
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+
+mainscreen5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+newgui-mainscreen/archie_bkg
+  rotate: false
+  xy: 408, 496
+  size: 102, 15
+  split: 41, 59, 4, 5
+  pad: 0, 0, 0, 0
+  orig: 102, 15
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/archie_exp
+  rotate: false
+  xy: 408, 472
+  size: 12, 12
+  split: 4, 4, 4, 4
+  pad: 0, 0, 0, 0
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/archie_line
+  rotate: false
+  xy: 63, 357
+  size: 151, 1
+  split: 38, 111, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 151, 1
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/archie_title
+  rotate: false
+  xy: 408, 486
+  size: 101, 8
+  split: 41, 58, 2, 3
+  pad: 0, 0, 0, 0
+  orig: 101, 8
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/back
+  rotate: false
+  xy: 81, 25
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bg_circle_doithuong
+  rotate: false
+  xy: 1, 36
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_archi
+  rotate: false
+  xy: 60, 376
+  size: 183, 22
+  orig: 183, 22
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_bangthongbao
+  rotate: false
+  xy: 245, 369
+  size: 30, 29
+  split: 14, 15, 14, 14
+  pad: 8, 8, 8, 7
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_bongmo
+  rotate: false
+  xy: 201, 313
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_btn_vong_dau
+  rotate: false
+  xy: 147, 194
+  size: 52, 49
+  split: 26, 25, 24, 24
+  pad: 14, 13, 13, 12
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_bubble_chat
+  rotate: false
+  xy: 1, 428
+  size: 318, 42
+  orig: 318, 42
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_chat_field
+  rotate: false
+  xy: 422, 477
+  size: 7, 7
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_edit
+  rotate: false
+  xy: 1, 148
+  size: 57, 278
+  split: 33, 20, 92, 93
+  pad: 0, 0, 0, 0
+  orig: 57, 278
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_genderandname
+  rotate: false
+  xy: 321, 456
+  size: 128, 14
+  orig: 128, 14
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_moneystt
+  rotate: false
+  xy: 110, 87
+  size: 27, 22
+  split: 12, 12, 6, 7
+  pad: 0, 0, 0, 0
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_name
+  rotate: false
+  xy: 63, 360
+  size: 156, 14
+  orig: 156, 14
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_napruby
+  rotate: false
+  xy: 63, 191
+  size: 48, 20
+  split: 25, 20, 6, 7
+  pad: 25, 20, 0, 0
+  orig: 48, 20
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_napve
+  rotate: false
+  xy: 61, 89
+  size: 47, 20
+  split: 25, 20, 6, 7
+  pad: 0, 0, 0, 0
+  orig: 47, 20
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_napwin
+  rotate: false
+  xy: 201, 219
+  size: 44, 21
+  split: 21, 20, 6, 7
+  pad: 21, 20, 0, 0
+  orig: 44, 21
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_player_info
+  rotate: false
+  xy: 201, 189
+  size: 29, 28
+  split: 15, 13, 14, 13
+  pad: 6, 7, 6, 6
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_timer
+  rotate: false
+  xy: 277, 375
+  size: 23, 23
+  split: 11, 11, 11, 11
+  pad: 6, 5, 5, 6
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bkg_trongsuot
+  rotate: false
+  xy: 1, 472
+  size: 405, 39
+  orig: 405, 39
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/blur
+  rotate: false
+  xy: 61, 111
+  size: 38, 38
+  split: 18, 19, 18, 19
+  pad: 12, 11, 11, 11
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/bottom_bkg
+  rotate: false
+  xy: 60, 197
+  size: 1, 1
+  split: 0, 0, 0, 0
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/btn_chongame_kochon
+  rotate: false
+  xy: 57, 49
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/btn_dieukhien
+  rotate: false
+  xy: 205, 242
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/btn_napwin
+  rotate: false
+  xy: 141, 299
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/btn_napwin_km_glow
+  rotate: false
+  xy: 63, 213
+  size: 82, 64
+  orig: 82, 64
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/btn_tinhnang
+  rotate: false
+  xy: 60, 151
+  size: 46, 38
+  orig: 46, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/btn_vong_dau
+  rotate: false
+  xy: 451, 435
+  size: 52, 49
+  split: 26, 25, 24, 24
+  pad: 14, 13, 13, 12
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/dau_check_xanh
+  rotate: false
+  xy: 54, 14
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/doc
+  rotate: false
+  xy: 60, 200
+  size: 1, 174
+  orig: 1, 174
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_cham_den
+  rotate: false
+  xy: 97, 79
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_cham_trang
+  rotate: false
+  xy: 135, 203
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_chamhoi
+  rotate: false
+  xy: 77, 1
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_check
+  rotate: false
+  xy: 232, 191
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_chop_xanh
+  rotate: false
+  xy: 281, 329
+  size: 18, 18
+  split: 9, 8, 9, 8
+  pad: 0, 0, 0, 0
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_chop_xanh
+  rotate: false
+  xy: 221, 358
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_domvang
+  rotate: false
+  xy: 1, 13
+  size: 51, 21
+  orig: 51, 21
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_laplanh
+  rotate: false
+  xy: 113, 192
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_sao
+  rotate: false
+  xy: 141, 293
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_server
+  rotate: false
+  xy: 141, 104
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_tab_banbe
+  rotate: false
+  xy: 101, 111
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_tab_caidat
+  rotate: false
+  xy: 108, 151
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_tab_doithuong
+  rotate: false
+  xy: 148, 154
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_tab_khuyenmai
+  rotate: false
+  xy: 201, 317
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_tab_thuong
+  rotate: false
+  xy: 241, 329
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_thongbao
+  rotate: false
+  xy: 301, 328
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ico_thongbao_loa
+  rotate: false
+  xy: 205, 278
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/icon_12
+  rotate: false
+  xy: 288, 400
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/icon_boy
+  rotate: false
+  xy: 158, 133
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/icon_girl
+  rotate: false
+  xy: 158, 112
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/iwin_ico_1
+  rotate: false
+  xy: 281, 349
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/iwin_ico_2
+  rotate: false
+  xy: 302, 374
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/iwin_ico_3
+  rotate: false
+  xy: 301, 348
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/khung_avatar_mainscreen
+  rotate: false
+  xy: 63, 279
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/layer_checkpass_doc
+  rotate: false
+  xy: 141, 124
+  size: 15, 25
+  split: 4, 10, 5, 19
+  pad: 2, 8, 3, 15
+  orig: 15, 25
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/layer_checkpass_ngang
+  rotate: false
+  xy: 57, 32
+  size: 22, 15
+  split: 4, 17, 4, 10
+  pad: 3, 16, 2, 8
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/line_xam
+  rotate: false
+  xy: 57, 89
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ruybang_game_moi
+  rotate: false
+  xy: 147, 245
+  size: 56, 52
+  orig: 56, 52
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/ruybang_game_new
+  rotate: false
+  xy: 1, 92
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/tutorial_arow
+  rotate: false
+  xy: 188, 184
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/tutorial_bkg
+  rotate: false
+  xy: 60, 400
+  size: 214, 6
+  split: 108, 103, 3, 0
+  pad: 0, 0, 0, 0
+  orig: 214, 6
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/tutorial_bkg_full
+  rotate: false
+  xy: 277, 371
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/tutorial_cancel
+  rotate: false
+  xy: 321, 430
+  size: 62, 24
+  orig: 62, 24
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/tutorial_continute
+  rotate: false
+  xy: 385, 430
+  size: 62, 24
+  orig: 62, 24
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/tutorial_img
+  rotate: false
+  xy: 60, 418
+  size: 226, 8
+  split: 149, 75, 2, 2
+  pad: 0, 0, 0, 0
+  orig: 226, 8
+  offset: 0, 0
+  index: -1
+newgui-mainscreen/tutorial_img_u
+  rotate: false
+  xy: 60, 408
+  size: 226, 8
+  split: 149, 75, 2, 2
+  pad: 0, 0, 0, 0
+  orig: 226, 8
+  offset: 0, 0
+  index: -1
+
+mainscreen6.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shop-avatar/bkg_3cachdoi
+  rotate: false
+  xy: 112, 21
+  size: 22, 20
+  split: 8, 13, 9, 10
+  pad: 4, 4, 4, 3
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_3cachdoi_text
+  rotate: false
+  xy: 171, 43
+  size: 12, 28
+  split: 6, 5, 13, 14
+  pad: 2, 3, 5, 2
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_doiavatar_text
+  rotate: false
+  xy: 171, 43
+  size: 12, 28
+  split: 6, 5, 13, 14
+  pad: 2, 3, 6, 3
+  orig: 12, 28
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_avatar_cauthu
+  rotate: false
+  xy: 156, 28
+  size: 14, 13
+  split: 6, 7, 6, 6
+  pad: 4, 4, 3, 2
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_damua
+  rotate: false
+  xy: 132, 1
+  size: 16, 18
+  split: 2, 13, 0, 0
+  pad: 1, 10, 1, 1
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_doiavatar
+  rotate: false
+  xy: 185, 54
+  size: 17, 17
+  split: 8, 8, 8, 8
+  pad: 4, 5, 4, 3
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_donen
+  rotate: false
+  xy: 1, 12
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_thanhtich
+  rotate: false
+  xy: 204, 54
+  size: 15, 17
+  split: 8, 6, 8, 8
+  pad: 4, 4, 5, 4
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_thanhtich_text
+  rotate: false
+  xy: 156, 43
+  size: 13, 28
+  split: 6, 6, 12, 15
+  pad: 2, 3, 6, 3
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_thongtin
+  rotate: false
+  xy: 197, 73
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_thongtin1
+  rotate: false
+  xy: 75, 54
+  size: 15, 15
+  split: 8, 6, 7, 7
+  pad: 3, 3, 4, 3
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_thongtin_text
+  rotate: false
+  xy: 140, 43
+  size: 14, 28
+  split: 7, 6, 13, 14
+  pad: 3, 4, 6, 2
+  orig: 14, 28
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_vang
+  rotate: false
+  xy: 185, 51
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+shop-avatar/bkg_vien_avatar_cau_thu
+  rotate: false
+  xy: 112, 1
+  size: 18, 18
+  split: 8, 9, 8, 9
+  pad: 3, 4, 4, 3
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+shop-avatar/default-window2
+  rotate: false
+  xy: 93, 8
+  size: 17, 61
+  split: 4, 4, 34, 3
+  orig: 17, 61
+  offset: 0, 0
+  index: -1
+shop-avatar/ico_doiavatar
+  rotate: false
+  xy: 1, 53
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1
+shop-avatar/ico_dongwin
+  rotate: false
+  xy: 136, 25
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+shop-avatar/ico_hot
+  rotate: false
+  xy: 112, 43
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+shop-avatar/ico_shopavatar
+  rotate: false
+  xy: 75, 71
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+shop-avatar/ico_thanhtich
+  rotate: false
+  xy: 137, 73
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+shop-avatar/ico_thumuc_anh
+  rotate: false
+  xy: 1, 15
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+shop-avatar/ico_tuchupanh
+  rotate: false
+  xy: 47, 15
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1

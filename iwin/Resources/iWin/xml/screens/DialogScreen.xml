@@ -1,0 +1,389 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<MenuWidget name="dialog_screen" 	designSize="960_540">
+			<fade_process max_idx_first="0">
+				<sound_click value="SFX_CLICK" delayTime="0.1" loop ="1"/>
+				<time_process id="0" val="0.0">
+					<sound FadeIn="" FadeOut="" delayTime="0.0" loop ="1"/>
+				</time_process>
+			</fade_process>
+			
+			<Widget id="0" typeRes="layer_widget" name="background" idx_appear ="0">
+				<common_value>
+					<common			name="stick_screen"		value="1"/>
+					<common			name="casca_opacity"	value="0"/>
+				</common_value>
+						
+				<Widget id="0" typeRes="panel" name = "background_texture" idx_appear ="1">		
+					<common_value>
+						<common 		name="source" 		value="loginscreen/nine/blackpixel.png"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="1"/>
+					</common_value>
+					<pos 		origin = "480_270" 	/>
+					<Size 		origin = "960_540" 	/>
+					<opacity	origin = "160"		/>
+				</Widget>
+				
+				<pos 		origin = "480_270" 	/>
+				<Size 		origin = "960_540" 	/>	
+			</Widget>
+			
+			<Widget id="1" typeRes="layer_widget" name="dialog_screen" idx_appear ="0">
+				<common_value>
+					<common			name="stick_screen"		value="0"/>
+					<common			name="root"				value="1"/>
+				</common_value>
+				
+				<Widget id="1" typeRes="layout" 	name = "panel_contain" idx_appear ="1">		
+					<common_value>
+								<common			name="background_type"	value="0"/>
+								<common			name="clipping_enable"	value="0"/>
+								<common			name="stick_screen"		value="0"/>
+								<common			name="casca_color"		value="0"/>
+								<common			name="casca_opacity" 	value="0"/>
+								<common			name="anchor_point"	 	value="0.5_0"/>
+					</common_value>
+					
+					<Widget id="0" typeRes="panel" 		name = "panel_" idx_appear ="1">		
+						<common_value>
+									<common 		name="source" 			value="default-window.9.png"/>
+									<common 		name="use_atlas" 		value="1"/>	
+									<common			name="stick_screen"		value="0"/>
+									<common			name="scale_9"			value="1"/>
+									<common 		name="use_nine_path" 	value="1"/>
+									<common			name="anchor_point"	 	value="0.5_0"/>
+						</common_value>
+						<pos 		origin = "250_0" 	/>
+						<Size 		origin = "500_200" 	/>
+					</Widget>
+					
+					<Widget id="1" typeRes="font" 		name = "title_notice" idx_appear ="2">		
+							<common_value>
+								<common 		name="source" 			value="notice"/>					
+								<common    		name="font_idx"			value="13"/>	
+								<common			name="anchor_point"		value="0.5_1"/>	
+								<common			name="stick_screen"		value="0"/>
+								<common			name="bitmap_font"		value="1"/>
+							</common_value>
+							<pos 		origin = "250_180" 	/>
+							<Size 		origin = "18_18" 	/>
+					</Widget>
+					
+					<Widget id="2" typeRes="font" 		name = "notice_content" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="test_WIP"/>					
+							<common    		name="font_idx"			value="0"/>	
+							<common			name="anchor_point"		value="0.5_0"/>
+							<common			name="size_use_scale" 	value="0"/>
+							<common			name="stick_screen"		value="0"/>
+							<common			name="aligneH"			value="1"/>
+							<common			name="aligneV"			value="1"/>
+							<common			name="AreaSize"			value="600_0"/>
+							<common			name="bitmap_font"		value="1"/>
+						</common_value>
+						<pos 		origin = "250_80" 	/>
+						<Size 		origin = "22_22" 	/>
+					</Widget>
+					
+					<Widget id="1" typeRes="layout" 	name = "layout_btn" idx_appear ="1">		
+						<common_value>
+									<common			name="background_type"	value="0"/>
+									<common			name="clipping_enable"	value="0"/>
+									<common			name="stick_screen"		value="0"/>
+									<common			name="casca_color"		value="0"/>
+									<common			name="casca_opacity" 	value="0"/>
+									<common			name="anchor_point"	 	value="0.5_1"/>
+						</common_value>
+						<Widget id="3" typeRes="layout" 	name = "panel_1_btn" idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="clipping_enable"	    value="0"/>
+								<common 		name="background_type" 		value="0"/>
+								<common			name="casca_color"			value="0"/>
+								<common			name="stick_screen"			value="0"/>
+								<common			name="anchor_point"			value="0.5_0"/>
+							</common_value>
+							<Widget id="5" typeRes="button" name = "ok_1_btn" idx_appear ="1" >		
+								<common_value>
+								
+									<common 		name="source" 			value="default-round-yellow.9.png"/>
+									<common 		name="press" 			value="default-round-yellow.9.png"/>
+									<common 		name="disable" 			value="default-round-yellow.9.png"/>								
+									<common 		name="scale_press" 		value="-0.05"/>
+									
+									<common 		name="use_atlas" 		value="1"/>	
+									<common			name="stick_screen"		value="0"/>
+									<common			name="scale_9"			value="1"/>
+									<common			name="anchor_point"		value="0.5_0"/>
+								</common_value>
+								
+								<Widget id="0" typeRes="font" 		name = "title_" idx_appear ="2">		
+										<common_value>
+											<common 		name="source" 			value="agree"/>					
+											<common    		name="font_idx"			value="0"/>	
+											<common			name="anchor_point"		value="0.5_0.5"/>	
+											<common			name="stick_screen"		value="0"/>
+											<common			name="bitmap_font"		value="1"/>
+										</common_value>
+										<pos 		origin = "100_30" 		/>
+										<Size 		origin = "20_20" 		/>
+										<color		origin = "20_20_20_255"	/>
+								</Widget>
+								
+								<pos 		origin = "250_0" 	/>
+								<Size 		origin = "200_60" 	/>
+							</Widget>
+							<pos 		origin = "250_10" 	/>
+							<Size 		origin = "500_60" 	/>
+						</Widget>
+						<Widget id="4" typeRes="layout" 	name = "panel_2_btn" idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="clipping_enable"	    value="0"/>
+								<common 		name="background_type" 		value="0"/>
+								<common			name="casca_color"			value="0"/>
+								<common			name="stick_screen"			value="0"/>
+								<common			name="anchor_point"			value="0.5_0"/>
+							</common_value>
+							<Widget id="5" typeRes="button" name = "ok_2_btn" idx_appear ="1" >		
+								<common_value>
+								
+									<common 		name="source" 				value="default-round-yellow.9.png"/>
+									<common 		name="press" 				value="default-round-yellow.9.png"/>
+									<common 		name="disable" 				value="default-round-yellow.9.png"/>
+									
+									<common 		name="scale_press" 			value="-0.05"/>
+									<common 		name="use_atlas" 			value="1"/>	
+									<common			name="stick_screen"			value="0"/>
+									<common			name="scale_9"				value="1"/>
+									<common			name="anchor_point"			value="1_0"/>
+								</common_value>
+								
+								<Widget id="0" typeRes="font" 		name = "title_" idx_appear ="2">		
+										<common_value>
+											<common 		name="source" 			value="agree"/>					
+											<common    		name="font_idx"			value="0"/>	
+											<common			name="anchor_point"		value="0.5_0.5"/>	
+											<common			name="stick_screen"		value="0"/>
+											<common			name="bitmap_font"		value="1"/>
+										</common_value>
+										<pos 		origin = "100_30" 		/>
+										<Size 		origin = "20_20" 		/>
+										<color		origin = "20_20_20_255"	/>
+								</Widget>
+								
+								<pos 		origin = "240_0" 	/>
+								<Size 		origin = "200_60" 	/>
+							</Widget>
+							<Widget id="6" typeRes="button" name = "cancel_2_btn" idx_appear ="1" >		
+								<common_value>
+								
+									<common 		name="source" 				value="default-round-yellow.9.png"/>
+									<common 		name="press" 				value="default-round-yellow.9.png"/>
+									<common 		name="disable" 				value="default-round-yellow.9.png"/>
+									
+									<common 		name="scale_press" 			value="-0.05"/>
+									<common 		name="use_atlas" 			value="1"/>	
+									<common			name="stick_screen"			value="0"/>
+									<common			name="scale_9"				value="1"/>
+									<common			name="anchor_point"			value="0_0"/>
+								</common_value>
+								
+								<Widget id="0" typeRes="font" 		name = "title_" idx_appear ="2">		
+										<common_value>
+											<common 		name="source" 			value="cancel"/>					
+											<common    		name="font_idx"			value="0"/>	
+											<common			name="anchor_point"		value="0.5_0.5"/>	
+											<common			name="stick_screen"		value="0"/>
+											<common			name="bitmap_font"		value="1"/>
+										</common_value>
+										<pos 		origin = "100_30" 		/>
+										<Size 		origin = "20_20" 		/>
+										<color		origin = "20_20_20_255"	/>
+								</Widget>
+								
+								<pos 		origin = "260_0" 	/>
+								<Size 		origin = "200_60" 	/>
+							</Widget>
+							<pos 		origin = "250_10" 	/>
+							<Size 		origin = "500_60" 	/>
+						</Widget>
+						
+						<Widget id="5" typeRes="layout" 	name = "panel_0_btn" idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="clipping_enable"	    value="0"/>
+								<common 		name="background_type" 		value="0"/>
+								<common			name="casca_color"			value="0"/>
+								<common			name="stick_screen"			value="0"/>
+								<common			name="anchor_point"			value="0.5_0"/>
+							</common_value>
+							<pos 		origin = "250_10" 	/>
+							<Size 		origin = "500_60" 	/>
+						</Widget>
+						<Widget id="6" typeRes="layout" 	name = "panel_fb_btn" idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="clipping_enable"	    value="0"/>
+								<common 		name="background_type" 		value="0"/>
+								<common			name="casca_color"			value="0"/>
+								<common			name="stick_screen"			value="0"/>
+								<common			name="anchor_point"			value="0.5_0"/>
+							</common_value>
+							<Widget id="5" typeRes="button" name = "ok_fb_btn" idx_appear ="1" >		
+								<common_value>
+									<common 		name="source" 				value="default-round-yellow.9.png"/>
+									<common 		name="press" 				value="default-round-yellow.9.png"/>
+									<common 		name="disable" 				value="default-round-yellow.9.png"/>
+									<common 		name="scale_press" 			value="-0.05"/>
+									
+									<common 		name="use_atlas" 			value="1"/>	
+									<common			name="stick_screen"			value="0"/>
+									<common			name="scale_9"				value="1"/>
+									<common			name="anchor_point"			value="1_0"/>
+								</common_value>
+								<Widget id="0" typeRes="font" 		name = "title_" idx_appear ="2">		
+										<common_value>
+											<common 		name="source" 			value="agree"/>					
+											<common    		name="font_idx"			value="0"/>	
+											<common			name="anchor_point"		value="0.5_0.5"/>	
+											<common			name="stick_screen"		value="0"/>
+											<common			name="bitmap_font"		value="1"/>
+										</common_value>
+										<pos 		origin = "100_30" 		/>
+										<Size 		origin = "20_20" 		/>
+										<color		origin = "20_20_20_255"	/>
+								</Widget>
+								
+								<pos 		origin = "240_0" 	/>
+								<Size 		origin = "200_60" 	/>
+							</Widget>
+							<Widget id="6" typeRes="button" name = "cancel_fb_btn" idx_appear ="1" >		
+								<common_value>
+									<common 		name="source" 				value="default-round-yellow.9.png"/>
+									<common 		name="press" 				value="default-round-yellow.9.png"/>
+									<common 		name="disable" 				value="default-round-yellow.9.png"/>
+									<common 		name="scale_press" 			value="-0.05"/>
+									
+									<common 		name="use_atlas" 			value="1"/>	
+									<common			name="stick_screen"			value="0"/>
+									<common			name="scale_9"				value="1"/>
+									<common			name="anchor_point"			value="0_0"/>
+								</common_value>
+								
+								<Widget id="0" typeRes="font" 		name = "title_" idx_appear ="2">		
+										<common_value>
+											<common 		name="source" 			value="cancel"/>					
+											<common    		name="font_idx"			value="0"/>	
+											<common			name="anchor_point"		value="0.5_0.5"/>	
+											<common			name="stick_screen"		value="0"/>
+											<common			name="bitmap_font"		value="1"/>
+										</common_value>
+										<pos 		origin = "100_30" 		/>
+										<Size 		origin = "20_20" 		/>
+										<color		origin = "20_20_20_255"	/>
+								</Widget>
+								
+								<pos 		origin = "260_0" 	/>
+								<Size 		origin = "200_60" 	/>
+							</Widget>
+							<pos 		origin = "250_10" 	/>
+							<Size 		origin = "500_60" 	/>
+						</Widget>
+						<Widget id="7" typeRes="layout" 	name = "panel_waiting_btn" idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="clipping_enable"	    value="0"/>
+								<common 		name="background_type" 		value="0"/>
+								<common			name="casca_color"			value="0"/>
+								<common			name="stick_screen"			value="0"/>
+								<common			name="anchor_point"			value="0.5_0"/>
+							</common_value>
+							<Widget id="5" typeRes="button" name = "ok_waiting_btn" idx_appear ="1" >		
+								<common_value>
+								
+									<common 		name="source" 		value="default-round-yellow.9.png"/>
+									<common 		name="press" 		value="default-round-yellow.9.png"/>
+									<common 		name="disable" 		value="default-round-yellow.9.png"/>
+									<common 		name="scale_press" 	value="-0.05"/>
+									
+									<common 		name="use_atlas" 	value="1"/>	
+									<common			name="stick_screen"	value="0"/>
+									<common			name="scale_9"		value="1"/>
+									<common			name="anchor_point"	value="0.5_0"/>
+								</common_value>
+								
+								<Widget id="0" typeRes="font" 		name = "title_" idx_appear ="2">		
+										<common_value>
+											<common 		name="source" 			value="agree"/>					
+											<common    		name="font_idx"			value="0"/>	
+											<common			name="anchor_point"		value="0.5_0.5"/>	
+											<common			name="stick_screen"		value="0"/>
+											<common			name="bitmap_font"		value="1"/>
+										</common_value>
+										<pos 		origin = "100_30" 		/>
+										<Size 		origin = "20_20" 		/>
+										<color		origin = "20_20_20_255"	/>
+								</Widget>
+								
+								<pos 		origin = "250_0" 	/>
+								<Size 		origin = "200_60" 	/>
+							</Widget>
+							<pos 		origin = "250_10" 	/>
+							<Size 		origin = "500_60" 	/>
+						</Widget>
+						<pos 		origin = "250_70" 	/>
+						<Size 		origin = "500_70" 	/>
+					</Widget>
+					
+					<pos 		origin = "250_0" 	/>
+					<Size 		origin = "500_200" 	/>
+				</Widget>			
+					
+					
+				<pos 		origin = "480_270" 	/>
+				<Size 		origin = "500_200" 	first="0_0"/>
+
+				<COMMAND>
+					<cmd id="0" name="FADE_IN">
+						{
+							"act0": {
+								"squence":[
+									{
+										"SIZE":"550_220",
+										"DESIGN":"960_540",
+										"STICK": 0,
+										"TIME":0.1
+									},
+									{
+										"SIZE":"500_200",
+										"DESIGN":"960_540",
+										"STICK": 0,
+										"TIME":0.12
+									}
+								]
+							}		
+						}					
+						</cmd>
+					<cmd id="1" name="FADE_OUT">
+						{
+							"act0": {
+								"squence":[
+									{
+										"SIZE":"550_220",
+										"DESIGN":"960_540",
+										"STICK": 0,
+										"TIME":0.1
+									},
+									{
+										"SIZE":"0_0",
+										"DESIGN":"960_540",
+										"STICK": 0,
+										"TIME":0.15
+									}
+								]
+							}		
+						}
+						</cmd>
+				</COMMAND>
+				
+			</Widget>
+			
+	</MenuWidget>
+</GAME>

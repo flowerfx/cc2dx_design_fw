@@ -1,0 +1,1091 @@
+
+otherscreen.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dice/bkg_dicescreen
+  rotate: false
+  xy: 1, 1
+  size: 357, 252
+  orig: 357, 252
+  offset: 0, 0
+  index: -1
+dice/dice1
+  rotate: false
+  xy: 485, 193
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+dice/dice10
+  rotate: false
+  xy: 725, 195
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+dice/dice11
+  rotate: false
+  xy: 845, 197
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+dice/dice12
+  rotate: false
+  xy: 785, 195
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+dice/dice2
+  rotate: false
+  xy: 360, 48
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+dice/dice3
+  rotate: false
+  xy: 438, 98
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+dice/dice4
+  rotate: false
+  xy: 961, 197
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+dice/dice5
+  rotate: false
+  xy: 420, 40
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+dice/dice6
+  rotate: false
+  xy: 545, 195
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+dice/dice7
+  rotate: false
+  xy: 605, 195
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+dice/dice8
+  rotate: false
+  xy: 903, 199
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
+dice/dice9
+  rotate: false
+  xy: 665, 195
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+dice/mh_xingau_bkg_xanhbong
+  rotate: false
+  xy: 360, 156
+  size: 123, 97
+  orig: 123, 97
+  offset: 0, 0
+  index: -1
+dice/mh_xingau_bongdo
+  rotate: false
+  xy: 360, 108
+  size: 76, 46
+  split: 38, 37, 11, 14
+  orig: 76, 46
+  offset: 0, 0
+  index: -1
+dice/mh_xingau_ico_sao
+  rotate: false
+  xy: 485, 173
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+
+otherscreen2.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+friend-screen/avatarbg
+  rotate: false
+  xy: 240, 102
+  size: 9, 3
+  split: 2, 2, 1, 0
+  orig: 9, 3
+  offset: 0, 0
+  index: -1
+friend-screen/btn_black
+  rotate: false
+  xy: 20, 5
+  size: 16, 35
+  split: 5, 5, 4, 6
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+friend-screen/btn_blue
+  rotate: false
+  xy: 1, 4
+  size: 17, 36
+  split: 5, 5, 5, 7
+  orig: 17, 36
+  offset: 0, 0
+  index: -1
+friend-screen/btn_gray
+  rotate: false
+  xy: 208, 100
+  size: 14, 27
+  split: 5, 5, 5, 5
+  orig: 14, 27
+  offset: 0, 0
+  index: -1
+friend-screen/btn_green
+  rotate: false
+  xy: 191, 101
+  size: 15, 26
+  split: 5, 5, 5, 5
+  orig: 15, 26
+  offset: 0, 0
+  index: -1
+friend-screen/btn_orange
+  rotate: false
+  xy: 224, 102
+  size: 14, 25
+  split: 5, 5, 4, 5
+  orig: 14, 25
+  offset: 0, 0
+  index: -1
+friend-screen/btn_red
+  rotate: false
+  xy: 123, 91
+  size: 17, 36
+  split: 5, 6, 5, 7
+  orig: 17, 36
+  offset: 0, 0
+  index: -1
+friend-screen/congdong_3_canhbao_bkg-line
+  rotate: false
+  xy: 20, 1
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+friend-screen/congdong_baoxau
+  rotate: false
+  xy: 38, 1
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+friend-screen/congdong_history_item_bg
+  rotate: false
+  xy: 86, 16
+  size: 2, 6
+  split: 0, 0, 2, 1
+  orig: 2, 6
+  offset: 0, 0
+  index: -1
+friend-screen/congdong_history_title_bg
+  rotate: false
+  xy: 158, 96
+  size: 2, 5
+  split: 0, 0, 1, 1
+  orig: 2, 5
+  offset: 0, 0
+  index: -1
+friend-screen/congdong_tangwin
+  rotate: false
+  xy: 240, 107
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+friend-screen/contact_user_bg
+  rotate: false
+  xy: 142, 94
+  size: 14, 7
+  split: 2, 1, 1, 2
+  orig: 14, 7
+  offset: 0, 0
+  index: -1
+friend-screen/diadiem
+  rotate: false
+  xy: 134, 73
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+friend-screen/down1
+  rotate: false
+  xy: 134, 63
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+friend-screen/hopqua_bkg_check
+  rotate: false
+  xy: 128, 50
+  size: 4, 39
+  split: 0, 0, 2, 1
+  orig: 4, 39
+  offset: 0, 0
+  index: -1
+friend-screen/icon_delete
+  rotate: false
+  xy: 142, 103
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+friend-screen/icon_user_chat
+  rotate: false
+  xy: 38, 21
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+friend-screen/list_selection_bg
+  rotate: false
+  xy: 79, 12
+  size: 5, 9
+  split: 0, 0, 0, 2
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+friend-screen/offline
+  rotate: false
+  xy: 86, 24
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+friend-screen/online
+  rotate: false
+  xy: 104, 24
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+friend-screen/playing
+  rotate: false
+  xy: 67, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+friend-screen/search1
+  rotate: false
+  xy: 59, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+friend-screen/search_bg
+  rotate: false
+  xy: 123, 47
+  size: 3, 42
+  orig: 3, 42
+  offset: 0, 0
+  index: -1
+friend-screen/settingbg
+  rotate: false
+  xy: 1, 42
+  size: 120, 85
+  orig: 120, 85
+  offset: 0, 0
+  index: -1
+friend-screen/smile
+  rotate: false
+  xy: 168, 106
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+friend-screen/up1
+  rotate: false
+  xy: 134, 53
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+
+otherscreen3.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+new-lobby/backgroundnocolor
+  rotate: false
+  xy: 129, 19
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+new-lobby/bg_header
+  rotate: false
+  xy: 17, 5
+  size: 12, 12
+  split: 2, 2, 2, 2
+  pad: 0, 0, 0, 0
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+new-lobby/bkg_lobby_line
+  rotate: false
+  xy: 129, 16
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+new-lobby/btn_emo
+  rotate: false
+  xy: 152, 101
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+new-lobby/btn_emo_active
+  rotate: false
+  xy: 132, 24
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+new-lobby/btn_listboard
+  rotate: false
+  xy: 1, 22
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+new-lobby/btn_listlobby
+  rotate: false
+  xy: 99, 99
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+new-lobby/btn_lobbychat_send
+  rotate: false
+  xy: 107, 22
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+new-lobby/btn_playnow
+  rotate: false
+  xy: 101, 6
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+new-lobby/btn_toprich
+  rotate: false
+  xy: 54, 22
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+new-lobby/btn_topstrong
+  rotate: false
+  xy: 99, 72
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+new-lobby/chat_bg
+  rotate: false
+  xy: 152, 74
+  size: 12, 12
+  split: 4, 4, 4, 4
+  pad: 0, 0, 0, 0
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+new-lobby/ico_countlistboard
+  rotate: false
+  xy: 196, 113
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+new-lobby/ico_countuser
+  rotate: false
+  xy: 178, 101
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+new-lobby/ico_diamond
+  rotate: false
+  xy: 75, 1
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+new-lobby/ico_diamond_small
+  rotate: false
+  xy: 99, 56
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+new-lobby/ico_winchip
+  rotate: false
+  xy: 132, 1
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+new-lobby/ico_winchip_small
+  rotate: false
+  xy: 1, 3
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+new-lobby/img_arrow
+  rotate: false
+  xy: 229, 86
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+new-lobby/line_lobby_img
+  rotate: false
+  xy: 1, 49
+  size: 159, 1
+  orig: 159, 1
+  offset: 0, 0
+  index: -1
+new-lobby/line_lobbychat
+  rotate: false
+  xy: 1, 126
+  size: 226, 1
+  orig: 226, 1
+  offset: 0, 0
+  index: -1
+new-lobby/line_sang_vang
+  rotate: false
+  xy: 1, 19
+  size: 72, 1
+  orig: 72, 1
+  offset: 0, 0
+  index: -1
+new-lobby/lobby_item_bg
+  rotate: false
+  xy: 1, 52
+  size: 96, 72
+  orig: 96, 72
+  offset: 0, 0
+  index: -1
+new-lobby/lobby_listview
+  rotate: false
+  xy: 115, 8
+  size: 12, 12
+  split: 4, 4, 4, 4
+  pad: 0, 0, 0, 0
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+new-lobby/lobby_user_info
+  rotate: false
+  xy: 115, 57
+  size: 13, 13
+  split: 5, 5, 5, 5
+  pad: 0, 0, 0, 0
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+new-lobby/tab_title
+  rotate: false
+  xy: 178, 113
+  size: 16, 11
+  split: 6, 6, 6, 1
+  pad: 0, 0, 0, 0
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+new-lobby/unselect_tab_title
+  rotate: false
+  xy: 152, 88
+  size: 16, 11
+  split: 6, 6, 6, 1
+  pad: 0, 0, 0, 0
+  orig: 16, 11
+  offset: 0, 0
+  index: -1
+
+otherscreen4.png
+size: 128,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pickroom-screen/back
+  rotate: false
+  xy: 45, 4
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+pickroom-screen/bkg_lefttable
+  rotate: false
+  xy: 125, 24
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+pickroom-screen/bkg_mainbar
+  rotate: false
+  xy: 61, 13
+  size: 14, 13
+  split: 7, 6, 6, 6
+  pad: 4, 4, 4, 4
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+pickroom-screen/bottomline
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+pickroom-screen/btn_kinhlup
+  rotate: false
+  xy: 25, 7
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+pickroom-screen/ico_conguoi
+  rotate: false
+  xy: 61, 4
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+pickroom-screen/ico_dauhang
+  rotate: false
+  xy: 77, 15
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+pickroom-screen/ico_hoa
+  rotate: false
+  xy: 89, 15
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+pickroom-screen/ico_khongnguoi
+  rotate: false
+  xy: 68, 4
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+pickroom-screen/ico_lock
+  rotate: false
+  xy: 1, 4
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+pickroom-screen/ico_thang
+  rotate: false
+  xy: 101, 15
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+pickroom-screen/ico_thua
+  rotate: false
+  xy: 113, 15
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+
+otherscreen5.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+topup-screen/bg_blur
+  rotate: false
+  xy: 257, 94
+  size: 90, 56
+  orig: 90, 56
+  offset: 0, 0
+  index: -1
+topup-screen/bg_nap
+  rotate: false
+  xy: 368, 47
+  size: 13, 12
+  split: 3, 4, 3, 4
+  pad: 0, 0, 0, 0
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+topup-screen/bg_nap_highlight
+  rotate: false
+  xy: 394, 78
+  size: 16, 13
+  split: 5, 5, 3, 4
+  pad: 0, 0, 0, 0
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+topup-screen/bkg_do
+  rotate: false
+  xy: 233, 30
+  size: 22, 168
+  split: 8, 8, 9, 11
+  pad: 2, 2, 3, 3
+  orig: 22, 168
+  offset: 0, 0
+  index: -1
+topup-screen/bkg_mopay
+  rotate: false
+  xy: 380, 93
+  size: 33, 35
+  split: 16, 16, 17, 17
+  pad: 8, 8, 8, 7
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+topup-screen/card_coin_done
+  rotate: false
+  xy: 351, 170
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+topup-screen/check
+  rotate: false
+  xy: 349, 100
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+topup-screen/chon_mang_front_ground
+  rotate: false
+  xy: 255, 214
+  size: 158, 33
+  orig: 158, 33
+  offset: 0, 0
+  index: -1
+topup-screen/coin
+  rotate: false
+  xy: 257, 45
+  size: 55, 47
+  orig: 55, 47
+  offset: 0, 0
+  index: -1
+topup-screen/dongwin_inapp
+  rotate: false
+  xy: 1, 75
+  size: 123, 123
+  orig: 123, 123
+  offset: 0, 0
+  index: -1
+topup-screen/hight_light_nha_mang
+  rotate: false
+  xy: 1, 6
+  size: 99, 67
+  orig: 99, 67
+  offset: 0, 0
+  index: -1
+topup-screen/ico_khuyenmai
+  rotate: false
+  xy: 158, 20
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+topup-screen/ico_promotion
+  rotate: false
+  xy: 314, 44
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: -1
+topup-screen/ico_win
+  rotate: false
+  xy: 208, 20
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+topup-screen/img_bg_line
+  rotate: false
+  xy: 255, 249
+  size: 226, 1
+  orig: 226, 1
+  offset: 0, 0
+  index: -1
+topup-screen/img_table
+  rotate: false
+  xy: 126, 68
+  size: 105, 130
+  orig: 105, 130
+  offset: 0, 0
+  index: -1
+topup-screen/in_app
+  rotate: false
+  xy: 102, 6
+  size: 44, 14
+  orig: 44, 14
+  offset: 0, 0
+  index: -1
+topup-screen/loaddefaultlon
+  rotate: false
+  xy: 257, 152
+  size: 92, 60
+  orig: 92, 60
+  offset: 0, 0
+  index: -1
+topup-screen/loaddefaultnho
+  rotate: false
+  xy: 301, 1
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+topup-screen/lock
+  rotate: false
+  xy: 344, 2
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+topup-screen/mask
+  rotate: false
+  xy: 1, 200
+  size: 252, 50
+  split: 45, 38, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 252, 50
+  offset: 0, 0
+  index: -1
+topup-screen/muiten
+  rotate: false
+  xy: 401, 148
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+topup-screen/napthe_dongwin
+  rotate: false
+  xy: 257, 1
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+topup-screen/napthe_vongcung
+  rotate: false
+  xy: 351, 130
+  size: 48, 38
+  split: 47, 0, 0, 37
+  pad: 14, 0, 0, 9
+  orig: 48, 38
+  offset: 0, 0
+  index: -1
+topup-screen/pack_bg
+  rotate: false
+  xy: 401, 130
+  size: 11, 16
+  split: 3, 4, 5, 5
+  pad: 0, 0, 0, 0
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+topup-screen/red_bg_button
+  rotate: false
+  xy: 368, 61
+  size: 30, 9
+  split: 0, 3, 2, 3
+  pad: 0, 0, 0, 0
+  orig: 30, 9
+  offset: 0, 0
+  index: -1
+topup-screen/ruby
+  rotate: false
+  xy: 102, 22
+  size: 54, 44
+  orig: 54, 44
+  offset: 0, 0
+  index: -1
+topup-screen/ruby_don
+  rotate: false
+  xy: 368, 72
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+topup-screen/top_up
+  rotate: false
+  xy: 415, 216
+  size: 71, 31
+  orig: 71, 31
+  offset: 0, 0
+  index: -1
+topup-screen/up
+  rotate: false
+  xy: 208, 43
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+
+otherscreen6.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+winfree-screen/ani_bom
+  rotate: false
+  xy: 77, 99
+  size: 114, 25
+  orig: 114, 25
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_btn_thanhtoan
+  rotate: false
+  xy: 189, 41
+  size: 99, 25
+  split: 36, 35, 6, 6
+  orig: 99, 25
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_btndoithuong_off
+  rotate: false
+  xy: 77, 69
+  size: 110, 28
+  split: 12, 1, 0, 28
+  pad: 12, 1, -1, -1
+  orig: 110, 28
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_btndoithuong_on
+  rotate: false
+  xy: 193, 97
+  size: 111, 27
+  split: 42, 42, 0, 27
+  pad: 42, 42, -1, -1
+  orig: 111, 27
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_btnlichsu_off
+  rotate: false
+  xy: 77, 39
+  size: 110, 28
+  split: 1, 13, 0, 28
+  pad: 1, 13, -1, -1
+  orig: 110, 28
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_btnlichsu_on
+  rotate: false
+  xy: 189, 68
+  size: 111, 27
+  split: 42, 42, 0, 27
+  pad: 42, 42, -1, -1
+  orig: 111, 27
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_item_price
+  rotate: false
+  xy: 69, 17
+  size: 68, 20
+  split: 0, 0, 1, 1
+  orig: 68, 20
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_price
+  rotate: false
+  xy: 1, 15
+  size: 66, 33
+  split: 6, 6, 24, 6
+  orig: 66, 33
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_tab_middle_off
+  rotate: false
+  xy: 306, 96
+  size: 86, 28
+  orig: 86, 28
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_tab_middle_on
+  rotate: false
+  xy: 302, 66
+  size: 86, 28
+  orig: 86, 28
+  offset: 0, 0
+  index: -1
+winfree-screen/bg_textfield_doithuong
+  rotate: false
+  xy: 189, 11
+  size: 49, 28
+  split: 16, 16, 6, 6
+  pad: 5, 5, 12, 6
+  orig: 49, 28
+  offset: 0, 0
+  index: -1
+winfree-screen/bkg_bom_duoi
+  rotate: false
+  xy: 394, 46
+  size: 56, 50
+  split: 32, 23, 24, 25
+  orig: 56, 50
+  offset: 0, 0
+  index: -1
+winfree-screen/bkg_bom_tren
+  rotate: false
+  xy: 357, 2
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+winfree-screen/bkg_circle
+  rotate: false
+  xy: 1, 50
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+winfree-screen/bkg_cuocchap_phanloai_giai_tren
+  rotate: false
+  xy: 1, 7
+  size: 9, 6
+  split: 1, 2, 1, 1
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+winfree-screen/bkg_ruybang_do
+  rotate: false
+  xy: 394, 98
+  size: 92, 29
+  split: 14, 13, 13, 15
+  pad: 14, 13, 0, 0
+  orig: 92, 29
+  offset: 0, 0
+  index: -1
+winfree-screen/buttonblue
+  rotate: false
+  xy: 69, 1
+  size: 42, 14
+  split: 5, 5, 4, 5
+  pad: 0, 0, 0, 0
+  orig: 42, 14
+  offset: 0, 0
+  index: -1
+winfree-screen/buttondo
+  rotate: false
+  xy: 113, 1
+  size: 42, 14
+  split: 5, 5, 4, 5
+  pad: 0, 0, 0, 0
+  orig: 42, 14
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_banh_default
+  rotate: false
+  xy: 401, 2
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_cam
+  rotate: false
+  xy: 488, 109
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_checklist_checked
+  rotate: false
+  xy: 240, 15
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_checklist_uncheck
+  rotate: false
+  xy: 266, 15
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_dongwin_ruybang_do
+  rotate: false
+  xy: 290, 42
+  size: 65, 22
+  orig: 65, 22
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_iwin_close
+  rotate: false
+  xy: 139, 17
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_radio_checked
+  rotate: false
+  xy: 292, 16
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_radio_uncheck
+  rotate: false
+  xy: 318, 16
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+winfree-screen/ico_tatca_cactran
+  rotate: false
+  xy: 452, 30
+  size: 48, 66
+  orig: 48, 66
+  offset: 0, 0
+  index: -1
+winfree-screen/line_doithuong
+  rotate: false
+  xy: 1, 126
+  size: 385, 1
+  split: 0, 0, 0, 1
+  pad: 0, 0, -1, -1
+  orig: 385, 1
+  offset: 0, 0
+  index: -1
+winfree-screen/ruybang_bom
+  rotate: false
+  xy: 357, 48
+  size: 32, 16
+  split: 14, 13, 6, 6
+  pad: 9, 4, 1, 1
+  orig: 32, 16
+  offset: 0, 0
+  index: -1

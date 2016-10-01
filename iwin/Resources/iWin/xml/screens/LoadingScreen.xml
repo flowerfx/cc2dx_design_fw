@@ -1,0 +1,271 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<MenuWidget name="loading_screen" 	designSize="960_540">
+			<fade_process max_idx_first="1">
+				<sound_click value="SFX_CLICK_4" delayTime="0.1" loop ="1"/>
+				<time_process id="0" val="1.5">
+					<sound FadeIn="SFX_APPEAR_1" FadeOut="" delayTime="0.125" loop ="1"/>
+				</time_process>
+				<time_process id="1" val="0.35">
+					<sound FadeIn="SFX_MENU_SHOW" FadeOut="SFX_MENU_HIDE" delayTime="0.155" loop ="1"/>
+				</time_process>
+				<time_process id="2" val="0.35">
+					<sound FadeIn="SFX_MENU_SHOW" FadeOut="SFX_MENU_HIDE" delayTime="0.155" loop ="1"/>
+				</time_process>
+			</fade_process>
+			
+			<Widget id="0" typeRes="layer_widget" name="background" idx_appear ="0">
+				<common_value>
+					<common			name="stick_screen"		value="1"/>
+					<common			name="casca_opacity"	value="0"/>
+				</common_value>
+						
+				<Widget id="0" typeRes="panel" name = "background_texture" idx_appear ="1">		
+					<common_value>
+						<common 		name="source" 		value="background/loadingbg.png"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="0"/>
+						<common			name="anchor_point"	value="0_0.5"/>
+						<common			name="state_scale"		value="1"/>
+					</common_value>
+					<pos 		origin = "0_270" 	/>
+					<Size 		origin = "960_640" 	/>
+					<opacity	origin = "245"		/>
+				</Widget>
+				<pos 		origin = "480_270" 	/>
+				<Size 		origin = "960_540" 	/>	
+			</Widget>
+			
+			<Widget id="1" typeRes="layer_widget" name="loading_screen" idx_appear ="0">
+				<common_value>
+					<common			name="stick_screen"		value="0"/>
+				</common_value>
+				
+				<Widget id="0" typeRes="panel" 	name = "logo_iwin" idx_appear ="1">		
+					<common_value>
+						<common 		name="source" 		value="logo/loading_logo.png"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"		value="0"/>
+						<common			name="anchor_point"		value="1_1"/>
+					</common_value>
+					
+					
+					<pos 		origin = "800_476" 	/>
+					<Size 		origin = "163_135" 	/>
+				</Widget>			
+					
+				<Widget id="1" typeRes="font" 	name = "loading_txt" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="Phiên bản 5.0.5"/>					
+							<common    		name="font_idx"			value="0"/>	
+							<common			name="anchor_point"		value="0.5_1"/>
+							<common			name="stick_screen"		value="0"/>
+							<common			name="bitmap_font"  	value="1"/>
+						</common_value>
+						<pos 		origin = "480_110" 	/>
+						<Size 		origin = "20_20" 	/>
+				</Widget>
+				
+				<Widget id="2" typeRes="layout" name = "loading_process" idx_appear ="1">		
+					<common_value>				
+						<common			name="anchor_point"		value="0.5_1"/>
+						<common			name="stick_screen"		value="0"/>
+					</common_value>
+					
+					<Widget id="0" typeRes="panel" 	name = "ld_1"   idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "0_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="1" typeRes="panel" 	name = "ld_1_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "0_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					
+					<Widget id="0" typeRes="panel" 	name = "ld_2"   idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "12_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="1" typeRes="panel" 	name = "ld_2_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "12_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					
+					<Widget id="0" typeRes="panel" 	name = "ld_3" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "24_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="0" typeRes="panel" 	name = "ld_3_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "24_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					
+					<Widget id="0" typeRes="panel" 	name = "ld_4" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "36_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="1" typeRes="panel" 	name = "ld_4_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "36_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+									
+					<Widget id="0" typeRes="panel" 	name = "ld_5" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "48_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="1" typeRes="panel" 	name = "ld_5_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "48_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					
+					<Widget id="0" typeRes="panel" 	name = "ld_6" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "60_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="1" typeRes="panel" 	name = "ld_6_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "60_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					
+					<Widget id="0" typeRes="panel" 	name = "ld_7" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "72_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="1" typeRes="panel" 	name = "ld_7_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "72_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					
+					<Widget id="0" typeRes="panel" 	name = "ld_8" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_1.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "84_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					<Widget id="1" typeRes="panel" 	name = "ld_8_0" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 			value="loadingscreen/load_2.png"/>					
+							<common			name="anchor_point"		value="0_0"/>
+							<common			name="stick_screen"		value="0"/>
+						</common_value>
+						<pos 		origin = "84_0" 	/>
+						<Size 		origin = "9_9" 	/>
+					</Widget>
+					
+					<pos 		origin = "480_80" 	/>
+					<Size 		origin = "91_9" 	/>
+				</Widget>
+			
+				<Widget id="3" typeRes="panel"  name = "sep_1" idx_appear ="1">		
+					<common_value>
+						<common 		name="source" 		value="loadingscreen/sep.png"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="0"/>
+						<common			name="anchor_point"		value="0.5_1"/>
+					</common_value>
+					<pos 		origin = "480_50" 	/>
+					<Size 		origin = "180_30" 	/>
+				</Widget>
+				
+				<Widget id="4" typeRes="panel"  name = "sep_2" idx_appear ="1">		
+					<common_value>
+						<common 		name="source" 		value="loadingscreen/sep.png"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="0"/>
+						<common			name="anchor_point"		value="0.5_0"/>
+					</common_value>
+					<pos 		origin = "480_55" 	/>
+					<Size 		origin = "180_30" 	/>
+					<rotate 	origin = "180" 	/>
+				</Widget>
+				
+				<Widget id="2" typeRes="font" 	name = "copyright_loading_txt" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="Bản quyền @ 2016 www.iWin.me"/>					
+							<common    		name="font_idx"			value="0"/>	
+							<common			name="anchor_point"		value="0.5_0"/>
+							<common			name="bitmap_font"  	value="1"/>
+						</common_value>
+						<pos 		origin = "480_5" 			/>
+						<Size 		origin = "18_18" 			/>
+						<color		origin = "200_200_200_255" 	/>
+				</Widget>
+					
+				<pos 		origin = "480_270" 	/>
+				<Size 		origin = "960_540" 	/>	
+			</Widget>
+			
+	</MenuWidget>
+</GAME>

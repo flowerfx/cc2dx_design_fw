@@ -1,0 +1,632 @@
+<GAME>
+	<texture>
+		<texture_atlas id="0" fit_size="320_240" range_size_x="-1_399" >
+			<tex id="0" name="atlas_GUI" 		endfix=".png">
+				<path id="0" atlas_path="atlas\240320\uiskin.atlas" 		name=""					global_path="atlas\240320\"/>
+			</tex>	
+			<tex id="1" name="atlas_Init" 		endfix=".png">
+				<path id="0" atlas_path="atlas\240320\background.atlas" 	name="background/" 		global_path="atlas\240320\"/>
+				<path id="1" atlas_path="atlas\240320\loadingscreen.atlas"  name="loadingscreen/" 	global_path="atlas\240320\"/>
+				<path id="2" atlas_path="atlas\240320\loginscreen.atlas" 	name="loginscreen/"		global_path="atlas\240320\"/>
+				<path id="3" atlas_path="atlas\240320\logo.atlas" 			name="logo/"			global_path="atlas\240320\"/>
+				<path id="4" atlas_path="atlas\240320\mainscreen.atlas"  	name="mainscreen/"		global_path="atlas\240320\"/>
+				<path id="5" atlas_path="atlas\240320\otherscreen.atlas" 	name="otherscreen/"		global_path="atlas\240320\"/>
+			</tex>
+			<tex id="2" name="atlas_main" 		endfix=".png">
+				<path id="0" atlas_path="atlas\240320\gamescreen-game-common.atlas" 		name="gamescreen-game-common/"			global_path="atlas\240320\"/>
+				<path id="1" atlas_path="atlas\240320\gamescreen-newgui-game-common.atlas" 	name="gamescreen-newgui-game-common/"	global_path="atlas\240320\"/>
+				<path id="2" atlas_path="atlas\240320\gamescreen-tienlen-screen.atlas" name="gamescreen-tienlen-screen/"			global_path="atlas\240320\"/>		
+			</tex>		
+			
+			<tex id="3"  name="atlas_card" 		endfix=".png">
+				<path id="0" atlas_path="atlas\240320\gamescreen-Cards.atlas" 			name="gamescreen-Cards/"			global_path="atlas\240320\"/>
+			</tex>
+			<tex id="4"  name="atlas_binh" 		endfix=".png">
+				<path id="0" atlas_path="atlas\240320\gamescreen-binh-screen.atlas" 	name="gamescreen-binh-screen/"		global_path="atlas\240320\"/>
+			</tex>
+			<tex id="5"  name="atlas_baucua" 	endfix=".png">
+				<path id="0" atlas_path="atlas\240320\gamescreen-baucua-screen.atlas" 	name="gamescreen-baucua-screen/"	global_path="atlas\240320\"/>
+			</tex>
+			<tex id="6"  name="atlas_caro" 		endfix=".png">
+				<path id="3" atlas_path="atlas\240320\gamescreen-caro-screen.atlas" 	name="gamescreen-caro-screen/"		global_path="atlas\240320\"/>
+			</tex>
+			<tex id="7"  name="atlas_cotuong" 	endfix=".png">
+				<path id="4" atlas_path="atlas\240320\gamescreen-cotuong-screen.atlas" 	name="gamescreen-cotuong-screen/"	global_path="atlas\240320\"/>
+			</tex>
+			<tex id="8"  name="atlas_covua" 	endfix=".png">
+				<path id="5" atlas_path="atlas\240320\gamescreen-covua-screen.atlas" 	name="gamescreen-covua-screen/"		global_path="atlas\240320\"/>
+			</tex>
+			<tex id="9"  name="atlas_cuocchap" 	endfix=".png">
+				<path id="6" atlas_path="atlas\240320\gamescreen-cuocchap-screen.atlas" name="gamescreen-cuocchap-screen/"	global_path="atlas\240320\"/>
+			</tex>
+			<tex id="10" name="atlas_domino" 	endfix=".png">
+				<path id="7" atlas_path="atlas\240320\gamescreen-domino-screen.atlas" 	name="gamescreen-domino-screen/"	global_path="atlas\240320\"/>
+			</tex>
+			<tex id="11" name="atlas_poker" 	endfix=".png">
+				<path id="8" atlas_path="atlas\240320\gamescreen-poker-screen.atlas" 	name="gamescreen-poker-screen/"		global_path="atlas\240320\"/>
+			</tex>
+			<tex id="12" name="atlas_teris" 	endfix=".png">
+				<path id="9" atlas_path="atlas\240320\gamescreen-tetris-screen.atlas" 	name="gamescreen-tetris-screen/"	global_path="atlas\240320\"/>
+			</tex>
+			<tex id="13" name="atlas_tuxi" 		endfix=".png">
+				<path id="10" atlas_path="atlas\240320\gamescreen-tuxi-screen.atlas" 	name="gamescreen-tuxi-screen/"		global_path="atlas\240320\"/>
+			</tex>		
+			
+			<tex id="14" name="frame_sheet">
+				<path id="0" tex_path="frame-sheet\240320\fx_particle_saowin.png" name="sao_win">
+					<texture id="0"	name="sao_win">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="10_4"/>
+						<common name="end_idx" 		value="30"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="0"/>
+					</texture>
+				</path>
+				<path id="1" tex_path="frame-sheet\240320\ico_nhat.png" name="ico_nhat">
+					<texture id="0"	name="ico_nhat">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="10_3"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+				<path id="2" tex_path="frame-sheet\240320\ico_nhi.png" name="ico_nhi">
+					<texture id="0"	name="ico_nhi">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="10_3"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+				<path id="3" tex_path="frame-sheet\240320\ico_ba.png" name="ico_ba">
+					<texture id="0"	name="ico_ba">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="10_3"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+				<path id="4" tex_path="frame-sheet\240320\ico_bon.png" name="ico_tu">
+					<texture id="0"	name="ico_tu">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="10_3"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+			</tex>
+			<font>
+				<fontdetail id="0" namepath="fonts\default.ttf" name="def">
+					<default size="14" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\HelveticaNeue-Regular.ttf" name="hel">
+					<default size="15" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				
+				<fontdetail id="0" 	namepath="fonts\240320\default.fnt" 			name="def_bitmap">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\240320\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\240320\hel_def.fnt" 		name="def_hel">
+					<default size="20" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\240320\xanhla.fnt" 				name="xanhla">
+					<default size="11" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\240320\trang.fnt" 				name="trang">
+					<default size="11" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\240320\titleFont.fnt" 			name="titleFont">
+					<default size="16" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\240320\timeFont.fnt" 			name="timeFont">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\240320\small.fnt" 				name="small">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\240320\numberFont.fnt" 			name="numberFont">
+					<default size="40" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\240320\medium.fnt" 				name="medium">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\240320\emotions.fnt" 			name="emotions">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\240320\defaultBold.fnt" 		name="defaultBold">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\240320\cam.fnt" 				name="cam">
+					<default size="11" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\240320\boderFont.fnt" 			name="boderFont">
+					<default size="8" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			
+			</font>
+		</texture_atlas>	
+		<texture_atlas id="1" fit_size="480_320" range_size_x="400_639" >
+			<tex id="0" name="atlas_GUI" 		endfix=".png">
+				<path id="0" atlas_path="atlas\320480\uiskin.atlas" 		name=""					global_path="atlas\320480\"/>
+			</tex>	
+			<tex id="1" name="atlas_Init" 		endfix=".png">
+				<path id="0" atlas_path="atlas\320480\background.atlas" 	name="background/" 		global_path="atlas\320480\"/>
+				<path id="1" atlas_path="atlas\320480\loadingscreen.atlas"  name="loadingscreen/" 	global_path="atlas\320480\"/>
+				<path id="2" atlas_path="atlas\320480\loginscreen.atlas" 	name="loginscreen/"		global_path="atlas\320480\"/>
+				<path id="3" atlas_path="atlas\320480\logo.atlas" 			name="logo/"			global_path="atlas\320480\"/>
+				<path id="4" atlas_path="atlas\320480\mainscreen.atlas"  	name="mainscreen/"		global_path="atlas\320480\"/>
+				<path id="5" atlas_path="atlas\320480\otherscreen.atlas" 	name="otherscreen/"		global_path="atlas\320480\"/>
+			</tex>
+			<tex id="2" name="atlas_main" 		endfix=".png">
+				<path id="0" atlas_path="atlas\320480\gamescreen-game-common.atlas" 		name="gamescreen-game-common/"			global_path="atlas\320480\"/>
+				<path id="1" atlas_path="atlas\320480\gamescreen-newgui-game-common.atlas" 	name="gamescreen-newgui-game-common/"	global_path="atlas\320480\"/>
+				<path id="2" atlas_path="atlas\320480\gamescreen-tienlen-screen.atlas" name="gamescreen-tienlen-screen/"			global_path="atlas\320480\"/>		
+			</tex>		
+			
+			<tex id="3"  name="atlas_card" 		endfix=".png">
+				<path id="0" atlas_path="atlas\320480\gamescreen-Cards.atlas" 			name="gamescreen-Cards/"			global_path="atlas\320480\"/>
+			</tex>
+			<tex id="4"  name="atlas_binh" 		endfix=".png">
+				<path id="0" atlas_path="atlas\320480\gamescreen-binh-screen.atlas" 	name="gamescreen-binh-screen/"		global_path="atlas\320480\"/>
+			</tex>
+			<tex id="5"  name="atlas_baucua" 	endfix=".png">
+				<path id="0" atlas_path="atlas\320480\gamescreen-baucua-screen.atlas" 	name="gamescreen-baucua-screen/"	global_path="atlas\320480\"/>
+			</tex>
+			<tex id="6"  name="atlas_caro" 		endfix=".png">
+				<path id="3" atlas_path="atlas\320480\gamescreen-caro-screen.atlas" 	name="gamescreen-caro-screen/"		global_path="atlas\320480\"/>
+			</tex>
+			<tex id="7"  name="atlas_cotuong" 	endfix=".png">
+				<path id="4" atlas_path="atlas\320480\gamescreen-cotuong-screen.atlas" 	name="gamescreen-cotuong-screen/"	global_path="atlas\320480\"/>
+			</tex>
+			<tex id="8"  name="atlas_covua" 	endfix=".png">
+				<path id="5" atlas_path="atlas\320480\gamescreen-covua-screen.atlas" 	name="gamescreen-covua-screen/"		global_path="atlas\320480\"/>
+			</tex>
+			<tex id="9"  name="atlas_cuocchap" 	endfix=".png">
+				<path id="6" atlas_path="atlas\320480\gamescreen-cuocchap-screen.atlas" name="gamescreen-cuocchap-screen/"	global_path="atlas\320480\"/>
+			</tex>
+			<tex id="10" name="atlas_domino" 	endfix=".png">
+				<path id="7" atlas_path="atlas\320480\gamescreen-domino-screen.atlas" 	name="gamescreen-domino-screen/"	global_path="atlas\320480\"/>
+			</tex>
+			<tex id="11" name="atlas_poker" 	endfix=".png">
+				<path id="8" atlas_path="atlas\320480\gamescreen-poker-screen.atlas" 	name="gamescreen-poker-screen/"		global_path="atlas\320480\"/>
+			</tex>
+			<tex id="12" name="atlas_teris" 	endfix=".png">
+				<path id="9" atlas_path="atlas\320480\gamescreen-tetris-screen.atlas" 	name="gamescreen-tetris-screen/"	global_path="atlas\320480\"/>
+			</tex>
+			<tex id="13" name="atlas_tuxi" 		endfix=".png">
+				<path id="10" atlas_path="atlas\320480\gamescreen-tuxi-screen.atlas" 	name="gamescreen-tuxi-screen/"		global_path="atlas\320480\"/>
+			</tex>		
+			
+			<tex id="14" name="frame_sheet">
+				<path id="0" tex_path="frame-sheet\320480\fx_particle_saowin.png" name="sao_win">
+					<texture id="0"	name="sao_win">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_7"/>
+						<common name="end_idx" 		value="30"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="0"/>
+					</texture>
+				</path>
+				<path id="1" tex_path="frame-sheet\320480\ico_nhat.png" name="ico_nhat">
+					<texture id="0"	name="ico_nhat">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="8_4"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+				<path id="2" tex_path="frame-sheet\320480\ico_nhi.png" name="ico_nhi">
+					<texture id="0"	name="ico_nhi">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="8_4"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+				<path id="3" tex_path="frame-sheet\320480\ico_ba.png" name="ico_ba">
+					<texture id="0"	name="ico_ba">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="8_4"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+				<path id="4" tex_path="frame-sheet\320480\ico_bon.png" name="ico_tu">
+					<texture id="0"	name="ico_tu">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="8_4"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>						
+					</texture>
+				</path>
+			</tex>
+			<font>
+				<fontdetail id="0" namepath="fonts\default.ttf" name="def">
+					<default size="16" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\HelveticaNeue-Regular.ttf" name="hel">
+					<default size="18" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				
+				<fontdetail id="0" 	namepath="fonts\320480\default.fnt" 			name="SF_lig_bmp">
+					<default size="16" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\320480\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="18" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\320480\hel_def.fnt" 		name="def_hel">
+					<default size="18" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\320480\xanhla.fnt" 				name="xanhla">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\320480\trang.fnt" 				name="trang">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\320480\titleFont.fnt" 			name="titleFont">
+					<default size="20" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\320480\timeFont.fnt" 			name="timeFont">
+					<default size="40" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\320480\small.fnt" 				name="small">
+					<default size="12" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\320480\numberFont.fnt" 			name="numberFont">
+					<default size="54" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\320480\medium.fnt" 				name="medium">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\320480\emotions.fnt" 			name="emotions">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\320480\defaultBold.fnt" 		name="defaultBold">
+					<default size="16" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\320480\cam.fnt" 				name="cam">
+					<default size="15" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\320480\boderFont.fnt" 			name="boderFont">
+					<default size="10" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			
+			</font>
+		</texture_atlas>
+		<texture_atlas id="2" fit_size="800_480" range_size_x="640_879">
+			<tex id="0" name="atlas_GUI" 		endfix=".png">
+				<path id="0" atlas_path="atlas\480800\uiskin.atlas" 		name=""					global_path="atlas\480800\"/>
+			</tex>	
+			<tex id="1" name="atlas_Init" 		endfix=".png">
+				<path id="0" atlas_path="atlas\480800\background.atlas" 	name="background/" 		global_path="atlas\480800\"/>
+				<path id="1" atlas_path="atlas\480800\loadingscreen.atlas"  name="loadingscreen/" 	global_path="atlas\480800\"/>
+				<path id="2" atlas_path="atlas\480800\loginscreen.atlas" 	name="loginscreen/"		global_path="atlas\480800\"/>
+				<path id="3" atlas_path="atlas\480800\logo.atlas" 			name="logo/"			global_path="atlas\480800\"/>
+				<path id="4" atlas_path="atlas\480800\mainscreen.atlas"  	name="mainscreen/"		global_path="atlas\480800\"/>
+				<path id="5" atlas_path="atlas\480800\otherscreen.atlas" 	name="otherscreen/"		global_path="atlas\480800\"/>
+			</tex>
+			<tex id="2" name="atlas_main" 		endfix=".png">
+				<path id="0" atlas_path="atlas\480800\gamescreen-game-common.atlas" 		name="gamescreen-game-common/"			global_path="atlas\480800\"/>
+				<path id="1" atlas_path="atlas\480800\gamescreen-newgui-game-common.atlas" 	name="gamescreen-newgui-game-common/"	global_path="atlas\480800\"/>
+				<path id="2" atlas_path="atlas\480800\gamescreen-tienlen-screen.atlas" name="gamescreen-tienlen-screen/"			global_path="atlas\480800\"/>		
+			</tex>		
+			
+			<tex id="3"  name="atlas_card" 		endfix=".png">
+				<path id="0" atlas_path="atlas\480800\gamescreen-Cards.atlas" 			name="gamescreen-Cards/"			global_path="atlas\480800\"/>
+			</tex>
+			<tex id="4"  name="atlas_binh" 		endfix=".png">
+				<path id="0" atlas_path="atlas\480800\gamescreen-binh-screen.atlas" 	name="gamescreen-binh-screen/"		global_path="atlas\480800\"/>
+			</tex>
+			<tex id="5"  name="atlas_baucua" 	endfix=".png">
+				<path id="0" atlas_path="atlas\480800\gamescreen-baucua-screen.atlas" 	name="gamescreen-baucua-screen/"	global_path="atlas\480800\"/>
+			</tex>
+			<tex id="6"  name="atlas_caro" 		endfix=".png">
+				<path id="3" atlas_path="atlas\480800\gamescreen-caro-screen.atlas" 	name="gamescreen-caro-screen/"		global_path="atlas\480800\"/>
+			</tex>
+			<tex id="7"  name="atlas_cotuong" 	endfix=".png">
+				<path id="4" atlas_path="atlas\480800\gamescreen-cotuong-screen.atlas" 	name="gamescreen-cotuong-screen/"	global_path="atlas\480800\"/>
+			</tex>
+			<tex id="8"  name="atlas_covua" 	endfix=".png">
+				<path id="5" atlas_path="atlas\480800\gamescreen-covua-screen.atlas" 	name="gamescreen-covua-screen/"		global_path="atlas\480800\"/>
+			</tex>
+			<tex id="9"  name="atlas_cuocchap" 	endfix=".png">
+				<path id="6" atlas_path="atlas\480800\gamescreen-cuocchap-screen.atlas" name="gamescreen-cuocchap-screen/"	global_path="atlas\480800\"/>
+			</tex>
+			<tex id="10" name="atlas_domino" 	endfix=".png">
+				<path id="7" atlas_path="atlas\480800\gamescreen-domino-screen.atlas" 	name="gamescreen-domino-screen/"	global_path="atlas\480800\"/>
+			</tex>
+			<tex id="11" name="atlas_poker" 	endfix=".png">
+				<path id="8" atlas_path="atlas\480800\gamescreen-poker-screen.atlas" 	name="gamescreen-poker-screen/"		global_path="atlas\480800\"/>
+			</tex>
+			<tex id="12" name="atlas_teris" 	endfix=".png">
+				<path id="9" atlas_path="atlas\480800\gamescreen-tetris-screen.atlas" 	name="gamescreen-tetris-screen/"	global_path="atlas\480800\"/>
+			</tex>
+			<tex id="13" name="atlas_tuxi" 		endfix=".png">
+				<path id="10" atlas_path="atlas\480800\gamescreen-tuxi-screen.atlas" 	name="gamescreen-tuxi-screen/"		global_path="atlas\480800\"/>
+			</tex>
+			
+			<tex id="14" name="frame_sheet">
+				<path id="0" tex_path="frame-sheet\480800\fx_particle_saowin.png" name="sao_win">
+					<texture id="0"	name="sao_win">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="6_6"/>
+						<common name="end_idx" 		value="29"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="0"/>
+					</texture>
+				</path>
+				<path id="1" tex_path="frame-sheet\480800\ico_nhat.png" name="ico_nhat">
+					<texture id="0"	name="ico_nhat">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>						
+					</texture>
+				</path>
+				<path id="2" tex_path="frame-sheet\480800\ico_nhi.png" name="ico_nhi">
+					<texture id="0"	name="ico_nhi">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>						
+					</texture>
+				</path>
+				<path id="3" tex_path="frame-sheet\480800\ico_ba.png" name="ico_ba">
+					<texture id="0"	name="ico_ba">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="25"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="25"/>						
+					</texture>
+				</path>
+				<path id="4" tex_path="frame-sheet\480800\ico_bon.png" name="ico_tu">
+					<texture id="0"	name="ico_tu">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+			</tex>
+			
+			<font>
+				<fontdetail id="0" namepath="fonts\default.ttf" name="def">
+					<default size="20" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\HelveticaNeue-Regular.ttf" name="hel">
+					<default size="22" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>	
+				
+				<fontdetail id="0" 	namepath="fonts\480800\default.fnt" 			name="def_bitmap">
+					<default size="20" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\480800\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="24" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\480800\hel_def.fnt" 		name="def_hel">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\480800\xanhla.fnt" 				name="xanhla">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\480800\trang.fnt" 				name="trang">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\480800\titleFont.fnt" 			name="titleFont">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\480800\timeFont.fnt" 			name="timeFont">
+					<default size="54" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\480800\small.fnt" 				name="small">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\480800\numberFont.fnt" 			name="numberFont">
+					<default size="70" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\480800\medium.fnt" 				name="medium">
+					<default size="16" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\480800\emotions.fnt" 			name="emotions">
+					<default size="17" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\480800\defaultBold.fnt" 		name="defaultBold">
+					<default size="20" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\480800\cam.fnt" 				name="cam">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\480800\boderFont.fnt" 			name="boderFont">
+					<default size="14" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			</font>
+		</texture_atlas>
+		<texture_atlas id="3" fit_size="960_640" range_size_x="880_-1">
+			<tex id="0" name="atlas_GUI" 		endfix=".png">
+				<path id="0" atlas_path="atlas\640960\uiskin.atlas" 		name=""					global_path="atlas\640960\"/>
+			</tex>	
+			<tex id="1" name="atlas_Init" 		endfix=".png">
+				<path id="0" atlas_path="atlas\640960\background.atlas" 	name="background/" 		global_path="atlas\640960\"/>
+				<path id="1" atlas_path="atlas\640960\loadingscreen.atlas"  name="loadingscreen/" 	global_path="atlas\640960\"/>
+				<path id="2" atlas_path="atlas\640960\loginscreen.atlas" 	name="loginscreen/"		global_path="atlas\640960\"/>
+				<path id="3" atlas_path="atlas\640960\logo.atlas" 			name="logo/"			global_path="atlas\640960\"/>
+				<path id="4" atlas_path="atlas\640960\mainscreen.atlas"  	name="mainscreen/"		global_path="atlas\640960\"/>
+				<path id="5" atlas_path="atlas\640960\otherscreen.atlas" 	name="otherscreen/"		global_path="atlas\640960\"/>
+			</tex>
+			<tex id="2" name="atlas_main" 		endfix=".png">
+				<path id="0" atlas_path="atlas\640960\gamescreen-game-common.atlas" 		name="gamescreen-game-common/"			global_path="atlas\640960\"/>
+				<path id="1" atlas_path="atlas\640960\gamescreen-newgui-game-common.atlas" 	name="gamescreen-newgui-game-common/"	global_path="atlas\640960\"/>
+				<path id="2" atlas_path="atlas\640960\gamescreen-tienlen-screen.atlas" name="gamescreen-tienlen-screen/"			global_path="atlas\640960\"/>		
+			</tex>		
+			
+			<tex id="3"  name="atlas_card" 		endfix=".png">
+				<path id="0" atlas_path="atlas\640960\gamescreen-Cards.atlas" 			name="gamescreen-Cards/"			global_path="atlas\640960\"/>
+			</tex>
+			<tex id="4"  name="atlas_binh" 		endfix=".png">
+				<path id="0" atlas_path="atlas\640960\gamescreen-binh-screen.atlas" 	name="gamescreen-binh-screen/"		global_path="atlas\640960\"/>
+			</tex>
+			<tex id="5"  name="atlas_baucua" 	endfix=".png">
+				<path id="0" atlas_path="atlas\640960\gamescreen-baucua-screen.atlas" 	name="gamescreen-baucua-screen/"	global_path="atlas\640960\"/>
+			</tex>
+			<tex id="6"  name="atlas_caro" 		endfix=".png">
+				<path id="3" atlas_path="atlas\640960\gamescreen-caro-screen.atlas" 	name="gamescreen-caro-screen/"		global_path="atlas\640960\"/>
+			</tex>
+			<tex id="7"  name="atlas_cotuong" 	endfix=".png">
+				<path id="4" atlas_path="atlas\640960\gamescreen-cotuong-screen.atlas" 	name="gamescreen-cotuong-screen/"	global_path="atlas\640960\"/>
+			</tex>
+			<tex id="8"  name="atlas_covua" 	endfix=".png">
+				<path id="5" atlas_path="atlas\640960\gamescreen-covua-screen.atlas" 	name="gamescreen-covua-screen/"		global_path="atlas\640960\"/>
+			</tex>
+			<tex id="9"  name="atlas_cuocchap" 	endfix=".png">
+				<path id="6" atlas_path="atlas\640960\gamescreen-cuocchap-screen.atlas" name="gamescreen-cuocchap-screen/"	global_path="atlas\640960\"/>
+			</tex>
+			<tex id="10" name="atlas_domino" 	endfix=".png">
+				<path id="7" atlas_path="atlas\640960\gamescreen-domino-screen.atlas" 	name="gamescreen-domino-screen/"	global_path="atlas\640960\"/>
+			</tex>
+			<tex id="11" name="atlas_poker" 	endfix=".png">
+				<path id="8" atlas_path="atlas\640960\gamescreen-poker-screen.atlas" 	name="gamescreen-poker-screen/"		global_path="atlas\640960\"/>
+			</tex>
+			<tex id="12" name="atlas_teris" 	endfix=".png">
+				<path id="9" atlas_path="atlas\640960\gamescreen-tetris-screen.atlas" 	name="gamescreen-tetris-screen/"	global_path="atlas\640960\"/>
+			</tex>
+			<tex id="13" name="atlas_tuxi" 		endfix=".png">
+				<path id="10" atlas_path="atlas\640960\gamescreen-tuxi-screen.atlas" 	name="gamescreen-tuxi-screen/"		global_path="atlas\640960\"/>
+			</tex>		
+			
+			<tex id="14" name="frame_sheet">
+				<path id="0" tex_path="frame-sheet\640960\fx_particle_saowin.png" name="sao_win">
+					<texture id="0"	name="sao_win">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="1760_1932"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="29"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="0"/>
+					</texture>
+				</path>
+				<path id="1" tex_path="frame-sheet\640960\ico_nhat.png" name="ico_nhat">
+					<texture id="0"	name="ico_nhat">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>						
+					</texture>
+				</path>
+				<path id="2" tex_path="frame-sheet\640960\ico_nhi.png" 	name="ico_nhi">
+					<texture id="0"	name="ico_nhi">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>						
+					</texture>
+				</path>
+				<path id="3" tex_path="frame-sheet\640960\ico_ba.png" 	name="ico_ba">
+					<texture id="0"	name="ico_ba">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="25"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="25"/>						
+					</texture>
+				</path>
+				<path id="4" tex_path="frame-sheet\640960\ico_bon.png" 	name="ico_tu">
+					<texture id="0"	name="ico_tu">
+						<common name="begin" 		value="0_0"/>
+						<common	name="end"	 		value="-1_-1"/>
+						<common	name="slice" 		value="5_6"/>
+						<common name="end_idx" 		value="26"/>
+						<common name="begin_idx" 	value="0"/>
+						<common name="sprite_idx" 	value="26"/>
+					</texture>
+				</path>
+			</tex>
+			<font>
+				<fontdetail id="0" namepath="fonts\default.ttf" name="def">
+					<default size="30" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				<fontdetail id="1" namepath="fonts\HelveticaNeue-Regular.ttf" name="hel">
+					<default size="30" color="255_255_255_255" borderwdx="0" unicode="1"/>
+				</fontdetail>
+				
+				<fontdetail id="0" 	namepath="fonts\640960\default.fnt" 			name="def_bitmap">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="1" 	namepath="fonts\640960\defaultemoticon.fnt" 	name="defaultemoticon">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="2" 	namepath="fonts\640960\hel_def.fnt" 		name="def_hel">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="3" 	namepath="fonts\640960\xanhla.fnt" 				name="xanhla">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="4" 	namepath="fonts\640960\trang.fnt" 				name="trang">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="5" 	namepath="fonts\640960\titleFont.fnt" 			name="titleFont">
+					<default size="36" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="6" 	namepath="fonts\640960\timeFont.fnt" 			name="timeFont">
+					<default size="76" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="7" 	namepath="fonts\640960\small.fnt" 				name="small">
+					<default size="18" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="8" 	namepath="fonts\640960\numberFont.fnt" 			name="numberFont">
+					<default size="100" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="9" 	namepath="fonts\640960\medium.fnt" 				name="medium">
+					<default size="22" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="10" namepath="fonts\640960\emotions.fnt" 			name="emotions">
+					<default size="29" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="11" namepath="fonts\640960\defaultBold.fnt" 		name="defaultBold">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="12" namepath="fonts\640960\cam.fnt" 				name="cam">
+					<default size="30" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+				<fontdetail id="13" namepath="fonts\640960\boderFont.fnt" 			name="boderFont">
+					<default size="18" color="255_255_255_255" bitmap="1"/>
+				</fontdetail>
+			
+			</font>
+		</texture_atlas>
+	</texture>
+</GAME>

@@ -1,0 +1,176 @@
+
+gamescreen-domino-screen.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bkg_ban_domino
+  rotate: false
+  xy: 1, 65
+  size: 268, 189
+  orig: 268, 189
+  offset: 0, 0
+  index: -1
+bkg_quan_domino
+  rotate: false
+  xy: 592, 93
+  size: 27, 54
+  orig: 27, 54
+  offset: 0, 0
+  index: -1
+bkg_quan_domino_matlung
+  rotate: false
+  xy: 621, 95
+  size: 27, 52
+  orig: 27, 52
+  offset: 0, 0
+  index: -1
+btn_rutquan_domino
+  rotate: false
+  xy: 560, 82
+  size: 30, 56
+  orig: 30, 56
+  offset: 0, 0
+  index: -1
+gachngang_domino
+  rotate: false
+  xy: 1, 1
+  size: 7, 4
+  orig: 7, 4
+  offset: 0, 0
+  index: -1
+ico_chamden
+  rotate: false
+  xy: 572, 140
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+ico_chamdo
+  rotate: false
+  xy: 581, 140
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+ico_chamvang
+  rotate: false
+  xy: 423, 72
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+ico_chamxanhduong
+  rotate: false
+  xy: 721, 206
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+ico_chamxanhla
+  rotate: false
+  xy: 165, 18
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+ico_huongdan_domino1
+  rotate: false
+  xy: 165, 27
+  size: 77, 36
+  orig: 77, 36
+  offset: 0, 0
+  index: -1
+ico_huongdan_domino2
+  rotate: false
+  xy: 721, 215
+  size: 151, 39
+  orig: 151, 39
+  offset: 0, 0
+  index: -1
+sticker_blocked_1s
+  rotate: false
+  xy: 584, 198
+  size: 135, 56
+  orig: 135, 56
+  offset: 0, 0
+  index: -1
+sticker_blocked_2s
+  rotate: false
+  xy: 435, 198
+  size: 147, 56
+  orig: 147, 56
+  offset: 0, 0
+  index: -1
+sticker_blocked_3s
+  rotate: false
+  xy: 1, 7
+  size: 162, 56
+  orig: 162, 56
+  offset: 0, 0
+  index: -1
+sticker_failed
+  rotate: false
+  xy: 572, 149
+  size: 143, 47
+  orig: 143, 47
+  offset: 0, 0
+  index: -1
+sticker_successful
+  rotate: false
+  xy: 271, 134
+  size: 150, 62
+  orig: 150, 62
+  offset: 0, 0
+  index: -1
+sticker_trietco_1s
+  rotate: false
+  xy: 423, 82
+  size: 135, 56
+  orig: 135, 56
+  offset: 0, 0
+  index: -1
+sticker_trietco_2s
+  rotate: false
+  xy: 423, 140
+  size: 147, 56
+  orig: 147, 56
+  offset: 0, 0
+  index: -1
+sticker_trietco_3s
+  rotate: false
+  xy: 271, 198
+  size: 162, 56
+  orig: 162, 56
+  offset: 0, 0
+  index: -1
+sticker_trietco_thanhcong
+  rotate: false
+  xy: 271, 70
+  size: 150, 62
+  orig: 150, 62
+  offset: 0, 0
+  index: -1
+sticker_trietco_thatbai
+  rotate: false
+  xy: 874, 207
+  size: 143, 47
+  orig: 143, 47
+  offset: 0, 0
+  index: -1
+tile_bkg_go_domino
+  rotate: false
+  xy: 650, 98
+  size: 23, 49
+  orig: 23, 49
+  offset: 0, 0
+  index: -1
+vienxanh_domino
+  rotate: false
+  xy: 244, 44
+  size: 20, 19
+  split: 9, 10, 8, 10
+  pad: 3, 2, 2, 3
+  orig: 20, 19
+  offset: 0, 0
+  index: -1

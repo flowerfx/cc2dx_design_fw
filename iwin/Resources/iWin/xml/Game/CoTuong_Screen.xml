@@ -1,0 +1,183 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<game id="16" name="MAU_BINH" design="960_540">
+		<player id="0">
+			<common name="value_pos"	value="20_20"	/>
+			<common name="anchor_point" value="0_0"		/>
+			<common name="pos_tex1" 	value="10_-50"	/>
+			<common name="pos_tex2" 	value="10_-54"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="1">
+			<common name="value_pos"	value="20_330"	/>
+			<common name="anchor_point" value="0_1"		/>
+			<common name="pos_tex1" 	value="10_-30"	/>
+			<common name="pos_tex2" 	value="10_-32"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="2">
+			<common name="value_pos"	value="280_465"	/>
+			<common name="anchor_point" value="0_1"		/>
+			<common name="pos_tex1" 	value="108_40"	/>
+			<common name="pos_tex2" 	value="108_40"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="3">
+			<common name="value_pos"	value="950_330"	/>
+			<common name="anchor_point" value="1_1"		/>
+			<common name="pos_tex1" 	value="68_-30"	/>
+			<common name="pos_tex2" 	value="68_-32"	/>
+			<common name="pos_chat"     value="-10_10"	/>
+		</player>
+		<player id="4">
+			<common name="value_pos"	value="950_50"	/>
+			<common name="anchor_point" value="1_0"		/>
+			<common name="pos_tex1" 	value="68_-30"	/>
+			<common name="pos_tex2" 	value="68_-32"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		<player id="5">
+			<common name="value_pos"	value="680_465"	/>
+			<common name="anchor_point" value="1_1"		/>
+			<common name="pos_tex1" 	value="-30_40"	/>
+			<common name="pos_tex2" 	value="-30_38"	/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+	</game>
+	
+	<MenuWidget name="CoTuong" designSize="960_540">
+		<Widget id="0" typeRes="layout" name="custom_root" idx_appear="1" >
+			<common_value>							
+				<common			name="stick_screen"	value="1"/>
+				<common			name="anchor_point"	 value="0_0"/>
+			</common_value>
+			
+			<Widget id="0" typeRes="panel" name = "board_bg" idx_appear ="1">		
+				<common_value>							
+					<common 		name="source" 		value="loginscreen/nine/whitepixel.png"/>				
+					<common			name="scale_9"		value="1"/>
+					<common 		name="use_atlas" 	value="1"/>	
+					<common			name="stick_screen"	value="1"/>
+					<common			name="use_nine_path" value="1"/>
+					<common			name="anchor_point"	 value="0.0_0.0"/>
+				</common_value>	
+
+				<Widget id="0" typeRes="panel" name = "banco_win" idx_appear ="1">		
+					<common_value>							
+						<common 		name="source" 		value="gamescreen-cotuong-screen/banco1.png"/>				
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="1"/>
+						<common			name="anchor_point"	 value="0.0_0.0"/>
+					</common_value>						
+
+					<pos origin="40_40"	/>			
+					<Size origin="460_460" />
+				</Widget>
+
+
+				<pos 		origin = "305_0" 	/>
+				<Size 		origin = "540_540" 	/>
+			</Widget>
+			<Widget id="0" typeRes="button" name = "btn_xinhoa" idx_appear ="1">		
+				<common_value>
+							
+					<common 		name="source" 		value="gamescreen-game-common/icon_xinhoa.png"/>
+					<common 		name="press" 		value="gamescreen-game-common/icon_xinhoa.png"/>
+					<common 		name="disable" 		value="gamescreen-game-common/icon_xinhoa.png"/>
+					
+					<common 		name="scale_press" 	value="-0.05"/>
+								
+					<common 		name="use_atlas" 		value="1"/>	
+					<common			name="stick_screen"		value="0"/>
+					<common			name="scale_9"			value="1"/>
+					<common			name="use_nine_path"	value="1"/>
+					<common			name="anchor_point"		value="0.5_0.5"/>
+				</common_value>
+				
+				<pos 		origin = "910_50" 	/>
+				<Size 		origin = "54_40" 	/>
+				<COMMAND>
+					<cmd id="0" name="SET_DISABLE">
+					{
+						"act0": {
+							"squence":[
+								{
+									"SET_OPACITY":128
+								},
+								{
+									"SET_COLOR":"255_255_255_255"
+								}
+							]
+						}		
+					}	
+					</cmd>
+					<cmd id="1" name="SET_ENABLE">
+					{
+						"act0": {
+							"squence":[
+								{
+									"SET_OPACITY":255
+								},
+								{
+									"SET_COLOR":"255_167_38_255"
+								}
+							]
+						}		
+					}	
+					</cmd>
+				</COMMAND>				
+			</Widget>
+			<Widget id="0" typeRes="button" name = "btn_xinthua" idx_appear ="1">		
+				<common_value>
+							
+					<common 		name="source" 		value="gamescreen-game-common/icon_xinthua.png"/>
+					<common 		name="press" 		value="gamescreen-game-common/icon_xinthua.png"/>
+					<common 		name="disable" 		value="gamescreen-game-common/icon_xinthua.png"/>
+					
+					<common 		name="scale_press" 	value="-0.05"/>
+								
+					<common 		name="use_atlas" 		value="1"/>	
+					<common			name="stick_screen"		value="0"/>
+					<common			name="scale_9"			value="1"/>
+					<common			name="use_nine_path"	value="1"/>
+					<common			name="anchor_point"		value="0.5_0.5"/>
+				</common_value>
+				
+				<pos 		origin = "910_120" 	/>
+				<Size 		origin = "35_39" 	/>
+				<COMMAND>
+					<cmd id="0" name="SET_DISABLE">
+					{
+						"act0": {
+							"squence":[
+								{
+									"SET_OPACITY":128
+								},
+								{
+									"SET_COLOR":"255_255_255_255"
+								}
+							]
+						}		
+					}	
+					</cmd>
+					<cmd id="1" name="SET_ENABLE">
+					{
+						"act0": {
+							"squence":[
+								{
+									"SET_OPACITY":255
+								},
+								{
+									"SET_COLOR":"255_167_38_255"
+								}
+							]
+						}		
+					}	
+					</cmd>
+				</COMMAND>				
+			</Widget>
+			<pos 		origin = "0_0" 	/>
+			<Size 		origin = "960_540" 	/>	
+		</Widget>
+	</MenuWidget>
+</GAME>

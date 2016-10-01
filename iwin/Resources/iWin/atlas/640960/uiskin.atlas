@@ -1,0 +1,345 @@
+
+uiskin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bkg_high_light
+  rotate: false
+  xy: 1, 12
+  size: 254, 115
+  orig: 254, 115
+  offset: 0, 0
+  index: -1
+default-window
+  rotate: false
+  xy: 257, 67
+  size: 244, 60
+  split: 42, 42, 55, 2
+  orig: 244, 60
+  offset: 0, 0
+  index: -1
+default-window2
+  rotate: false
+  xy: 257, 67
+  size: 244, 60
+  split: 42, 42, 55, 2
+  orig: 244, 60
+  offset: 0, 0
+  index: -1
+default-select
+  rotate: false
+  xy: 503, 69
+  size: 100, 58
+  split: 13, 47, 18, 39
+  orig: 100, 58
+  offset: 0, 0
+  index: -1
+check-off
+  rotate: false
+  xy: 257, 28
+  size: 77, 37
+  orig: 77, 37
+  offset: 0, 0
+  index: -1
+check-on
+  rotate: false
+  xy: 605, 90
+  size: 77, 37
+  orig: 77, 37
+  offset: 0, 0
+  index: -1
+black-select
+  rotate: false
+  xy: 336, 31
+  size: 65, 34
+  split: 6, 35, 5, 4
+  orig: 65, 34
+  offset: 0, 0
+  index: -1
+material-select
+  rotate: false
+  xy: 684, 93
+  size: 65, 34
+  split: 12, 48, 19, 14
+  orig: 65, 34
+  offset: 0, 0
+  index: -1
+close_button
+  rotate: false
+  xy: 403, 18
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+default-slider-knob
+  rotate: false
+  xy: 453, 21
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+taixiu-bet-knob
+  rotate: false
+  xy: 751, 83
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+new_close_button
+  rotate: false
+  xy: 797, 86
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+textfield-material
+  rotate: false
+  xy: 257, 1
+  size: 28, 25
+  split: 0, 28, 13, 11
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 287, 1
+  size: 28, 25
+  split: 9, 8, 8, 7
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+close_button_white
+  rotate: false
+  xy: 840, 95
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+default-round-down
+  rotate: false
+  xy: 336, 1
+  size: 26, 28
+  split: 12, 13, 13, 14
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+default-round
+  rotate: false
+  xy: 336, 1
+  size: 26, 28
+  split: 12, 13, 13, 14
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+default-round-yellow-down
+  rotate: false
+  xy: 364, 1
+  size: 26, 28
+  split: 11, 14, 12, 15
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+default-round-yellow
+  rotate: false
+  xy: 364, 1
+  size: 26, 28
+  split: 11, 14, 12, 15
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+button_dis
+  rotate: false
+  xy: 874, 101
+  size: 26, 26
+  split: 13, 12, 13, 12
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+default-round-blue-down
+  rotate: false
+  xy: 902, 101
+  size: 26, 26
+  split: 13, 12, 13, 12
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+default-round-blue
+  rotate: false
+  xy: 902, 101
+  size: 26, 26
+  split: 13, 12, 13, 12
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+default-round-large
+  rotate: false
+  xy: 930, 107
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+default-scroll
+  rotate: false
+  xy: 952, 107
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+default-round-transperent-down
+  rotate: false
+  xy: 453, 1
+  size: 18, 18
+  split: 7, 7, 7, 7
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+default-round-transperent
+  rotate: false
+  xy: 453, 1
+  size: 18, 18
+  split: 7, 7, 7, 7
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+runner
+  rotate: false
+  xy: 605, 78
+  size: 18, 10
+  split: 9, 8, 0, 9
+  orig: 18, 10
+  offset: 0, 0
+  index: -1
+tree-minus
+  rotate: false
+  xy: 317, 12
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+tree-plus
+  rotate: false
+  xy: 974, 113
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+default-pane
+  rotate: false
+  xy: 1, 7
+  size: 5, 3
+  split: 1, 1, 1, 1
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+default-rect-pad
+  rotate: false
+  xy: 1, 7
+  size: 5, 3
+  split: 1, 1, 1, 1
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+default-splitpane-vertical
+  rotate: false
+  xy: 840, 88
+  size: 3, 5
+  split: 0, 0, 0, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+default-splitpane
+  rotate: false
+  xy: 392, 26
+  size: 5, 3
+  split: 0, 5, 0, 0
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 399, 27
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+taixiu-bet-slider
+  rotate: false
+  xy: 684, 90
+  size: 7, 1
+  orig: 7, 1
+  offset: 0, 0
+  index: -1
+taixiu-bet-value
+  rotate: false
+  xy: 797, 83
+  size: 7, 1
+  orig: 7, 1
+  offset: 0, 0
+  index: -1
+default-rect-down
+  rotate: false
+  xy: 874, 96
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-rect
+  rotate: false
+  xy: 930, 102
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-select-selection
+  rotate: false
+  xy: 473, 16
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+default-pane-noborder
+  rotate: false
+  xy: 333, 25
+  size: 1, 1
+  split: 0, 0, 0, 0
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+default-slider-value
+  rotate: false
+  xy: 333, 22
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+default-slider
+  rotate: false
+  xy: 333, 19
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+selection
+  rotate: false
+  xy: 333, 16
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+stagebg
+  rotate: false
+  xy: 333, 13
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 333, 10
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

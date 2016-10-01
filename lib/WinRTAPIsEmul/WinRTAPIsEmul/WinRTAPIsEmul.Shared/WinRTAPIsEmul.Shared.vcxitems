@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{9752a5bc-a9db-46a7-a14e-d8125e19e606}</ItemsProjectGuid>
+    <ItemsRootNamespace>WinRTAPIsEmul</ItemsRootNamespace>
+    <ItemsProjectName>WinRTAPIsEmul.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\MetroSocket.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ThreadEmulation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\WinRTAPIsEmul.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\WinRTStringUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\metrosockdef.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MetroSocket.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\targetver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ThreadEmulation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\WinRTAPIsEmul.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\WinRTStringUtils.h" />
+  </ItemGroup>
+</Project>

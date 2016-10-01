@@ -1,0 +1,132 @@
+
+gamescreen-tienlen-screen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoxam
+  rotate: false
+  xy: 1, 29
+  size: 116, 34
+  orig: 116, 34
+  offset: 0, 0
+  index: -1
+button_eatcard
+  rotate: false
+  xy: 951, 908
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+effect_danh_nhieuquan
+  rotate: false
+  xy: 1, 199
+  size: 948, 810
+  orig: 948, 810
+  offset: 0, 0
+  index: -1
+effect_exploding_circle
+  rotate: false
+  xy: 1, 107
+  size: 900, 90
+  orig: 900, 90
+  offset: 0, 0
+  index: -1
+highlight_quan_bai
+  rotate: false
+  xy: 903, 132
+  size: 79, 65
+  split: 38, 40, 33, 31
+  pad: 20, 17, 18, 19
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+highlight_quan_bai_new
+  rotate: false
+  xy: 191, 26
+  size: 79, 65
+  split: 38, 40, 33, 31
+  pad: 20, 17, 18, 19
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+highlight_quan_bai_xanh
+  rotate: false
+  xy: 272, 26
+  size: 79, 65
+  split: 38, 40, 33, 31
+  pad: 20, 17, 18, 19
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+highlight_quan_bai_xanhduong
+  rotate: false
+  xy: 903, 65
+  size: 79, 65
+  split: 38, 40, 33, 31
+  pad: 20, 17, 18, 19
+  orig: 79, 65
+  offset: 0, 0
+  index: -1
+oneCard
+  rotate: false
+  xy: 1, 1
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+sao_flare
+  rotate: false
+  xy: 951, 937
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+tick_box_vachngan
+  rotate: false
+  xy: 119, 58
+  size: 3, 5
+  orig: 3, 5
+  offset: 0, 0
+  index: -1
+vachdo
+  rotate: false
+  xy: 1, 93
+  size: 188, 12
+  orig: 188, 12
+  offset: 0, 0
+  index: -1
+vachsang
+  rotate: false
+  xy: 1, 79
+  size: 188, 12
+  orig: 188, 12
+  offset: 0, 0
+  index: -1
+vachxanhduong
+  rotate: false
+  xy: 191, 93
+  size: 188, 12
+  orig: 188, 12
+  offset: 0, 0
+  index: -1
+vachxanhla
+  rotate: false
+  xy: 1, 65
+  size: 188, 12
+  orig: 188, 12
+  offset: 0, 0
+  index: -1
+
+gamescreen-tienlen-screen2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_danh_1quan
+  rotate: false
+  xy: 1, 1
+  size: 888, 668
+  orig: 888, 668
+  offset: 0, 0
+  index: -1

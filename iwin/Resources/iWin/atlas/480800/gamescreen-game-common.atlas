@@ -1,0 +1,146 @@
+
+gamescreen-game-common.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+add-user
+  rotate: false
+  xy: 333, 16
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1
+arrow
+  rotate: false
+  xy: 576, 31
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+banchoi_logo
+  rotate: false
+  xy: 1, 19
+  size: 101, 44
+  orig: 101, 44
+  offset: 0, 0
+  index: -1
+banchoi_logo_win
+  rotate: false
+  xy: 104, 29
+  size: 77, 34
+  orig: 77, 34
+  offset: 0, 0
+  index: -1
+button keo
+  rotate: false
+  xy: 704, 28
+  size: 27, 35
+  orig: 27, 35
+  offset: 0, 0
+  index: -1
+chu-ban
+  rotate: false
+  xy: 733, 41
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+dunglen
+  rotate: false
+  xy: 469, 27
+  size: 34, 36
+  orig: 34, 36
+  offset: 0, 0
+  index: -1
+icon_add
+  rotate: false
+  xy: 183, 15
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+icon_dilai
+  rotate: false
+  xy: 541, 31
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+icon_kick
+  rotate: false
+  xy: 233, 15
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+icon_player_info
+  rotate: false
+  xy: 283, 15
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+icon_xinhoa
+  rotate: false
+  xy: 422, 29
+  size: 45, 34
+  orig: 45, 34
+  offset: 0, 0
+  index: -1
+icon_xinthua
+  rotate: false
+  xy: 610, 30
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1
+loading2
+  rotate: false
+  xy: 781, 41
+  size: 13, 22
+  orig: 13, 22
+  offset: 0, 0
+  index: -1
+mui ten 1
+  rotate: false
+  xy: 1, 1
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+ngoixuong
+  rotate: false
+  xy: 505, 27
+  size: 34, 36
+  orig: 34, 36
+  offset: 0, 0
+  index: -1
+ready
+  rotate: false
+  xy: 757, 41
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+ruong
+  rotate: false
+  xy: 380, 22
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+tang-qua
+  rotate: false
+  xy: 642, 32
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+tick
+  rotate: false
+  xy: 674, 28
+  size: 28, 35
+  orig: 28, 35
+  offset: 0, 0
+  index: -1

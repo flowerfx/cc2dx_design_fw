@@ -1,0 +1,10 @@
+<GAME>
+	<list_lang>
+		<lang id="0" name="vi" dec="Tiếng Việt">
+			<path value="langs/vi" />
+		</lang>
+		<lang id="1" name="en" dec="English">
+			<path value="langs/en" />
+		</lang>
+	</list_lang>
+</GAME>

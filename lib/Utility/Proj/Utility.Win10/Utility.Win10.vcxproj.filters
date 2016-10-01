@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Background">
+      <UniqueIdentifier>{8a0fd396-1c7f-4de6-9520-ea72279bbd79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFlatform">
+      <UniqueIdentifier>{08fd07ed-ea83-4cfb-930a-2f75d4d87b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IAP">
+      <UniqueIdentifier>{f42af3e1-bf25-4fb6-8a13-238f4beaa59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{50a6df86-2a7c-4a93-a76c-3b04a810aea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Social">
+      <UniqueIdentifier>{f4f07ac1-54a0-4d72-961d-01de0ed379af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Social\Downloader">
+      <UniqueIdentifier>{f06cb1cc-f91a-4dd8-8a5c-f190d534e994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{13c99cf4-464a-42d6-b2b0-b623d9bc3762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\AdvanceUI">
+      <UniqueIdentifier>{9a0241f4-9b82-42c6-99f8-3ea988ea7f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IAP\Win8.1">
+      <UniqueIdentifier>{0734a897-4a79-46ff-bdbb-8927d304d10f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Code\Background\ObjectBGEntity.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\Background\BGObject.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\FXFlatform\XFlatform.cpp">
+      <Filter>FXFlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\IAP\IAPManager.cpp">
+      <Filter>IAP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\IAP\Win8.1\WinRT_IAP.cpp">
+      <Filter>IAP\Win8.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\Object\wObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\Social\SocialManager.cpp">
+      <Filter>Social</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\Social\Downloader\DownloadHandler.cpp">
+      <Filter>Social\Downloader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\ActionProcess.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\LayerEntity.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\LayerMask.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\Screen.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wAnimationWidget.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wButton.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wCheckBox.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wEditBox.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\WidgetEntity.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wLayout.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wListView.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wListViewTable.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wLoadingBar.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPageView.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPanel.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPanelClipping.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wParticle.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wRadioBtn.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wScrollView.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wSlider.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wText.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTextField.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTimeProcessWidget.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\ActionCommand.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\DisplayView.cpp" />
+    <ClCompile Include="..\..\Code\FileManager.cpp" />
+    <ClCompile Include="..\..\Code\InputManager.cpp" />
+    <ClCompile Include="..\..\Code\LanguageMgr.cpp" />
+    <ClCompile Include="..\..\Code\LoadDataXML.cpp" />
+    <ClCompile Include="..\..\Code\ObjectTexture.cpp" />
+    <ClCompile Include="..\..\Code\SoundManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Code\Background\ObjectBGEntity.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\Background\BGObject.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\FXFlatform\XFlatform.h">
+      <Filter>FXFlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\IAP\IAPManager.h">
+      <Filter>IAP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\IAP\Win8.1\WinRT_IAP.h">
+      <Filter>IAP\Win8.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\Object\wObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\Social\SocialManager.h">
+      <Filter>Social</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\Social\Downloader\DownloadHandler.h">
+      <Filter>Social\Downloader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\ActionCommand.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\ActionProcess.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\LayerEntity.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\LayerMask.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\Screen.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wAnimationWidget.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wButton.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wCheckBox.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wEditBox.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\WidgetEntity.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wLayout.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wListView.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wListViewTable.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wLoadingBar.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPageView.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPanel.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPanelClipping.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wParticle.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wRadioBtn.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wScrollView.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wSlider.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wText.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTextField.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTimeProcessWidget.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\DisplayView.h" />
+    <ClInclude Include="..\..\Code\Factory.h" />
+    <ClInclude Include="..\..\Code\FileManager.h" />
+    <ClInclude Include="..\..\Code\InputManager.h" />
+    <ClInclude Include="..\..\Code\LanguageMgr.h" />
+    <ClInclude Include="..\..\Code\LoadDataXML.h" />
+    <ClInclude Include="..\..\Code\ObjectTexture.h" />
+    <ClInclude Include="..\..\Code\SoundManager.h" />
+  </ItemGroup>
+</Project>

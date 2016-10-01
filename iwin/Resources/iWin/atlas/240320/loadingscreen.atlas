@@ -1,0 +1,543 @@
+
+loadingscreen.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bkg_emoji
+  rotate: false
+  xy: 115, 161
+  size: 5, 2
+  split: 0, 0, 0, 0
+  orig: 5, 2
+  offset: 0, 0
+  index: -1
+bkg_eventcircle
+  rotate: false
+  xy: 5, 113
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+bkg_thongbao
+  rotate: false
+  xy: 1, 1
+  size: 2, 19
+  orig: 2, 19
+  offset: 0, 0
+  index: -1
+btn_eventcircle
+  rotate: false
+  xy: 90, 165
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+centerline
+  rotate: false
+  xy: 1, 22
+  size: 2, 174
+  orig: 2, 174
+  offset: 0, 0
+  index: -1
+ico_edit
+  rotate: false
+  xy: 5, 57
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+load
+  rotate: false
+  xy: 5, 46
+  size: 18, 9
+  orig: 18, 9
+  offset: 0, 0
+  index: -1
+sep
+  rotate: false
+  xy: 5, 102
+  size: 99, 9
+  orig: 99, 9
+  offset: 0, 0
+  index: -1
+taixiu_bettime
+  rotate: false
+  xy: 90, 153
+  size: 23, 10
+  orig: 23, 10
+  offset: 0, 0
+  index: -1
+taixiu_showtime
+  rotate: false
+  xy: 29, 69
+  size: 23, 10
+  orig: 23, 10
+  offset: 0, 0
+  index: -1
+textfield-material
+  rotate: false
+  xy: 78, 87
+  size: 14, 13
+  split: 0, 14, 6, 6
+  pad: 6, 7, -1, -1
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+textfieldbg
+  rotate: false
+  xy: 5, 81
+  size: 50, 19
+  split: 5, 24, 5, 5
+  orig: 50, 19
+  offset: 0, 0
+  index: -1
+textfieldbgbrow
+  rotate: false
+  xy: 90, 140
+  size: 10, 11
+  split: 5, 4, 5, 5
+  pad: 3, 3, 3, 3
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+textfielderaserbutton
+  rotate: false
+  xy: 57, 82
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+
+loadingscreen2.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+emotions/background
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+emotions/e (1)
+  rotate: false
+  xy: 1, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (10)
+  rotate: false
+  xy: 1, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (11)
+  rotate: false
+  xy: 20, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (12)
+  rotate: false
+  xy: 1, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (13)
+  rotate: false
+  xy: 20, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (14)
+  rotate: false
+  xy: 39, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (15)
+  rotate: false
+  xy: 20, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (16)
+  rotate: false
+  xy: 39, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (17)
+  rotate: false
+  xy: 58, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (18)
+  rotate: false
+  xy: 39, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (19)
+  rotate: false
+  xy: 58, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (2)
+  rotate: false
+  xy: 77, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (20)
+  rotate: false
+  xy: 58, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (21)
+  rotate: false
+  xy: 77, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (22)
+  rotate: false
+  xy: 96, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (23)
+  rotate: false
+  xy: 77, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (24)
+  rotate: false
+  xy: 96, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (25)
+  rotate: false
+  xy: 115, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (26)
+  rotate: false
+  xy: 96, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (27)
+  rotate: false
+  xy: 115, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (28)
+  rotate: false
+  xy: 134, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (29)
+  rotate: false
+  xy: 115, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (3)
+  rotate: false
+  xy: 134, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (30)
+  rotate: false
+  xy: 153, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (31)
+  rotate: false
+  xy: 134, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (32)
+  rotate: false
+  xy: 153, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (33)
+  rotate: false
+  xy: 172, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (34)
+  rotate: false
+  xy: 153, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (35)
+  rotate: false
+  xy: 172, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (36)
+  rotate: false
+  xy: 191, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (37)
+  rotate: false
+  xy: 172, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (38)
+  rotate: false
+  xy: 191, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (39)
+  rotate: false
+  xy: 210, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (4)
+  rotate: false
+  xy: 191, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (40)
+  rotate: false
+  xy: 210, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (41)
+  rotate: false
+  xy: 229, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (42)
+  rotate: false
+  xy: 210, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (43)
+  rotate: false
+  xy: 229, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (44)
+  rotate: false
+  xy: 248, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (45)
+  rotate: false
+  xy: 229, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (46)
+  rotate: false
+  xy: 248, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (47)
+  rotate: false
+  xy: 267, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (48)
+  rotate: false
+  xy: 248, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (49)
+  rotate: false
+  xy: 267, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (5)
+  rotate: false
+  xy: 286, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (50)
+  rotate: false
+  xy: 267, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (51)
+  rotate: false
+  xy: 286, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (52)
+  rotate: false
+  xy: 305, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (53)
+  rotate: false
+  xy: 286, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (54)
+  rotate: false
+  xy: 305, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (55)
+  rotate: false
+  xy: 324, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (56)
+  rotate: false
+  xy: 305, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (57)
+  rotate: false
+  xy: 324, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (58)
+  rotate: false
+  xy: 343, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (59)
+  rotate: false
+  xy: 324, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (6)
+  rotate: false
+  xy: 343, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (60)
+  rotate: false
+  xy: 362, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (7)
+  rotate: false
+  xy: 343, 4
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (8)
+  rotate: false
+  xy: 362, 23
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+emotions/e (9)
+  rotate: false
+  xy: 381, 42
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1

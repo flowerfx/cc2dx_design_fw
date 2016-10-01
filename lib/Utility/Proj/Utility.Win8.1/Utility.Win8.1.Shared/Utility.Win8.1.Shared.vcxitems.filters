@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\SoundManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\ObjectTexture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\LoadDataXML.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\InputManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\DisplayView.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Factory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\FileManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\BGObject.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\ObjectBGEntity.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\FXFlatform\XFlatform.h">
+      <Filter>FXFlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\Win8.1\WinRT_IAP.h">
+      <Filter>IAP\Win8.1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\IAPManager.h">
+      <Filter>IAP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\Downloader\DownloadHandler.h">
+      <Filter>Social\Downloader</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\SocialManager.h">
+      <Filter>Social</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\LanguageMgr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\Object\wObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionCommand.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionProcess.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerEntity.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerMask.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wButton.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wCheckBox.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wText.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTextField.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListView.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPageView.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanel.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wRadioBtn.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wScrollView.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLayout.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\WidgetEntity.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wSlider.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\Screen.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wEditBox.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLoadingBar.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanelClipping.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeProcessWidget.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListViewTable.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wAnimationWidget.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wParticle.h">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\SoundManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\ObjectTexture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\LoadDataXML.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\InputManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\DisplayView.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\FileManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\BGObject.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Background\ObjectBGEntity.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\FXFlatform\XFlatform.cpp">
+      <Filter>FXFlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\Win8.1\WinRT_IAP.cpp">
+      <Filter>IAP\Win8.1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\IAP\IAPManager.cpp">
+      <Filter>IAP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\Downloader\DownloadHandler.cpp">
+      <Filter>Social\Downloader</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Social\SocialManager.cpp">
+      <Filter>Social</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\LanguageMgr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\Object\wObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionCommand.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\ActionProcess.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerEntity.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\LayerMask.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wButton.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wCheckBox.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wText.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTextField.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListView.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPageView.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanel.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wRadioBtn.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wScrollView.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLayout.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\WidgetEntity.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wSlider.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\Screen.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wEditBox.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wLoadingBar.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wPanelClipping.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeProcessWidget.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wListViewTable.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wAnimationWidget.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\Code\UI\AdvanceUI\wParticle.cpp">
+      <Filter>UI\AdvanceUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Background">
+      <UniqueIdentifier>{df791db2-244f-4de9-a07b-6327bcc0dc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FXFlatform">
+      <UniqueIdentifier>{d01d664b-ffe0-4230-957f-16a9f8a69932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IAP">
+      <UniqueIdentifier>{f1980f10-1152-4f93-8984-1af1d5bd89b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IAP\Win8.1">
+      <UniqueIdentifier>{ba548781-718a-4978-a888-dccd7aee419d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Social">
+      <UniqueIdentifier>{ab2842c3-2cea-4bbd-bc94-fca9916ff356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Social\Downloader">
+      <UniqueIdentifier>{7ea696ab-194c-43d4-808f-414d6756d119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{77041bb4-779b-4181-92e4-9d2d24a0b496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\AdvanceUI">
+      <UniqueIdentifier>{afa1d642-be59-4783-94fd-8c87c0c532c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a2d92eb5-24a3-4028-8b4e-462e19fc9a44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

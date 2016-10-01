@@ -1,0 +1,126 @@
+
+gamescreen-covua-screen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chotden
+  rotate: false
+  xy: 1, 216
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+chottrang
+  rotate: false
+  xy: 609, 826
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+co-duoc-chon
+  rotate: false
+  xy: 1, 1
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+dadanh
+  rotate: false
+  xy: 145, 213
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+hau
+  rotate: false
+  xy: 1, 144
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+hautang
+  rotate: false
+  xy: 73, 216
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+ma
+  rotate: false
+  xy: 609, 754
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+matrang
+  rotate: false
+  xy: 681, 826
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+nen
+  rotate: false
+  xy: 1, 288
+  size: 606, 608
+  split: 7, 7, 7, 9
+  orig: 606, 608
+  offset: 0, 0
+  index: -1
+nuoc-an
+  rotate: false
+  xy: 217, 285
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+nuoc-di
+  rotate: false
+  xy: 73, 110
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+tuong
+  rotate: false
+  xy: 1, 72
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+tuongtrang
+  rotate: false
+  xy: 73, 144
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+vua
+  rotate: false
+  xy: 145, 216
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+vuatrang
+  rotate: false
+  xy: 609, 682
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+xe
+  rotate: false
+  xy: 681, 754
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+xetrang
+  rotate: false
+  xy: 753, 826
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1

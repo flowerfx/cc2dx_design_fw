@@ -1,0 +1,138 @@
+
+gamescreen-tienlen-screen.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoxam
+  rotate: false
+  xy: 754, 481
+  size: 52, 15
+  orig: 52, 15
+  offset: 0, 0
+  index: -1
+button_eatcard
+  rotate: false
+  xy: 808, 482
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+effect_danh_1quan
+  rotate: false
+  xy: 1, 7
+  size: 665, 500
+  orig: 665, 500
+  offset: 0, 0
+  index: -1
+highlight_quan_bai
+  rotate: false
+  xy: 708, 438
+  size: 39, 36
+  split: 7, 6, 7, 7
+  pad: 0, 0, 3, 3
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+highlight_quan_bai_new
+  rotate: false
+  xy: 668, 398
+  size: 39, 36
+  split: 7, 6, 7, 7
+  pad: 0, 0, 3, 3
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+highlight_quan_bai_xanh
+  rotate: false
+  xy: 668, 360
+  size: 39, 36
+  split: 7, 6, 7, 7
+  pad: 0, 0, 3, 3
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+highlight_quan_bai_xanhduong
+  rotate: false
+  xy: 668, 322
+  size: 39, 36
+  split: 7, 6, 7, 7
+  pad: 0, 0, 3, 3
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+oneCard
+  rotate: false
+  xy: 668, 305
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+sao_flare
+  rotate: false
+  xy: 668, 436
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+tick_box_vachngan
+  rotate: false
+  xy: 1, 1
+  size: 2, 4
+  orig: 2, 4
+  offset: 0, 0
+  index: -1
+vachdo
+  rotate: false
+  xy: 668, 498
+  size: 84, 9
+  orig: 84, 9
+  offset: 0, 0
+  index: -1
+vachsang
+  rotate: false
+  xy: 668, 487
+  size: 84, 9
+  orig: 84, 9
+  offset: 0, 0
+  index: -1
+vachxanhduong
+  rotate: false
+  xy: 754, 498
+  size: 84, 9
+  orig: 84, 9
+  offset: 0, 0
+  index: -1
+vachxanhla
+  rotate: false
+  xy: 668, 476
+  size: 84, 9
+  orig: 84, 9
+  offset: 0, 0
+  index: -1
+
+gamescreen-tienlen-screen2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_danh_nhieuquan
+  rotate: false
+  xy: 1, 1
+  size: 585, 500
+  orig: 585, 500
+  offset: 0, 0
+  index: -1
+
+gamescreen-tienlen-screen3.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_exploding_circle
+  rotate: false
+  xy: 1, 1
+  size: 900, 90
+  orig: 900, 90
+  offset: 0, 0
+  index: -1

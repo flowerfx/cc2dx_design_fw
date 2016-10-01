@@ -1,0 +1,1234 @@
+
+gamescreen-newgui-game-common.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 971, 460
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1, 1
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 971, 414
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 971, 368
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+an
+  rotate: false
+  xy: 538, 95
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+bkg_btn_bar
+  rotate: false
+  xy: 707, 109
+  size: 11, 11
+  split: 5, 5, 6, 4
+  pad: 0, 0, 3, 0
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+bkg_chat
+  rotate: false
+  xy: 970, 213
+  size: 14, 29
+  split: 7, 6, 14, 14
+  pad: 0, 0, 0, 0
+  orig: 14, 29
+  offset: 0, 0
+  index: -1
+bkg_chat_field
+  rotate: false
+  xy: 986, 181
+  size: 10, 10
+  split: 5, 4, 4, 5
+  pad: 0, 0, 0, 0
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+bkg_no_img
+  rotate: false
+  xy: 77, 51
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+bkg_them_user
+  rotate: false
+  xy: 622, 104
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+bkg_transaction_dialog
+  rotate: false
+  xy: 248, 50
+  size: 25, 25
+  split: 11, 11, 11, 11
+  pad: 0, 0, 0, 0
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+bkg_vongxoay
+  rotate: false
+  xy: 85, 1
+  size: 17, 17
+  split: 7, 8, 7, 8
+  pad: 0, 0, 0, 1
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+btn_chat
+  rotate: false
+  xy: 47, 17
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+btn_menu
+  rotate: false
+  xy: 993, 238
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+btn_napwin
+  rotate: false
+  xy: 478, 91
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+btn_quay
+  rotate: false
+  xy: 923, 264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+btn_recent_chat
+  rotate: false
+  xy: 275, 52
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+btn_recent_chat_active
+  rotate: false
+  xy: 302, 52
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+btn_tab_off
+  rotate: false
+  xy: 923, 244
+  size: 68, 18
+  orig: 68, 18
+  offset: 0, 0
+  index: -1
+btn_tab_on
+  rotate: false
+  xy: 77, 54
+  size: 68, 18
+  orig: 68, 18
+  offset: 0, 0
+  index: -1
+btn_wincuoc
+  rotate: false
+  xy: 659, 125
+  size: 15, 14
+  split: 7, 7, 7, 6
+  pad: 3, 3, 2, 2
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+button_close_sukien
+  rotate: false
+  xy: 220, 49
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+chatdo
+  rotate: false
+  xy: 85, 20
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+circle_avatar
+  rotate: false
+  xy: 584, 103
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+cong
+  rotate: false
+  xy: 147, 54
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+emoticon
+  rotate: false
+  xy: 389, 271
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+fx_flare_vongxoay
+  rotate: false
+  xy: 544, 141
+  size: 130, 128
+  orig: 130, 128
+  offset: 0, 0
+  index: -1
+history_copho_active
+  rotate: false
+  xy: 986, 211
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+history_copho_normal
+  rotate: false
+  xy: 187, 50
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+ico_autobuychip
+  rotate: false
+  xy: 104, 1
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+ico_baohieu
+  rotate: false
+  xy: 970, 197
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ico_caidat
+  rotate: false
+  xy: 413, 273
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+ico_chat
+  rotate: false
+  xy: 355, 44
+  size: 22, 16
+  orig: 22, 16
+  offset: 0, 0
+  index: -1
+ico_chuban_choi
+  rotate: false
+  xy: 167, 54
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+ico_close_vongxoay
+  rotate: false
+  xy: 970, 140
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+ico_diamond_small
+  rotate: false
+  xy: 970, 181
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ico_event
+  rotate: false
+  xy: 329, 51
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+ico_huongdan
+  rotate: false
+  xy: 986, 193
+  size: 22, 16
+  orig: 22, 16
+  offset: 0, 0
+  index: -1
+ico_mui_ten
+  rotate: false
+  xy: 478, 44
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+ico_offline
+  rotate: false
+  xy: 659, 109
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ico_online
+  rotate: false
+  xy: 565, 79
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ico_paste
+  rotate: false
+  xy: 970, 160
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+ico_playing
+  rotate: false
+  xy: 675, 106
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ico_sansang
+  rotate: false
+  xy: 154, 1
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+ico_them_user
+  rotate: false
+  xy: 182, 24
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+ico_thoat
+  rotate: false
+  xy: 970, 122
+  size: 22, 16
+  orig: 22, 16
+  offset: 0, 0
+  index: -1
+ico_wifi1
+  rotate: false
+  xy: 47, 1
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+ico_wifi2
+  rotate: false
+  xy: 66, 1
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+ico_wifi3
+  rotate: false
+  xy: 545, 59
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+ico_winchip_small
+  rotate: false
+  xy: 691, 106
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ico_yellow_clock
+  rotate: false
+  xy: 525, 71
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+khung_nhapso
+  rotate: false
+  xy: 379, 52
+  size: 8, 8
+  split: 3, 4, 3, 4
+  pad: 2, 2, 2, 2
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+khung_popup_sukien
+  rotate: false
+  xy: 681, 366
+  size: 288, 145
+  orig: 288, 145
+  offset: 0, 0
+  index: -1
+khungchatbogoc
+  rotate: false
+  xy: 478, 1
+  size: 41, 41
+  split: 20, 20, 20, 20
+  pad: 19, 18, 18, 18
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+line_sang_trang
+  rotate: false
+  xy: 1, 74
+  size: 174, 1
+  orig: 174, 1
+  offset: 0, 0
+  index: -1
+luckycircle_win10
+  rotate: false
+  xy: 389, 27
+  size: 87, 120
+  orig: 87, 120
+  offset: 0, 0
+  index: -1
+luckycircle_win12
+  rotate: false
+  xy: 896, 122
+  size: 72, 120
+  orig: 72, 120
+  offset: 0, 0
+  index: -1
+luckycircle_win2
+  rotate: false
+  xy: 681, 244
+  size: 240, 120
+  orig: 240, 120
+  offset: 0, 0
+  index: -1
+luckycircle_win4
+  rotate: false
+  xy: 389, 149
+  size: 153, 120
+  orig: 153, 120
+  offset: 0, 0
+  index: -1
+luckycircle_win6
+  rotate: false
+  xy: 676, 122
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+luckycircle_win8
+  rotate: false
+  xy: 798, 122
+  size: 96, 120
+  orig: 96, 120
+  offset: 0, 0
+  index: -1
+mat_ban
+  rotate: false
+  xy: 1, 77
+  size: 386, 216
+  orig: 386, 216
+  offset: 0, 0
+  index: -1
+mat_ban_ruby
+  rotate: false
+  xy: 1, 295
+  size: 436, 216
+  orig: 436, 216
+  offset: 0, 0
+  index: -1
+nenchat
+  rotate: false
+  xy: 584, 98
+  size: 7, 3
+  split: 0, 0, 0, 0
+  orig: 7, 3
+  offset: 0, 0
+  index: -1
+off
+  rotate: false
+  xy: 120, 5
+  size: 32, 13
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+on
+  rotate: false
+  xy: 355, 62
+  size: 32, 13
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+rocket
+  rotate: false
+  xy: 153, 23
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+sendding
+  rotate: false
+  xy: 525, 51
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+time
+  rotate: false
+  xy: 119, 20
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+tru
+  rotate: false
+  xy: 545, 75
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+vongxoay_default
+  rotate: false
+  xy: 439, 271
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+xet_bai
+  rotate: false
+  xy: 1, 51
+  size: 74, 21
+  orig: 74, 21
+  offset: 0, 0
+  index: -1
+
+gamescreen-newgui-game-common2.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+countdown/cham
+  rotate: false
+  xy: 71, 17
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+countdown/hatanim
+  rotate: false
+  xy: 1, 17
+  size: 68, 12
+  orig: 68, 12
+  offset: 0, 0
+  index: -1
+countdown/hinhtronmo
+  rotate: false
+  xy: 1, 31
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+countdown/hinhtrontoa
+  rotate: false
+  xy: 81, 31
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+countdown/hinhtronvangmo
+  rotate: false
+  xy: 435, 88
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+countdown/iwin_loading_new_bg
+  rotate: false
+  xy: 333, 31
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+countdown/iwin_loading_new_xoay
+  rotate: false
+  xy: 390, 83
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+countdown/khungden
+  rotate: false
+  xy: 173, 48
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+countdown/titlebackground
+  rotate: false
+  xy: 1, 111
+  size: 170, 15
+  orig: 170, 15
+  offset: 0, 0
+  index: -1
+countdown/vongngoai
+  rotate: false
+  xy: 333, 71
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+countdown/vongso
+  rotate: false
+  xy: 1, 1
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+countdown/vongxanh
+  rotate: false
+  xy: 253, 48
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+
+gamescreen-newgui-game-common3.png
+size: 256,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+countdown_dai/bongmo
+  rotate: false
+  xy: 115, 8
+  size: 5, 9
+  split: 2, 2, 3, 5
+  pad: 2, 2, 1, 1
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+countdown_dai/countdown_den
+  rotate: false
+  xy: 172, 19
+  size: 12, 9
+  split: 5, 6, 4, 4
+  pad: 2, 2, 2, 2
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+countdown_dai/domsang
+  rotate: false
+  xy: 103, 1
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+countdown_dai/dotchayanim
+  rotate: false
+  xy: 1, 4
+  size: 100, 24
+  orig: 100, 24
+  offset: 0, 0
+  index: -1
+countdown_dai/mautrang
+  rotate: false
+  xy: 186, 19
+  size: 5, 9
+  split: 2, 2, 4, 4
+  pad: 1, 1, 2, 2
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+countdown_dai/partycal
+  rotate: false
+  xy: 103, 19
+  size: 67, 9
+  orig: 67, 9
+  offset: 0, 0
+  index: -1
+
+gamescreen-newgui-game-common4.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+taixiu/bg_text_error
+  rotate: false
+  xy: 298, 238
+  size: 295, 17
+  orig: 295, 17
+  offset: 0, 0
+  index: -1
+taixiu/left_active
+  rotate: false
+  xy: 530, 135
+  size: 125, 21
+  orig: 125, 21
+  offset: 0, 0
+  index: -1
+taixiu/left_none
+  rotate: false
+  xy: 530, 112
+  size: 125, 21
+  orig: 125, 21
+  offset: 0, 0
+  index: -1
+taixiu/right_active
+  rotate: false
+  xy: 694, 172
+  size: 125, 21
+  orig: 125, 21
+  offset: 0, 0
+  index: -1
+taixiu/right_none
+  rotate: false
+  xy: 833, 198
+  size: 125, 21
+  orig: 125, 21
+  offset: 0, 0
+  index: -1
+taixiu/ruby
+  rotate: false
+  xy: 955, 1
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgbetlayer
+  rotate: false
+  xy: 773, 1
+  size: 89, 147
+  orig: 89, 147
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgbetlayer_tai
+  rotate: false
+  xy: 864, 16
+  size: 89, 147
+  orig: 89, 147
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgbetslider
+  rotate: false
+  xy: 478, 60
+  size: 30, 35
+  split: 14, 14, 15, 16
+  pad: 0, 0, 0, 0
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkghistory
+  rotate: false
+  xy: 978, 1
+  size: 18, 18
+  split: 8, 8, 8, 8
+  pad: 0, 0, 0, 0
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgmenu
+  rotate: false
+  xy: 883, 3
+  size: 18, 11
+  split: 8, 8, 8, 1
+  pad: 0, 0, 0, 0
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgtai
+  rotate: false
+  xy: 510, 56
+  size: 85, 31
+  orig: 85, 31
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgtaibet
+  rotate: false
+  xy: 529, 89
+  size: 89, 21
+  orig: 89, 21
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgxiu
+  rotate: false
+  xy: 937, 165
+  size: 86, 31
+  orig: 86, 31
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_bkgxiubet
+  rotate: false
+  xy: 478, 33
+  size: 89, 21
+  orig: 89, 21
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnbet
+  rotate: false
+  xy: 773, 150
+  size: 46, 20
+  orig: 46, 20
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnbet_down
+  rotate: false
+  xy: 478, 97
+  size: 49, 23
+  orig: 49, 23
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnbetbig
+  rotate: false
+  xy: 955, 86
+  size: 64, 19
+  orig: 64, 19
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnbetbig_down
+  rotate: false
+  xy: 478, 8
+  size: 82, 23
+  orig: 82, 23
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnbetboder
+  rotate: false
+  xy: 945, 224
+  size: 73, 31
+  orig: 73, 31
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnchart
+  rotate: false
+  xy: 548, 225
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnhelp
+  rotate: false
+  xy: 562, 1
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnleader
+  rotate: false
+  xy: 589, 1
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnmyhistory
+  rotate: false
+  xy: 616, 1
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnplus
+  rotate: false
+  xy: 986, 202
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnruby
+  rotate: false
+  xy: 569, 28
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnsub
+  rotate: false
+  xy: 620, 90
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btntai
+  rotate: false
+  xy: 955, 136
+  size: 68, 27
+  orig: 68, 27
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btntai_down
+  rotate: false
+  xy: 597, 56
+  size: 73, 31
+  orig: 73, 31
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnwin
+  rotate: false
+  xy: 597, 28
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnxiu
+  rotate: false
+  xy: 955, 107
+  size: 68, 27
+  orig: 68, 27
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_btnxiu_down
+  rotate: false
+  xy: 672, 65
+  size: 73, 31
+  orig: 73, 31
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_circle_bg
+  rotate: false
+  xy: 125, 4
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_circle_lac
+  rotate: false
+  xy: 298, 122
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_circle_tai
+  rotate: false
+  xy: 414, 122
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_circle_wait
+  rotate: false
+  xy: 246, 6
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_circle_xiu
+  rotate: false
+  xy: 362, 6
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_close
+  rotate: false
+  xy: 960, 198
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_countdown
+  rotate: false
+  xy: 1, 1
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_history
+  rotate: false
+  xy: 625, 28
+  size: 11, 7
+  split: 4, 4, 0, 4
+  pad: 0, 0, 0, 0
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_history_tai
+  rotate: false
+  xy: 669, 172
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_history_xiu
+  rotate: false
+  xy: 989, 36
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_itembkg1
+  rotate: false
+  xy: 945, 221
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_itembkg2
+  rotate: false
+  xy: 125, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_itemline
+  rotate: false
+  xy: 246, 122
+  size: 2, 1
+  orig: 2, 1
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_lefttop1
+  rotate: false
+  xy: 530, 158
+  size: 137, 24
+  orig: 137, 24
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_lefttop2
+  rotate: false
+  xy: 657, 120
+  size: 96, 20
+  orig: 96, 20
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_mainbg
+  rotate: false
+  xy: 1, 125
+  size: 295, 130
+  orig: 295, 130
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_menubkg
+  rotate: false
+  xy: 250, 122
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_mymoney_tai
+  rotate: false
+  xy: 833, 168
+  size: 102, 28
+  orig: 102, 28
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_mymoney_xiu
+  rotate: false
+  xy: 669, 142
+  size: 102, 28
+  orig: 102, 28
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_newhistory
+  rotate: false
+  xy: 530, 221
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_resulttai
+  rotate: false
+  xy: 955, 67
+  size: 46, 17
+  orig: 46, 17
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_resultxiu
+  rotate: false
+  xy: 955, 48
+  size: 46, 17
+  orig: 46, 17
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_righttop1
+  rotate: false
+  xy: 694, 195
+  size: 137, 24
+  orig: 137, 24
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_righttop2
+  rotate: false
+  xy: 657, 98
+  size: 96, 20
+  orig: 96, 20
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_textfieldbkg
+  rotate: false
+  xy: 955, 21
+  size: 32, 25
+  split: 14, 14, 8, 8
+  pad: 11, 12, 0, 0
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_tool
+  rotate: false
+  xy: 1003, 50
+  size: 20, 12
+  split: 8, 8, 0, 8
+  pad: 0, 0, 0, 0
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_top
+  rotate: false
+  xy: 530, 184
+  size: 162, 35
+  orig: 162, 35
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_top_history
+  rotate: false
+  xy: 595, 221
+  size: 173, 34
+  orig: 173, 34
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_top_rank
+  rotate: false
+  xy: 770, 221
+  size: 173, 34
+  orig: 173, 34
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_total_money
+  rotate: false
+  xy: 625, 37
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_total_money_small
+  rotate: false
+  xy: 755, 128
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+taixiu/taixiu_total_user
+  rotate: false
+  xy: 864, 1
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: -1
+taixiu/win
+  rotate: false
+  xy: 1003, 64
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+
+gamescreen-newgui-game-common5.png
+size: 512,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+taixiu/dice/dice1
+  rotate: false
+  xy: 1, 1
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice10
+  rotate: false
+  xy: 156, 2
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice11
+  rotate: false
+  xy: 218, 3
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice12
+  rotate: false
+  xy: 187, 2
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice2
+  rotate: false
+  xy: 32, 2
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice3
+  rotate: false
+  xy: 334, 3
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice4
+  rotate: false
+  xy: 278, 3
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice5
+  rotate: false
+  xy: 306, 3
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice6
+  rotate: false
+  xy: 63, 2
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice7
+  rotate: false
+  xy: 94, 2
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice8
+  rotate: false
+  xy: 248, 4
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+taixiu/dice/dice9
+  rotate: false
+  xy: 125, 2
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1

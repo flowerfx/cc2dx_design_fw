@@ -1,0 +1,139 @@
+
+gamescreen-Cards.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b
+  rotate: false
+  xy: 220, 408
+  size: 96, 93
+  orig: 96, 93
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 220, 503
+  size: 96, 94
+  orig: 96, 94
+  offset: 0, 0
+  index: -1
+card
+  rotate: false
+  xy: 117, 800
+  size: 149, 199
+  orig: 149, 199
+  offset: 0, 0
+  index: -1
+card_bgbinhdan
+  rotate: false
+  xy: 117, 599
+  size: 149, 199
+  orig: 149, 199
+  offset: 0, 0
+  index: -1
+ch
+  rotate: false
+  xy: 372, 756
+  size: 96, 101
+  orig: 96, 101
+  offset: 0, 0
+  index: -1
+jb
+  rotate: false
+  xy: 1, 143
+  size: 102, 140
+  orig: 102, 140
+  offset: 0, 0
+  index: -1
+jc
+  rotate: false
+  xy: 268, 717
+  size: 102, 140
+  orig: 102, 140
+  offset: 0, 0
+  index: -1
+kb
+  rotate: false
+  xy: 1, 285
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+kc
+  rotate: false
+  xy: 268, 859
+  size: 104, 140
+  orig: 104, 140
+  offset: 0, 0
+  index: -1
+mb
+  rotate: false
+  xy: 318, 531
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+mc
+  rotate: false
+  xy: 410, 721
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+mch
+  rotate: false
+  xy: 318, 566
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+mr
+  rotate: false
+  xy: 372, 713
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+qb
+  rotate: false
+  xy: 374, 859
+  size: 102, 140
+  orig: 102, 140
+  offset: 0, 0
+  index: -1
+qc
+  rotate: false
+  xy: 1, 1
+  size: 102, 140
+  orig: 102, 140
+  offset: 0, 0
+  index: -1
+r
+  rotate: false
+  xy: 268, 603
+  size: 98, 112
+  orig: 98, 112
+  offset: 0, 0
+  index: -1
+sobaiden
+  rotate: false
+  xy: 1, 427
+  size: 56, 572
+  orig: 56, 572
+  offset: 0, 0
+  index: -1
+sobaido
+  rotate: false
+  xy: 59, 427
+  size: 56, 572
+  orig: 56, 572
+  offset: 0, 0
+  index: -1
+xi_bich
+  rotate: false
+  xy: 117, 454
+  size: 101, 143
+  orig: 101, 143
+  offset: 0, 0
+  index: -1

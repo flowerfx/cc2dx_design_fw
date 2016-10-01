@@ -1,0 +1,34 @@
+
+background.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loadingbg
+  rotate: false
+  xy: 1, 1285
+  size: 960, 640
+  orig: 960, 640
+  offset: 0, 0
+  index: -1
+mainbg
+  rotate: false
+  xy: 1, 643
+  size: 960, 640
+  orig: 960, 640
+  offset: 0, 0
+  index: -1
+newbg
+  rotate: false
+  xy: 963, 1285
+  size: 960, 640
+  orig: 960, 640
+  offset: 0, 0
+  index: -1
+newbgwin
+  rotate: false
+  xy: 1, 1
+  size: 960, 640
+  orig: 960, 640
+  offset: 0, 0
+  index: -1

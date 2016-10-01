@@ -1,0 +1,204 @@
+
+gamescreen-cotuong-screen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ban-ruby
+  rotate: false
+  xy: 1, 591
+  size: 387, 432
+  orig: 387, 432
+  offset: 0, 0
+  index: -1
+banco
+  rotate: false
+  xy: 1, 86
+  size: 624, 69
+  split: 21, 15, 15, 15
+  pad: 0, 0, 0, 0
+  orig: 624, 69
+  offset: 0, 0
+  index: -1
+banco1
+  rotate: false
+  xy: 1, 157
+  size: 387, 432
+  orig: 387, 432
+  offset: 0, 0
+  index: -1
+bg-button
+  rotate: false
+  xy: 767, 898
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+chieubi
+  rotate: false
+  xy: 390, 468
+  size: 357, 178
+  orig: 357, 178
+  offset: 0, 0
+  index: -1
+chon
+  rotate: false
+  xy: 767, 951
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+chot
+  rotate: false
+  xy: 841, 975
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+chot-den
+  rotate: false
+  xy: 390, 356
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+countdown
+  rotate: false
+  xy: 602, 431
+  size: 54, 35
+  orig: 54, 35
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 85, 1
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+flare
+  rotate: false
+  xy: 390, 648
+  size: 375, 375
+  orig: 375, 375
+  offset: 0, 0
+  index: -1
+ma
+  rotate: false
+  xy: 452, 418
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+ma-den
+  rotate: false
+  xy: 147, 36
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+nguyen-soai
+  rotate: false
+  xy: 767, 848
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+nguyen-soai-den
+  rotate: false
+  xy: 891, 975
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 390, 406
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+phao
+  rotate: false
+  xy: 390, 306
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+phao-den
+  rotate: false
+  xy: 502, 418
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+play
+  rotate: false
+  xy: 85, 24
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+sao
+  rotate: false
+  xy: 1, 1
+  size: 82, 83
+  orig: 82, 83
+  offset: 0, 0
+  index: -1
+si
+  rotate: false
+  xy: 197, 36
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+si-den
+  rotate: false
+  xy: 767, 798
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+tuong
+  rotate: false
+  xy: 941, 975
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+tuong-den
+  rotate: false
+  xy: 390, 256
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+up
+  rotate: false
+  xy: 552, 418
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+upvang
+  rotate: false
+  xy: 247, 36
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+xe
+  rotate: false
+  xy: 767, 748
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+xe-den
+  rotate: false
+  xy: 390, 206
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1

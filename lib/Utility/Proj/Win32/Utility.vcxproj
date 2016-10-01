@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Code\Background\BGObject.h" />
+    <ClInclude Include="..\..\Code\Background\ObjectBGEntity.h" />
+    <ClInclude Include="..\..\Code\DisplayView.h" />
+    <ClInclude Include="..\..\Code\Factory.h" />
+    <ClInclude Include="..\..\Code\FileManager.h" />
+    <ClInclude Include="..\..\Code\FXFlatform\XFlatform.h" />
+    <ClInclude Include="..\..\Code\InputManager.h" />
+    <ClInclude Include="..\..\Code\LanguageMgr.h" />
+    <ClInclude Include="..\..\Code\LoadDataXML.h" />
+    <ClInclude Include="..\..\Code\ObjectTexture.h" />
+    <ClInclude Include="..\..\Code\Object\wObject.h" />
+    <ClInclude Include="..\..\Code\Social\Downloader\DownloadHandler.h" />
+    <ClInclude Include="..\..\Code\Social\SocialManager.h" />
+    <ClInclude Include="..\..\Code\SoundManager.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\ActionCommand.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\ActionProcess.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\LayerEntity.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\Screen.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wAnimationWidget.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wButton.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wCheckBox.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wEditBox.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\WidgetEntity.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wLayout.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wListView.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wListViewTable.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wLoadingBar.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPageView.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPanel.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wPanelClipping.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wParticle.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wRadioBtn.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wScrollView.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wSlider.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wText.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTextField.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.h" />
+    <ClInclude Include="..\..\Code\UI\AdvanceUI\wTimeProcessWidget.h" />
+    <ClInclude Include="..\..\Code\wTool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Code\Background\BGObject.cpp" />
+    <ClCompile Include="..\..\Code\Background\ObjectBGEntity.cpp" />
+    <ClCompile Include="..\..\Code\DisplayView.cpp" />
+    <ClCompile Include="..\..\Code\FileManager.cpp" />
+    <ClCompile Include="..\..\Code\FXFlatform\XFlatform.cpp" />
+    <ClCompile Include="..\..\Code\InputManager.cpp" />
+    <ClCompile Include="..\..\Code\LanguageMgr.cpp" />
+    <ClCompile Include="..\..\Code\LoadDataXML.cpp" />
+    <ClCompile Include="..\..\Code\ObjectTexture.cpp" />
+    <ClCompile Include="..\..\Code\Object\wObject.cpp" />
+    <ClCompile Include="..\..\Code\Social\Downloader\DownloadHandler.cpp" />
+    <ClCompile Include="..\..\Code\Social\SocialManager.cpp" />
+    <ClCompile Include="..\..\Code\SoundManager.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\ActionCommand.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\ActionProcess.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\LayerEntity.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\Screen.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wAnimationWidget.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wButton.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wCheckBox.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wEditBox.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\WidgetEntity.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wLayout.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wListView.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wListViewTable.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wLoadingBar.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPageView.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPanel.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wPanelClipping.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wParticle.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wRadioBtn.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wScrollView.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wSlider.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wText.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTextField.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTimeDigitalWidget.cpp" />
+    <ClCompile Include="..\..\Code\UI\AdvanceUI\wTimeProcessWidget.cpp" />
+    <ClCompile Include="..\..\Code\wTool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\proj.win32\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\json\project\vs2013\jsoncpp.vcxproj">
+      <Project>{42abb4f7-ae8a-3393-b7a2-be6923019af4}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59E9B6DA-10CD-4C4A-8139-CBB815E4C5D1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Utility</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2dx-lib\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\..\..\cocos2dx-lib\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\cocos2dx-lib\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\..\..\cocos2dx-lib\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GAME_WIN32;WIN32;_WINDOWS;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\RKUtils\Code;..\..\..\..\cocos2dx-lib\cocos;..\..\..\..\cocos2dx-lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244;4018</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>GAME_WIN32;WIN32;_WINDOWS;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\RKUtils\Code;..\..\..\..\cocos2dx-lib\cocos;..\..\..\..\cocos2dx-lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4244;4018</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

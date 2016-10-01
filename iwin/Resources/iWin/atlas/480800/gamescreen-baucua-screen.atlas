@@ -1,0 +1,161 @@
+
+gamescreen-baucua-screen.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ban tre
+  rotate: false
+  xy: 443, 605
+  size: 500, 340
+  orig: 500, 340
+  offset: 0, 0
+  index: -1
+bau
+  rotate: false
+  xy: 309, 418
+  size: 109, 105
+  orig: 109, 105
+  offset: 0, 0
+  index: -1
+bauxx
+  rotate: false
+  xy: 420, 404
+  size: 107, 92
+  orig: 107, 92
+  offset: 0, 0
+  index: -1
+ca
+  rotate: false
+  xy: 1, 1
+  size: 109, 105
+  orig: 109, 105
+  offset: 0, 0
+  index: -1
+caxx
+  rotate: false
+  xy: 528, 312
+  size: 106, 90
+  orig: 106, 90
+  offset: 0, 0
+  index: -1
+chen
+  rotate: false
+  xy: 1, 243
+  size: 306, 280
+  orig: 306, 280
+  offset: 0, 0
+  index: -1
+cua
+  rotate: false
+  xy: 309, 311
+  size: 109, 105
+  orig: 109, 105
+  offset: 0, 0
+  index: -1
+cuaxx
+  rotate: false
+  xy: 420, 311
+  size: 106, 91
+  orig: 106, 91
+  offset: 0, 0
+  index: -1
+dia
+  rotate: false
+  xy: 1, 525
+  size: 440, 420
+  orig: 440, 420
+  offset: 0, 0
+  index: -1
+ga
+  rotate: false
+  xy: 443, 498
+  size: 109, 105
+  orig: 109, 105
+  offset: 0, 0
+  index: -1
+gaxx
+  rotate: false
+  xy: 529, 404
+  size: 107, 92
+  orig: 107, 92
+  offset: 0, 0
+  index: -1
+lac dt
+  rotate: false
+  xy: 122, 159
+  size: 146, 82
+  orig: 146, 82
+  offset: 0, 0
+  index: -1
+nai
+  rotate: false
+  xy: 554, 498
+  size: 109, 105
+  orig: 109, 105
+  offset: 0, 0
+  index: -1
+naixx
+  rotate: false
+  xy: 776, 510
+  size: 108, 93
+  orig: 108, 93
+  offset: 0, 0
+  index: -1
+slider0
+  rotate: false
+  xy: 945, 730
+  size: 15, 17
+  split: 7, 7, 3, 11
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+slider1
+  rotate: false
+  xy: 122, 139
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+slider2
+  rotate: false
+  xy: 976, 927
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+slider3
+  rotate: false
+  xy: 270, 223
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+tom
+  rotate: false
+  xy: 665, 498
+  size: 109, 105
+  orig: 109, 105
+  offset: 0, 0
+  index: -1
+tomxx
+  rotate: false
+  xy: 638, 404
+  size: 106, 92
+  orig: 106, 92
+  offset: 0, 0
+  index: -1
+tui tien
+  rotate: false
+  xy: 945, 749
+  size: 29, 196
+  orig: 29, 196
+  offset: 0, 0
+  index: -1
+xuc xac
+  rotate: false
+  xy: 1, 108
+  size: 119, 133
+  orig: 119, 133
+  offset: 0, 0
+  index: -1

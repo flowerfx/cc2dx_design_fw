@@ -1,0 +1,512 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<game id="3" name="BAI_CAO" design="960_540">
+		<player id="0">
+			<common name="value_pos"		value="20_20"	/>
+			<common name="anchor_point" 	value="0_0"		/>
+			<common name="pos_tex1" 		value="10_-50"	/>
+			<common name="pos_tex2" 		value="10_-54"	/>
+			<common name="pos_text_bonus"	value="100_50"	/>
+			<common name="pos_chat"     	value="100_10"	/>
+			<common name="rotate_control" 	value="0"		/>
+			<!--private-->
+			<common name="pos_contain_card" value="500_-15"	/>
+			
+		</player>
+		<player id="1">
+			<common name="value_pos"		value="20_330"	/>
+			<common name="anchor_point" 	value="0_1"		/>
+			<common name="pos_tex1" 		value="10_-30"	/>
+			<common name="pos_tex2" 		value="10_-32"	/>
+			<common name="pos_chat"     	value="100_10"	/>
+			<common name="pos_text_bonus"	value="100_0"	/>
+			<common name="rotate_control" 	value="-90"		/>
+			<!--private-->
+			<common name="pos_contain_card" value="160_-60"	/>
+		</player>
+		<player id="2">
+			<common name="value_pos"		value="380_465"	/>
+			<common name="anchor_point" 	value="0_1"		/>
+			<common name="pos_tex1" 		value="108_40"	/>
+			<common name="pos_tex2" 		value="108_40"	/>
+			<common name="pos_chat"     	value="100_10"	/>
+			<common name="pos_text_bonus"	value="100_-50"	/>
+			<common name="rotate_control" 	value="0"		/>
+			<!--private-->
+			<common name="pos_contain_card" value="50_-50"	/>
+		</player>
+		<player id="3">
+			<common name="value_pos"		value="950_330"	/>
+			<common name="anchor_point" 	value="1_1"		/>
+			<common name="pos_tex1" 		value="68_-30"	/>
+			<common name="pos_tex2" 		value="68_-32"	/>
+			<common name="pos_chat"     	value="-10_10"	/>
+			<common name="pos_text_bonus"	value="-100_-50"/>
+			<common name="rotate_control" 	value="0"		/>
+			<!--private-->
+			<common name="pos_contain_card" value="-100_-10"	/>
+		</player>
+		<player id="4">
+			<common name="value_pos"		value="950_50"	/>
+			<common name="anchor_point" 	value="1_0"		/>
+			<common name="pos_tex1" 		value="68_-30"	/>
+			<common name="pos_tex2" 		value="68_-32"	/>
+			<common name="pos_chat"     	value="100_10"	/>
+			<common name="pos_text_bonus"	value="-100_100"/>
+			<common name="rotate_control" 	value="90"		/>
+			<!--private-->
+			<common name="pos_contain_card" value="-100_-10"/>
+		</player>
+		<player id="5">
+			<common name="value_pos"		value="680_465"	/>
+			<common name="anchor_point" 	value="1_1"		/>
+			<common name="pos_tex1" 		value="-30_40"	/>
+			<common name="pos_tex2" 		value="-30_38"	/>
+			<common name="pos_chat"     	value="100_10"	/>
+			<common name="pos_text_bonus"	value="50_-50"	/>
+			<common name="rotate_control" 	value="0"		/>
+			<!--private-->
+			<common name="pos_contain_card" value="-100_-50"	/>
+		</player>
+
+	</game>
+
+	<MenuWidget name="BAICAO" designSize="960_540">
+	
+			
+		<Widget id="0" typeRes="layout" name = "back_panel_card" idx_appear ="1">		
+			<common_value>							
+				<common 		name="clipping_enable"	    value="0"/>
+				<common 		name="background_type" 		value="0"/>
+				<common			name="stick_screen"			value="1"/>
+				<common			name="anchor_point"	 		value="0_1"/>
+				<common			name="zorder"				value="500"/>
+			</common_value>
+			
+				<Widget id="0" typeRes="panel" name = "bg" idx_appear ="1">		
+					<common_value>							
+						<common 		name="source" 		value="gamescreen-newgui-game-common/bkg_btn_bar.9.png"/>				
+						<common			name="scale_9"		value="1"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="1"/>
+						<common			name="use_nine_path" value="1"/>
+						<common			name="anchor_point"	 value="0.5_0.5"/>
+					</common_value>	
+					<pos 		origin = "480_33" 	/>
+					<Size 		origin = "960_66" 	/>
+				</Widget>
+							
+				<Widget id="4" typeRes="layout" name = "layout_btn_game_baicao" idx_appear ="1">		
+					<common_value>
+						<common 		name="clipping_enable"	    value="0"/>
+						<common 		name="background_type" 		value="0"/>
+						<common			name="casca_color"			value="0"/>
+						<common			name="stick_screen"			value="0"/>
+						<common			name="anchor_point"			value="1_0.5"/>
+					</common_value>
+								
+								
+					<Widget id="0" typeRes="button" name = "btn_quick_play" 	idx_appear ="2">		
+						<common_value>
+							<common 		name="source" 		value="default-round.9.png"/>
+							<common 		name="press" 		value="default-round.9.png"/>
+							<common 		name="disable" 		value="default-round.9.png"/>
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="scale_9"		value="1"/>
+							
+							<common 		name="scale_press" 	value="-0.05"/>
+							<common			name="use_nine_path"	value="1"/>
+							<common			name="anchor_point"	value="0_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font"   name = "title_" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="Chơi nhanh"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "75_25" 	/>
+							<Size 		origin = "20_20" 	/>
+						</Widget>
+						
+						<pos 		origin = "200_30" 	/>
+						<Size 		origin = "150_50" 	/>
+					</Widget>
+							
+					<Widget id="1" typeRes="button" name = "btn_bet_money" 		idx_appear ="2">		
+						<common_value>
+							<common 		name="source" 		value="default-round-yellow.9.png"/>
+							<common 		name="press" 		value="default-round-yellow.9.png"/>
+							<common 		name="disable" 		value="default-round-yellow.9.png"/>
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="scale_9"		value="1"/>							
+							<common 		name="scale_press" 	value="-0.05"/>
+							<common			name="use_nine_path"	value="1"/>
+							<common			name="anchor_point"	value="0_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font"   name = "title_" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="Cược"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "75_25" 	/>
+							<Size 		origin = "20_20" 	/>
+							<color		origin = "0_0_0_255" />
+						</Widget>
+						
+						<pos 		origin = "400_30" 	/>
+						<Size 		origin = "150_50" 	/>
+					</Widget>
+					
+					<Widget id="2" typeRes="button" name = "btn_rub_card" 		idx_appear ="2">		
+						<common_value>
+							<common 		name="source" 		value="default-round-yellow.9.png"/>
+							<common 		name="press" 		value="default-round-yellow.9.png"/>
+							<common 		name="disable" 		value="default-round-yellow.9.png"/>
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="scale_9"		value="1"/>
+							
+							<common 		name="scale_press" 	value="-0.05"/>
+							<common			name="use_nine_path"	value="1"/>
+							<common			name="anchor_point"	value="0_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font"   name = "title_" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="Nặn bài"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "75_25" 	/>
+							<Size 		origin = "20_20" 	/>
+							<color		origin = "0_0_0_255" />
+						</Widget>
+						
+						<pos 		origin = "400_30" 	/>
+						<Size 		origin = "150_50" 	/>
+					</Widget>
+					
+					<Widget id="3" typeRes="font"   name = "txt_wait_player" 	idx_appear ="1"  visible="0">		
+							<common_value>
+								<common 		name="source" 			value="Chờ người chơi khác..."/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "220_30" 	/>
+							<Size 		origin = "20_20" 	/>
+							<color		origin = "255_255_255_255" />
+							<COMMAND>
+								<cmd id="0" name="ACTION">
+								{
+									"act0" : 
+									{
+										"repeat"  : -1,
+										"squence" : [
+											{
+												"SET_COLOR" : "255_255_255_255"
+											},
+											{
+												"COLOR" : "0_0_0_255",
+												"TIME"	: 1
+											},
+											{
+												"COLOR" : "255_255_255_255",
+												"TIME"	: 1
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>
+					</Widget>
+					
+					
+					<pos 		origin = "950_33" 	/>
+					<Size 		origin = "560_60" 	/>	
+				</Widget>
+							
+				<Widget id="5" typeRes="button" name = "btn_invite_player" idx_appear ="2" visible="0">		
+					<common_value>
+						<common 		name="source" 		value="default-round-yellow.9.png"/>
+						<common 		name="press" 		value="default-round-yellow.9.png"/>
+						<common 		name="disable" 		value="default-round-yellow.9.png"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="0"/>
+						<common			name="scale_9"		value="1"/>
+
+						<common 		name="scale_press" 	value="-0.05"/>
+						<common			name="use_nine_path"	value="1"/>
+						<common			name="anchor_point"	value="0_0.5"/>
+					</common_value>
+					
+					<Widget id="0" typeRes="font"   name = "title_" 	idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="Mời người chơi"/>					
+							<common    		name="font_idx"			value="0"/>	
+							<common			name="anchor_point"		value="0.5_0.5"/>
+							<common			name="bitmap_font"   	value="1"/>
+						</common_value>
+						<pos 		origin = "125_25" 	/>
+						<Size 		origin = "20_20" 	/>
+						<color		origin = "0_0_0_255" />
+					</Widget>
+					
+					<pos 		origin = "323_33" 	/>
+					<Size 		origin = "250_50" 	/>
+				</Widget>													
+				
+					
+			<pos 		origin = "0_66" 	/>
+			<Size 		origin = "960_66" 	/>
+			<opacity	origin = "230"		/>
+		</Widget>
+			
+		<Widget id="1" typeRes="panel" name = "sp_slider_bet" idx_appear ="1" visible="0">
+				<common_value>							
+					<common 		name="source" 		value="loginscreen/nine/blackpixel.png"/>				
+					<common			name="scale_9"		value="1"/>
+					<common 		name="use_atlas" 	value="1"/>	
+					<common			name="stick_screen"	value="1"/>
+					<common			name="anchor_point"	 value="1_1"/>
+				</common_value>
+				<pos 		origin = "1300_540" />
+				<Size 		origin = "200_473" 	/>
+				<opacity	origin = "230"		/>
+				<Widget id="0" typeRes="font" name = "lb_max_win" 			idx_appear ="1">
+					<common_value>						
+						<common 		name="source" 		value="10k"/>					
+						<common    		name="font_idx"		value="2"/>	
+						<common			name="bitmap_font"  value="1"/>
+						<common			name="anchor_point"	 value="0.5_0.5"/>
+					</common_value>
+					<pos 		origin = "100_455" 			/>
+					<Size 		origin = "20_20" 			/>
+					<color		origin = "255_230_10_255" 	/>
+				</Widget>
+				<Widget id="1" typeRes="button" name = "btn_create_game" 	idx_appear ="1">		
+					<common_value>
+						<common 		name="source" 		value="default-round.9.png"/>
+						<common 		name="press" 		value="default-round.9.png"/>
+						<common 		name="disable" 		value="default-round.9.png"/>
+						<common 		name="scale_press" 	value="-0.05"/>
+						<common			name="scale_9"		value="1"/>
+						<common			name="use_nine_path" value="1"/>
+						<common			name="anchor_point"	 value="0.5_0"/>
+					</common_value>
+							
+					<Widget id="0" typeRes="font"   name = "title_" 	idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 			value="Cược Tối Đa"/>					
+							<common    		name="font_idx"			value="0"/>	
+							<common			name="anchor_point"		value="0.5_0.5"/>
+							<common			name="bitmap_font"   	value="1"/>
+						</common_value>
+						<pos 		origin = "70_20" 			/>
+						<Size 		origin = "20_20" 			/>
+						<color 		origin = "250_200_10_255" 	/>
+					</Widget>
+							
+					<pos 		origin = "100_10" 	/>
+					<Size 		origin = "140_40" 	/>
+				</Widget>
+				<Widget id="2" typeRes="font" 	name = "lb_win_value" 		idx_appear ="1">
+					<common_value>						
+						<common 		name="source" 		value="10k"/>					
+						<common    		name="font_idx"		value="2"/>	
+						<common			name="bitmap_font"	value="1"/>
+					</common_value>
+						<pos 		origin = "30_70" 	/>
+						<Size 		origin = "20_20" 	/>
+						<color		origin = "255_230_100_255" />
+				</Widget>
+				<Widget id="3" typeRes="slider" name = "slider_bet_money" 	idx_appear ="2">		
+					<common_value>
+						<common 		name="source" 				value="default-slider.png"/>
+						<common 		name="normal_ball" 			value="default-slider-knob.png"/>
+						<common 		name="press_ball" 			value="default-slider-knob.png"/>
+						<common 		name="disable_ball" 		value="default-slider-knob.png"/>
+						<common 		name="bar_progress" 		value="default-slider-value.png"/>
+						<common 		name="use_atlas" 			value="1"/>
+						<common			name="scale_9"				value="1"/>
+						<common			name="size_ball"			value="30_30"/>
+						<common			name="origin_size_ball"		value="44_44"/>	
+						<common			name="anchor_point"			value="0_0"/>
+						<common			name="number_part"			value="10"/>
+					</common_value>
+					<pos 		origin = "100_70" 	/>
+					<Size 		origin = "350_1" 	/>
+					<rotate 	origin = "-90" 	/>								
+				</Widget>
+				
+				<COMMAND>
+					<cmd id="0" name="ON_SHOW">
+					{
+						"act0" :{
+							"squence":[
+								{
+									"SET_VISIBLE" : 1
+								},
+								{
+									"SET_POSITION" : "1300_540",
+									"DESIGN"	   : "960_540"
+								},
+								{
+									"POSITION" 	   : "960_540",
+									"DESIGN"	   : "960_540",
+									"TIME"	       : 0.15,
+									"STYLE"		   : 0
+								}
+							]
+						}	
+					}
+					</cmd>
+					<cmd id="1" name="ON_HIDE">
+					{
+						"act0" :{
+							"squence":[
+								{
+									"SET_POSITION" : "960_540",
+									"DESIGN"	   : "960_540"
+								},
+								{
+									"POSITION" 	   : "1300_540",
+									"DESIGN"	   : "960_540",
+									"TIME"	       : 0.15,
+									"STYLE"		   : 0
+								},
+								{
+									"SET_VISIBLE" : 0
+								}
+							]
+						}	
+					}
+					</cmd>
+			</COMMAND>
+		</Widget>
+			
+		<Widget id="2" typeRes="layout" name = "layout_card" idx_appear ="1" >
+			<common_value>
+					<common 		name="clipping_enable"	    value="0"/>
+					<common 		name="background_type" 		value="0"/>
+					<common			name="stick_screen"			value="1"/>
+					<common			name="anchor_point"	 		value="0.5_0"/>
+			</common_value>
+			
+			<Widget id="0" typeRes="layout" name = "contain_card" idx_appear ="1" >
+				<common_value>
+						<common 		name="clipping_enable"	    value="0"/>
+						<common 		name="background_type" 		value="0"/>
+						<common			name="stick_screen"			value="1"/>
+						<common			name="anchor_point"	 		value="0.5_0"/>
+				</common_value>
+				<pos 		origin = "100_0" />
+				<Size 		origin = "200_100" 	/>
+				<COMMAND>
+					<cmd id="0" name="SCALE_SMALL">
+					{
+						"act0" : {
+							"single_0" : {
+								"SET_SCALE" : "1.0_1.0",
+								"FORCE"		: 1
+							}
+						}
+					}
+					</cmd>
+					<cmd id="1" name="SCALE_NORMAL">
+					{
+						"act0" : {
+							"single_0" : {
+								"SET_SCALE" : "1.25_1.25",
+								"FORCE"		: 1
+							}
+						}
+					}
+					</cmd>
+				</COMMAND>
+			</Widget>
+			<Widget id="1" typeRes="panel"  name = "panel_info"   idx_appear ="1" visible="0">
+				<common_value>
+						<common 		name="source"	    value="loginscreen/nine/transbg.9.png"/>
+						<common			name="stick_screen"	value="0"/>
+						<common			name="use_atlas"	value="1"/>
+						<common			name="scale_9"		value="1"/>
+						<common			name="use_nine_path" value="1"/>	
+						<common			name="anchor_point"	 value="0.5_0"/>
+				</common_value>
+				
+				<Widget id="0" typeRes="font" name = "text_info" idx_appear ="1">
+					<common_value>						
+						<common 		name="source" 		value="0"/>					
+						<common    		name="font_idx"		value="0"/>	
+						<common			name="bitmap_font" value="1"/>
+						<common			name="anchor_point"	 value="0.5_0.5"/>
+					</common_value>
+						<pos 		origin = "50_15" 	/>
+						<Size 		origin = "20_20" 	/>
+				</Widget>
+				
+				<pos 		origin = "100_0" />
+				<Size 		origin = "100_30" 	/>		
+			</Widget>
+			
+			<pos 		origin = "480_70" />
+			<Size 		origin = "200_100" 	/>	
+		</Widget>
+		
+		<Widget id="3" typeRes="font" name = "lb_bet_win_0" idx_appear ="1">
+			<common_value>						
+				<common 		name="source" 		value="1.000.000.000"/>					
+				<common    		name="font_idx"		value="4"/>	
+				<common			name="bitmap_font" value="1"/>
+				<common			name="anchor_point"	 value="0_0.5"/>
+			</common_value>
+			<pos 		origin = "200_150" 	/>
+			<Size 		origin = "20_20" 	/>
+			<color		origin = "255_210_50_255" />
+		</Widget>
+		<Widget id="4" typeRes="font" name = "lb_bet_win_1" idx_appear ="1">
+			<common_value>						
+				<common 		name="source" 		value="1.000.000.000"/>					
+				<common    		name="font_idx"		value="4"/>	
+				<common			name="bitmap_font" value="1"/>
+				<common			name="anchor_point"	 value="0_0.5"/>
+			</common_value>
+			<pos 		origin = "80_410" 	/>
+			<Size 		origin = "20_20" 	/>
+			<color		origin = "255_210_50_255" />
+		</Widget>
+		<Widget id="5" typeRes="font" name = "lb_bet_win_2" idx_appear ="1">
+			<common_value>						
+				<common 		name="source" 		value="1.000.000.000"/>					
+				<common    		name="font_idx"		value="4"/>	
+				<common			name="bitmap_font" value="1"/>
+				<common			name="anchor_point"	 value="1_0.5"/>
+			</common_value>
+			<pos 		origin = "390_490" 	/>
+			<Size 		origin = "20_20" 	/>
+			<color		origin = "255_210_50_255" />
+		</Widget>
+		<Widget id="6" typeRes="font" name = "lb_bet_win_3" idx_appear ="1">
+			<common_value>						
+				<common 		name="source" 		value="1.000.000.000"/>					
+				<common    		name="font_idx"		value="4"/>	
+				<common			name="bitmap_font" value="1"/>
+				<common			name="anchor_point"	 value="1_0.5"/>
+			</common_value>
+			<pos 		origin = "870_410" 	/>
+			<Size 		origin = "20_20" 	/>
+			<color		origin = "255_210_50_255" />
+		</Widget>
+	
+	</MenuWidget>
+
+</GAME>

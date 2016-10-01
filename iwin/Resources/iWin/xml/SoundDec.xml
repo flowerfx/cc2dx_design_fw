@@ -1,0 +1,367 @@
+<GAME>
+	<Sound>
+		<sound_play id="0" name="SFX_VOTAY">
+			<path value="sound\votay.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="1" name="SFX_UPDATELIST">
+			<path value="sound\updatelist.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="2" name="SFX_UNREADY">
+			<path value="sound\unready.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="3" name="SFX_VUOT_BAO">
+			<path value="sound\tieng_vuot_bao.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="4" name="SFX_DAYPHAO_CHAY">
+			<path value="sound\tieng_dayphao_chay.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="5" name="SFX_CAU_DOI_ROT">
+			<path value="sound\tieng_cau_doi_rot.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="6" name="SFX_NHAN_ITEM">
+			<path value="sound\sound_nhan_item.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="7" name="SFX_READY">
+			<path value="sound\ready.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="8" name="SFX_POONG">
+			<path value="sound\poong.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="9" name="SFX_PHAO_NO">
+			<path value="sound\phao_no.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="10" name="SFX_LEAVEBOARD">
+			<path value="sound\leaveboard.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="11" name="SFX_JOINBOARD">
+			<path value="sound\joinboard.mp3"/>
+			<delay_first value="0.15"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		
+		<sound_play id="12" name="SFX_GAMECO_XI">
+			<path value="sound\gameco\xi.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="13" name="SFX_GAMECO_XE">
+			<path value="sound\gameco\xe.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="14" name="SFX_GAMECO_WIN">
+			<path value="sound\gameco\win.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="15" name="SFX_GAMECO_TUONG">
+			<path value="sound\gameco\tuong.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="16" name="SFX_GAMECO_START">
+			<path value="sound\gameco\startgame.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="17" name="SFX_GAMECO_PHAO">
+			<path value="sound\gameco\phao.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="18" name="SFX_GAMECO_MOVE">
+			<path value="sound\gameco\move.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="19" name="SFX_GAMECO_MA">
+			<path value="sound\gameco\ma.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="20" name="SFX_GAMECO_LOSE">
+			<path value="sound\gameco\lose.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="21" name="SFX_GAMECO_DRAWX">
+			<path value="sound\gameco\drawx.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="22" name="SFX_GAMECO_DRAWO">
+			<path value="sound\gameco\drawo.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play><sound_play id="13" name="SFX_GAMECO_XE">
+			<path value="sound\gameco\xe.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="23" name="SFX_GAMECO_DRAW">
+			<path value="sound\gameco\draw.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="24" name="SFX_GAMECO_CHOT">
+			<path value="sound\gameco\chot.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="25" name="SFX_GAMECO_CHIEUTUONG">
+			<path value="sound\gameco\chieutuong.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="26" name="SFX_GAMECO_CHIEUTUONG_BI">
+			<path value="sound\gameco\bichieutuong.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		
+		<sound_play id="27" name="SFX_GAMEBAI_U">
+			<path value="sound\gamebai\u.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="28" name="SFX_GAMEBAI_BAIBAYLEN">
+			<path value="sound\gamebai\tiengbai_baylen.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="29" name="SFX_GAMEBAI_THUABAI">
+			<path value="sound\gamebai\thuabai.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="30" name="SFX_GAMEBAI_THANGBAI">
+			<path value="sound\gamebai\thangbai.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="31" name="SFX_GAMEBAI_START">
+			<path value="sound\gamebai\startgame.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="32" name="SFX_GAMEBAI_LATBAI">
+			<path value="sound\gamebai\latbai.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="33" name="SFX_GAMEBAI_HAPHOM">
+			<path value="sound\gamebai\haphom.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="34" name="SFX_GAMEBAI_NHIEUQUAN">
+			<path value="sound\gamebai\haphom.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="35" name="SFX_GAMEBAI_1QUAN">
+			<path value="sound\gamebai\danh_1quan.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="36" name="SFX_GAMEBAI_CHONBAI">
+			<path value="sound\gamebai\chonbai.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="37" name="SFX_GAMEBAI_CHIP">
+			<path value="sound\gamebai\startgame.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="38" name="SFX_GAMEBAI_CHIACHAP">
+			<path value="sound\gamebai\chiabaicham.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="39" name="SFX_GAMEBAI_CHIALIENTUC">
+			<path value="sound\gamebai\chiabai_lien_tuc.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="40" name="SFX_GAMEBAI_CHIABAI">
+			<path value="sound\gamebai\chiabai.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="41" name="SFX_GAMEBAI_CHACHEO">
+			<path value="sound\gamebai\chatduocheo.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="42" name="SFX_GAMEBAI_BIANBAI">
+			<path value="sound\gamebai\bianbai.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="43" name="SFX_GAMEBAI_BAICAO_BAOHIEUNUT">
+			<path value="sound\gamebai\baicao_baohieunut.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="44" name="SFX_GAMEBAI_BAYLEN">
+			<path value="sound\gamebai\bai_baylen.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="45" name="SFX_GAMEBAI_ANBAI">
+			<path value="sound\gamebai\anbai.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		
+		<sound_play id="46" name="SFX_DEMNGUOC">
+			<path value="sound\donghodemnguoc.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="47" name="SFX_DICE_END">
+			<path value="sound\dice_end.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="48" name="SFX_DICE">
+			<path value="sound\dice.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="49" name="SFX_COIN_DROP">
+			<path value="sound\coindrop.mp3"/>
+			<delay_first value="0.0"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="50" name="SFX_CLICK">
+			<path value="sound\click.mp3"/>
+			<delay_first value="0.15"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="51" name="SFX_BUZZ">
+			<path value="sound\buzz.mp3"/>
+			<delay_first value="0.15"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		<sound_play id="52" name="SFX_BETMONEY">
+			<path value="sound\betmoney.mp3"/>
+			<delay_first value="0.15"/>
+			<loop value="1"/>
+			<type value="sound"/>
+		</sound_play>
+		
+		<sound_play id="53" name="MUSIC_MAIN">
+            <path value="music\musicchongame.mp3"/>
+            <delay_first value="0.15"/>
+            <loop value="1"/>
+            <type value="music"/>
+        </sound_play>
+		<sound_play id="54" name="MUSIC_MUSIC05">
+            <path value="music\music05.mp3"/>
+            <delay_first value="0.15"/>
+            <loop value="1"/>
+            <type value="music"/>
+        </sound_play>
+		<sound_play id="55" name="MUSIC_MUSIC04">
+            <path value="music\music04.mp3"/>
+            <delay_first value="0.15"/>
+            <loop value="1"/>
+            <type value="music"/>
+        </sound_play>
+		<sound_play id="56" name="MUSIC_MUSIC03">
+            <path value="music\music03.mp3"/>
+            <delay_first value="0.15"/>
+            <loop value="1"/>
+            <type value="music"/>
+        </sound_play>
+		<sound_play id="57" name="MUSIC_MUSIC02">
+            <path value="music\music02.mp3"/>
+            <delay_first value="0.15"/>
+            <loop value="1"/>
+            <type value="music"/>
+        </sound_play>
+		<sound_play id="58" name="MUSIC_MUSIC01">
+            <path value="music\music01.mp3"/>
+            <delay_first value="0.15"/>
+            <loop value="1"/>
+            <type value="music"/>
+        </sound_play>
+	</Sound>
+</GAME>

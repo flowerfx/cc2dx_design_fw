@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\ThreadEmulation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\WinRTAPIsEmul.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\WinRTStringUtils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\MetroSocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\targetver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\ThreadEmulation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\WinRTAPIsEmul.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\WinRTStringUtils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\metrosockdef.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\MetroSocket.h" />
+  </ItemGroup>
+</Project>

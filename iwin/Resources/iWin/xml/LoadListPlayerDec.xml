@@ -1,0 +1,928 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<list_widget>
+		<Widget id="1" typeRes="layout" name = "layout_user_" idx_appear ="1">		
+			<common_value>
+				<common 		name="clipping_enable"	    value="0"/>
+				<common 		name="background_type" 		value="0"/>
+				<common			name="casca_color"			value="0"/>
+				<common			name="stick_screen"			value="0"/>
+				<common			name="anchor_point"			value="0_1"/>
+			</common_value>
+							
+			<Widget id="0" typeRes="button" name = "btn_add_user_" idx_appear ="1" visible="1">		
+				<common_value>
+					<common 		name="source" 		value="gamescreen-newgui-game-common/bkg_them_user.png"/>
+					<common 		name="press" 		value="gamescreen-newgui-game-common/bkg_them_user.png"/>
+					<common 		name="disable" 		value="gamescreen-newgui-game-common/bkg_them_user.png"/>
+					<common 		name="scale_press" 	value="-0.05"/>
+					<common 		name="use_atlas" 	value="1"/>	
+					<common			name="stick_screen"	value="0"/>
+					<common			name="anchor_point"	value="0.5_0.5"/>
+				</common_value>
+				
+				<Widget id="1" typeRes="panel" name = "symbal" idx_appear ="1">		
+					<common_value>
+						<common 		name="source" 		value="gamescreen-newgui-game-common/ico_them_user.png"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="0"/>
+					</common_value>
+					<pos 		origin = "39_39" 	/>
+					<Size 		origin = "50_50" 	/>
+				</Widget>		
+								
+				<pos 	origin = "39_39" 	/>
+				<Size 	origin = "78_78" 	/>					
+			</Widget>
+			
+			<Widget id="1" typeRes="panel" name = "fx_flare" idx_appear ="1" visible="0">		
+						<common_value>							
+							<common 		name="source" 		value="gamescreen-newgui-game-common/fx_flare_vongxoay.png"/>				
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point" value="0.5_0.5"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "250_250" 	/>
+						<COMMAND>
+							<cmd id="0" name="ROTATE">
+							{
+								"act0":
+								{
+									"repeat": -1,
+									"single_0":
+									{
+										"ROTATE" : 360 ,
+										"TIME"	 : 3,
+										"STYLE"	 : 1
+									},
+									"squence" : [
+										{
+											"DELAY" : 1
+										},
+										{
+											"SIZE" 	 : "350_350",
+											"DESIGN" : "960_540",
+											"TIME"   : 0.5
+										},
+										{
+											"DELAY" : 1
+										},
+										{
+											"SIZE" 	 : "250_250",
+											"DESIGN" : "960_540",
+											"TIME"   : 0.5
+										}
+									]
+								}
+							}
+							</cmd>
+						</COMMAND>
+			</Widget>
+				
+			<Widget id="2" typeRes="layout" name = "layout_player" idx_appear ="1" visible="0">		
+					<common_value>
+						<common 		name="clipping_enable"	    value="0"/>
+						<common 		name="background_type" 		value="0"/>
+						<common			name="casca_color"			value="0"/>
+						<common			name="stick_screen"			value="0"/>
+						<common			name="anchor_point"			value="0.5_0.5"/>
+					</common_value>
+					
+					<Widget id="1" typeRes="button" name = "btn_info_user_" idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 		value="gamescreen-newgui-game-common/circle_avatar.png"/>
+							<common 		name="press" 		value="gamescreen-newgui-game-common/circle_avatar.png"/>
+							<common 		name="disable" 		value="gamescreen-newgui-game-common/circle_avatar.png"/>
+							<common 		name="scale_press" 	value="-0.05"/>
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point"	value="0.5_0.5"/>
+							<common			name="not_add_event" value="1"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "78_78" 	/>					
+					</Widget>		
+					
+					<Widget id="2" typeRes="panel" name = "bg_avatar" idx_appear ="1">		
+						<common_value>							
+							<common 		name="source" 		value="gamescreen-newgui-game-common/circle_avatar.png"/>				
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point" value="0.5_0.5"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "82_82" 	/>
+						<COMMAND>
+							<cmd id="0" name="SCALE_BIG">
+							{
+								"act0" : {
+									"single_0":
+									{
+										"SET_SIZE" : "124_124",
+										"DESIGN"   : "960_540"
+									}
+								}
+							}
+							</cmd>
+							<cmd id="1" name="SCALE_NORMAL">
+							{
+								"act0" : {
+									"single_0":
+									{
+										"SET_SIZE" : "82_82",
+										"DESIGN"   : "960_540"
+									}
+								}
+							}
+							</cmd>
+						</COMMAND>	
+					</Widget>
+									
+					<Widget id="3" typeRes="panel_clipping" name = "avatar_user_panel" idx_appear ="1">		
+						<common_value>							
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point" value="0.5_0.5"/>
+						</common_value>
+								
+						<Widget id="0" typeRes="panel" name = "bg_avatar" idx_appear ="1">		
+							<common_value>							
+								<common 		name="source" 		value="gamescreen-newgui-game-common/circle_avatar.png"/>				
+								<common 		name="use_atlas" 	value="1"/>	
+								<common			name="stick_screen"	value="0"/>
+								<common			name="stencil"		value="1"/>
+								<common			name="anchor_point" value="0.5_0.5"/>
+							</common_value>
+							<pos 		origin = "39_39" 	/>
+							<Size 		origin = "78_78" 	/>
+						</Widget>
+								
+						<Widget id="1" typeRes="panel" name = "avatar_default" idx_appear ="1">		
+							<common_value>							
+								<common 		name="source" 		value="mainscreen/icon/avatar_default.png"/>				
+								<common 		name="use_atlas" 	value="1"/>	
+								<common			name="stick_screen"	value="0"/>
+								<common			name="anchor_point" value="0.5_0.5"/>
+							</common_value>
+							<pos 		origin = "39_39" 	/>
+							<Size 		origin = "80_80" 	/>
+						</Widget>
+								
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "78_78" 	/>
+						<COMMAND>
+							<cmd id="0" name="SCALE_BIG">
+							{
+								"act0" : {
+									"single_0":
+									{
+										"SET_SIZE" : "120_120",
+										"DESIGN"   : "960_540"
+									}
+								}
+							}
+							</cmd>
+							<cmd id="1" name="SCALE_NORMAL">
+							{
+								"act0" : {
+									"single_0":
+									{
+										"SET_SIZE" : "78_78",
+										"DESIGN"   : "960_540"
+									}
+								}
+							}
+							</cmd>
+							<cmd id="2" name="TURN_EFFECT">
+							{
+								"act0":
+								{
+									"squence_0" : 
+									[
+										{
+											"SCALE" 	: "1.5_1.5",
+											"TIME"		: 0.3
+										},
+										{
+											"SCALE" 	: "0.8_0.8",
+											"TIME"		: 0.3
+										},
+										{
+											"SCALE" 	: "1_1",
+											"TIME"		: 0.3
+										}
+									],
+									"squence_1" : 
+									[
+										{
+											"ROTATE" 	: 25,
+											"STYLE"		: 2,
+											"TIME"		: 0.2
+										},
+										{
+											"ROTATE" 	: -35,
+											"STYLE"		: 2,
+											"TIME"		: 0.2
+										},
+										{
+											"ROTATE" 	: 20,
+											"STYLE"		: 2,
+											"TIME"		: 0.2
+										},
+										{
+											"ROTATE" 	: -10,
+											"STYLE"		: 2,
+											"TIME"		: 0.2
+										}
+									]							
+								}
+							}
+							</cmd>
+						</COMMAND>
+					</Widget>
+					
+					<!--	
+					<Widget id="4" typeRes="button" name = "btn_gift_user_" 	idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 		value="gamescreen-game-common/tang-qua.png"/>
+							<common 		name="press" 		value="gamescreen-game-common/tang-qua.png"/>
+							<common 		name="disable" 		value="gamescreen-game-common/tang-qua.png"/>
+							<common 		name="scale_press" 	value="-0.05"/>
+							<common			name="anchor_point"	value="1_1"/>
+						</common_value>
+						
+						<pos 		origin = "35_30" 	/>
+						<Size 		origin = "46_46" 	/>					
+					</Widget>	
+					-->
+					<Widget id="5" typeRes="panel"  name = "icon_host" 			idx_appear ="1" visible="0">	
+						<common_value>							
+							<common 		name="source" 		value="gamescreen-newgui-game-common/ico_chuban_choi.png"/>				
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point" value="0_0"/>
+						</common_value>
+						<pos 		origin = "56_56" 	/>
+						<Size 		origin = "32_32" 	/>
+					</Widget>
+					<Widget id="6" typeRes="panel"  name = "icon_ready" 		idx_appear ="1" visible="0">		
+						<common_value>							
+							<common 		name="source" 		value="gamescreen-newgui-game-common/ico_sansang.png"/>				
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point" value="0_0"/>
+						</common_value>
+						<pos 		origin = "46_-5" 	/>
+						<Size 		origin = "43_48" 	/>
+					</Widget>
+					<Widget id="7" typeRes="panel"  name = "icon_deny" 			idx_appear ="1" visible="0">		
+						<common_value>							
+							<common 		name="source" 		value="mainscreen/icon/btnDeny.png"/>				
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point" value="0.5_0.5"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "78_78" 	/>
+						<COMMAND>
+							<cmd id="0" name="ACTION">
+							{
+								"act0" : 
+								{
+									"repeat" : -1,
+									"squence" : 
+									[	
+										{	
+											"DELAY" : 1.2
+										},
+										{
+											"ROTATE"  : 720,
+											"TIME"	  : 0.6,
+											"STYLE"	  : 1
+										}
+									]
+								}
+							}							
+							</cmd>
+						</COMMAND>
+					</Widget>
+					<Widget id="7" typeRes="panel"  name = "icon_quickplay" 	idx_appear ="1" visible="0">		
+						<common_value>							
+							<common 		name="source" 		value="gamescreen-newgui-game-common/rocket.png"/>				
+							<common 		name="use_atlas" 	value="1"/>	
+							<common			name="stick_screen"	value="0"/>
+							<common			name="anchor_point" value="0_0.5"/>
+						</common_value>
+						<pos 		origin = "0_75" 	/>
+						<Size 		origin = "40_40" 	/>
+					</Widget>
+					
+					<Widget id="8" typeRes="font"  	name = "user_name_txt" 		idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 		value="qchien"/>					
+							<common    		name="font_idx"		value="0"/>	
+							<common			name="anchor_point"	value="0_0"/>
+							<common			name="bitmap_font" value="1"/>
+						</common_value>
+						<pos 		origin = "10_-30" 	/>
+						<Size 		origin = "20_20" 	/>
+					</Widget>
+					
+					<Widget id="9" typeRes="font" 	name = "number_iwin_txt" 	idx_appear ="1">		
+						<common_value>
+							<common 		name="source" 		value="10000"/>					
+							<common    		name="font_idx"		value="2"/>	
+							<common			name="anchor_point"	value="0_1"/>
+							<common			name="bitmap_font"  value="1"/>
+						</common_value>
+						<pos 		origin = "10_-32" 	/>
+						<Size 		origin = "17_17" 	/>
+						<color		origin = "250_210_100_255"/>
+					</Widget>
+					
+					<Widget id="10" typeRes="layout" name = "layout_player_controller" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="clipping_enable"	    value="0"/>
+							<common 		name="background_type" 		value="0"/>
+							<common			name="casca_color"			value="0"/>
+							<common			name="stick_screen"			value="0"/>
+							<common			name="anchor_point"			value="0.5_1"/>
+							
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "160_95" 	/>	
+						
+						<Widget id="0" typeRes="button" name = "btn_info_user" idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 		value="gamescreen-game-common/icon_player_info.png"/>
+								<common 		name="press" 		value="gamescreen-game-common/icon_player_info.png"/>
+								<common 		name="disable" 		value="gamescreen-game-common/icon_player_info.png"/>
+								<common 		name="scale_press" 	value="-0.05"/>	
+								<common			name="anchor_point"	value="0.5_0.5"/>
+								<common			name="not_add_event" value="1"/>
+							</common_value>
+							<pos 		origin = "25_25" 	/>
+							<Size 		origin = "50_50" 	/>	
+							<COMMAND>	
+								<cmd id="0" name="ON_SHOW">
+								{
+									"act0" : {
+										"squence": [
+											{
+												"SET_POSITION" : "80_75",
+												"DESIGN"	   : "960_540"
+											},
+											{
+												"POSITION" 	   : "25_25",
+												"DESIGN"	   : "960_540",
+												"TIME"		   : 0.15
+											}
+										]
+									}
+								}
+								</cmd>
+								<cmd id="1" name="ON_HIDE">
+								{
+									"act0" : {
+										"squence": [
+											{
+												"SET_POSITION" : "25_25",
+												"DESIGN"	   : "960_540"
+											},
+											{
+												"POSITION" 	   : "80_75",
+												"DESIGN"	   : "960_540",
+												"TIME"		   : 0.15
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>							
+						</Widget>
+						<Widget id="1" typeRes="button" name = "btn_kick_user" idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 		value="gamescreen-game-common/icon_kick.png"/>
+								<common 		name="press" 		value="gamescreen-game-common/icon_kick.png"/>
+								<common 		name="disable" 		value="gamescreen-game-common/icon_kick.png"/>
+								<common 		name="scale_press" 	value="-0.05"/>
+								<common			name="anchor_point"	value="0.5_0.5"/>
+								<common			name="not_add_event" value="1"/>
+							</common_value>
+							<pos 		origin = "80_25" 	/>
+							<Size 		origin = "50_50" 	/>
+							<COMMAND>	
+								<cmd id="0" name="ON_SHOW">
+								{
+									"act0" : {
+										"squence": [
+											{
+												"SET_POSITION" : "80_75",
+												"DESIGN"	   : "960_540"
+											},
+											{
+												"POSITION" 	   : "80_25",
+												"DESIGN"	   : "960_540",
+												"TIME"		   : 0.15
+											}
+										]
+									}
+								}
+								</cmd>
+								<cmd id="1" name="ON_HIDE">
+								{
+									"act0" : {
+										"squence": [
+											{
+												"SET_POSITION" : "80_25",
+												"DESIGN"	   : "960_540"
+											},
+											{
+												"POSITION" 	   : "80_75",
+												"DESIGN"	   : "960_540",
+												"TIME"		   : 0.15
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>
+						</Widget>
+						<Widget id="2" typeRes="button" name = "btn_add_user" idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 		value="gamescreen-game-common/icon_add.png"/>
+								<common 		name="press" 		value="gamescreen-game-common/icon_add.png"/>
+								<common 		name="disable" 		value="gamescreen-game-common/icon_add.png"/>
+								<common 		name="scale_press" 	value="-0.05"/>
+								<common			name="anchor_point"	value="0.5_0.5"/>
+								<common			name="not_add_event" value="1"/>
+							</common_value>
+							<pos 		origin = "135_25" 	/>
+							<Size 		origin = "50_50" 	/>	
+							<COMMAND>	
+								<cmd id="0" name="ON_SHOW">
+								{
+									"act0" : {
+										"squence": [
+											{
+												"SET_POSITION" : "80_75",
+												"DESIGN"	   : "960_540"
+											},
+											{
+												"POSITION" 	   : "135_25",
+												"DESIGN"	   : "960_540",
+												"TIME"		   : 0.15
+											}
+										]
+									}
+								}
+								</cmd>
+								<cmd id="1" name="ON_HIDE">
+								{
+									"act0" : {
+										"squence": [
+											{
+												"SET_POSITION" : "135_25",
+												"DESIGN"	   : "960_540"
+											},
+											{
+												"POSITION" 	   : "80_75",
+												"DESIGN"	   : "960_540",
+												"TIME"		   : 0.15
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>
+						</Widget>
+						
+					</Widget>
+					
+					<Widget id="11" typeRes="layout" name = "layout_bonus" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="clipping_enable"	    value="0"/>
+							<common 		name="background_type" 		value="0"/>
+							<common			name="casca_color"			value="0"/>
+							<common			name="stick_screen"			value="0"/>
+							<common			name="anchor_point"			value="0.5_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font" 	name = "bonus_iwin_add" 	idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="source" 		value="+1000"/>					
+								<common    		name="font_idx"		value="3"/>	
+								<common			name="anchor_point"	value="0.5_0.5"/>
+								<common			name="bitmap_font"  value="1"/>
+							</common_value>
+							<pos 		origin = "5_5" 	/>
+							<Size 		origin = "25_25" 	/>
+						</Widget>
+						<Widget id="1" typeRes="font" 	name = "bonus_iwin_div" 	idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="source" 		value="-1000"/>					
+								<common    		name="font_idx"		value="12"/>	
+								<common			name="anchor_point"	value="0.5_0.5"/>
+								<common			name="bitmap_font"  value="1"/>
+							</common_value>
+							<pos 		origin = "5_5" 	/>
+							<Size 		origin = "25_25" 	/>
+						</Widget>
+						<pos 		origin = "0_0" 	/>
+						<Size 		origin = "10_10" 	/>
+						<COMMAND>
+							<cmd id="0" name="ACTION">
+							{
+								"act0" : 
+								{
+									"squence" :
+									[
+										{
+											"SET_VISIBLE" : 1
+										},
+										{
+											"SET_OPACITY" : 255
+										},
+										{
+											"SET_POSITION" : "0_0",
+											"DESIGN"	   : "960_540",
+											"FORCE"		   : 1	
+										},
+										{
+											"SET_SCALE" : "1.0_1.0",
+											"FORCE"		: 1	
+										}
+									]	
+								},
+								"act1" :
+								{
+									"squence" :
+									[
+										{
+											"POSITION" 	: "0_20",
+											"DESIGN"	: "960_540",
+											"TIME"		: 0.5,
+											"STYLE"		: 2
+										},
+										{
+											"POSITION" 	: "0_-40",
+											"DESIGN"	: "960_540",
+											"TIME"		: 2,
+											"STYLE"		: 2
+										},
+										{
+											"SET_VISIBLE" : 0
+										}
+									],
+									"squence_1" :
+									[
+										{
+											"SCALE" 	: "2.0_2.0",
+											"FORCE"		: 1,
+											"TIME"		: 0.5
+										},
+										{
+											"SCALE" 	: "1.0_1.0",
+											"FORCE"		: 1,
+											"TIME"		: 2
+										}
+									],
+									"squence_2" :
+									[
+										{
+											"DELAY" : 2
+										},
+										{
+											"OPACITY" : 0 ,
+											"TIME"    : 0.5
+										}
+									]
+								}	
+							}
+							</cmd>
+						</COMMAND>
+					</Widget>
+						
+					<pos 		origin = "39_39" 	/>
+					<Size 		origin = "78_78" 	/>
+			</Widget>
+						
+			<Widget id="3" typeRes="layout" name = "layout_timer" idx_appear ="1" visible="0">		
+					<common_value>
+						<common 		name="clipping_enable"	    value="0"/>
+						<common 		name="background_type" 		value="0"/>
+						<common			name="casca_color"			value="0"/>
+						<common			name="stick_screen"			value="0"/>
+						<common			name="anchor_point"			value="0.5_0.5"/>
+					</common_value>
+							<Widget id="0" typeRes="panel" name = "circle_black" idx_appear ="1">
+									<common_value>							
+										<common 		name="source" 		value="gamescreen-newgui-game-common/countdown/khungden.png"/>				
+										<common 		name="use_atlas" 	value="1"/>	
+										<common			name="stick_screen"	value="0"/>
+										<common			name="anchor_point" value="0.5_0.5"/>
+									</common_value>
+									<pos 		origin = "42_42" 	/>
+									<Size 		origin = "86_86" 	/>
+							</Widget>			
+							<Widget id="1" typeRes="time_process" name = "progress_1" idx_appear ="1">		
+									<common_value>							
+										<common 		name="source" 		value="gamescreen-newgui-game-common/countdown/hinhtronmo.png"/>				
+										<common 		name="use_atlas" 	value="1"/>	
+										<common			name="stick_screen"	value="0"/>
+										<common			name="anchor_point" value="0.5_0.5"/>
+										<common			name="move_from_zero" value="1"/>
+									</common_value>
+									<pos 		origin = "42_42" 	/>
+									<Size 		origin = "84_84" 	/>
+							</Widget>
+							<Widget id="2" typeRes="time_process" name = "progress_2" idx_appear ="1">		
+									<common_value>							
+										<common 		name="source" 		value="gamescreen-newgui-game-common/countdown/hinhtrontoa.png"/>				
+										<common 		name="use_atlas" 	value="1"/>	
+										<common			name="stick_screen"	value="0"/>
+										<common			name="anchor_point" value="0.5_0.5"/>
+										<common			name="move_from_zero" value="1"/>
+										<common			name="no_add_event"	value="1"/>
+									</common_value>
+									<pos 		origin = "42_42" 	/>
+									<Size 		origin = "84_84" 	/>
+							</Widget>
+							<Widget id="3" typeRes="time_process" name = "progress_3" idx_appear ="1">		
+									<common_value>							
+										<common 		name="source" 		value="gamescreen-newgui-game-common/countdown/vongxanh.png"/>				
+										<common 		name="use_atlas" 	value="1"/>	
+										<common			name="stick_screen"	value="0"/>
+										<common			name="anchor_point" value="0.5_0.5"/>
+										<common			name="move_from_zero" value="1"/>
+										<common			name="no_add_event"	value="1"/>
+									</common_value>
+									<pos 		origin = "42_42" 	/>
+									<Size 		origin = "84_84" 	/>
+							</Widget>
+							<Widget id="4" typeRes="panel" name = "red_dot" idx_appear ="1">		
+									<common_value>							
+										<common 		name="source" 		value="gamescreen-newgui-game-common/countdown/cham.png"/>				
+										<common 		name="use_atlas" 	value="1"/>	
+										<common			name="stick_screen"	value="0"/>
+										<common			name="anchor_point" value="0.5_0.5"/>
+									</common_value>
+									<pos 		origin = "42_42" 	/>
+									<Size 		origin = "18_18" 	/>
+							</Widget>
+							<Widget id="6" typeRes="panel" name = "red_dot_fly" idx_appear ="1">		
+									<common_value>							
+										<common 		name="source" 		value="gamescreen-newgui-game-common/countdown/cham.png"/>				
+										<common 		name="use_atlas" 	value="1"/>	
+										<common			name="stick_screen"	value="0"/>
+										<common			name="anchor_point" value="0.5_0.5"/>
+									</common_value>
+									<pos 		origin = "42_84" 	/>
+									<Size 		origin = "32_32" 	/>
+									<COMMAND>
+										<cmd id="0" name="ROTATE">
+										{
+											"act0": {
+												"squence":[
+													{
+														"SET_POSITION":"42_84",
+														"DESIGN":"960_540"
+													},
+													{
+														"SET_ROTATE":0
+													},
+													{
+														"ROTATE_AROUND":"42_42",
+														"ANGLE_ROTATE_AROUND":360,
+														"DESIGN":"960_540",
+														"TIME": 10
+													}
+												]										
+											}
+										}
+										</cmd>
+									</COMMAND>
+							</Widget>
+							
+					<pos 		origin = "39_39" 	/>
+					<Size 		origin = "84_84" 	/>	
+				<COMMAND>
+					<cmd id="0" name="SCALE_BIG">
+					{
+							"act0" : {
+							"single_0":
+							{
+								"SET_SIZE" : "130_130",
+								"DESIGN"	: "960_540"
+							}
+						}
+					}
+					</cmd>
+					<cmd id="1" name="SCALE_NORMAL">
+					{
+						"act0" : {
+							"single_0":
+							{
+								"SET_SIZE" : "92_92",
+								"DESIGN"	: "960_540"
+							}
+						}
+					}
+					</cmd>
+				</COMMAND>
+					
+			</Widget>
+			
+			<Widget id="4" typeRes="layout" name = "panel_result_game" idx_appear ="1" visible="0">	
+				<common_value>							
+					<common 		name="clipping_enable"	    value="0"/>
+					<common 		name="background_type" 		value="0"/>
+					<common			name="casca_color"			value="0"/>
+					<common			name="stick_screen"			value="0"/>
+					<common			name="anchor_point"			value="0.5_0.5"/>
+				</common_value>
+				
+				<Widget id="0" typeRes="animate" name = "1st_effect" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 		value="ico_nhat"/>
+							<common 		name="list_tex"		value="frame_sheet"/>
+							<common			name="loop"			value="1"/>
+							<common			name="delay"		value="0.03"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "200_260" 	/>
+				</Widget>
+				<Widget id="1" typeRes="animate" name = "2nd_effect" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 		value="ico_nhi"/>
+							<common 		name="list_tex"		value="frame_sheet"/>
+							<common			name="loop"			value="1"/>
+							<common			name="delay"		value="0.03"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "200_260" 	/>
+				</Widget>
+				<Widget id="2" typeRes="animate" name = "3rd_effect" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 		value="ico_ba"/>
+							<common 		name="list_tex"		value="frame_sheet"/>
+							<common			name="loop"			value="1"/>
+							<common			name="delay"		value="0.03"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "200_260" 	/>
+				</Widget>
+				<Widget id="3" typeRes="animate" name = "4th_effect" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 		value="ico_tu"/>
+							<common 		name="list_tex"		value="frame_sheet"/>
+							<common			name="loop"			value="1"/>
+							<common			name="delay"		value="0.03"/>
+						</common_value>
+						<pos 		origin = "39_39" 	/>
+						<Size 		origin = "200_260" 	/>
+				</Widget>
+				<pos 		origin = "39_39" 	/>
+				<Size 		origin = "78_78" 	/>
+			</Widget>
+			
+			<Widget id="5" typeRes="layout" name = "panel_display_chat" idx_appear ="1" visible="0">		
+				<common_value>
+					<common 		name="source" 				value="loginscreen/nine/popupchat.9.png"/>
+					<common 		name="clipping_enable"	    value="1"/>
+					<common 		name="background_type" 		value="3"/>	
+					<common 		name="use_atlas" 			value="1"/>	
+					<common			name="scale_9"				value="1"/>
+					<common			name="use_nine_path"		value="1"/>
+					<common			name="anchor_point"			value="0_0.5"/>
+				</common_value>
+						
+				<Widget id="1" typeRes="font" 	name = "text_chat" idx_appear ="1" visible="0">		
+						<common_value>
+							<common 		name="source" 		value="text"/>					
+							<common    		name="font_idx"		value="1"/>	
+							<common			name="anchor_point"	value="0_0"/>
+							<common			name="bitmap_font"  value="1"/>
+							<common			name="AreaSize" 	value="200_0"/>
+							<common			name="line_break" 	value="1"/>
+						</common_value>
+						<pos 		origin = "5_5" 		/>
+						<Size 		origin = "25_25" 	/>
+						<COMMAND>
+							<cmd id="0" name="ON_SHOW">
+							{
+								"act0": {
+									"squence":[
+										{
+											"SET_VISIBLE" : 1
+										},
+										{
+											"SET_OPACITY":0
+										},
+										{
+											"SET_POSITION":"5_-10",
+											"DESIGN":"960_540"
+										}
+									]
+								},
+								"act1":{
+									"single_0":
+									{
+										"POSITION" :	"5_5",
+										"DESIGN"   : 	"960_540",
+										"STYLE"	   : 	0,
+										"TIME"	   : 	0.2
+									},
+									"single_1":
+									{
+										"OPACITY"  : 	255,
+										"TIME"	   :	0.2
+									}
+								},
+								"act2":{
+									"squence":
+									[
+										{
+											"DELAY" : 2.0
+										},
+										{
+											"POSITION" : "5_20"		,
+											"DESIGN"   : "960_540"	,
+											"STYLE"	   : 0			,
+											"TIME"	   : 0.2
+										},
+										{
+											"SET_VISIBLE" : 0
+										}
+									]
+									
+								}								
+
+							}
+							</cmd>
+						</COMMAND>
+				</Widget>
+					
+				<COMMAND>
+					<cmd id="0" name="ON_SHOW">
+					{
+						"act0" : {
+							"squence" : [
+								{
+									"SET_VISIBLE" 	: 1
+								},
+								{
+									"SIZE" 			: "200_30",
+									"DESIGN" 		: "960_540",
+									"9SCALE"		: 1,
+									"TIME"			: 0.1,
+									"ORIGIN_SIZE" 	: "0_30" 
+								}
+							]
+						}
+					}
+					</cmd>
+					<cmd id="1" name="ON_HIDE">
+					{
+						"act0" : {
+							"squence" : [
+								{
+									"SIZE" 			: "0_30",
+									"DESIGN" 		: "960_540",
+									"9SCALE"		: 1,
+									"TIME"			: 0.1,
+									"ORIGIN_SIZE" 	: "200_30" 
+								},
+								{
+									"SET_VISIBLE" : 0
+								}
+							]
+						}
+					}
+					</cmd>
+				</COMMAND>
+				
+				<pos 		origin = "100_10" 	/>
+				<Size 		origin = "50_60" 	/>					
+			</Widget>
+			
+			<pos 		origin = "0_0" 	/>
+			<Size 		origin = "78_78" 	/>
+		</Widget>			
+		
+		<Widget id="2" typeRes="button" name = "btn_emotion_" idx_appear ="1" visible="1">		
+			<common_value>
+				<common 		name="source" 		value="loadingscreen/emotions/e (1).png"/>
+				<common 		name="press" 		value="loadingscreen/emotions/e (1).png"/>
+				<common 		name="disable" 		value="loadingscreen/emotions/e (1).png"/>
+				<common 		name="scale_press" 	value="-0.05"/>
+				<common 		name="use_atlas" 	value="1"/>	
+				<common			name="anchor_point"	value="0_0.5"/>
+				<common			name="no_add_event"	value="1"/>
+			</common_value>
+								
+			<pos 		origin = "0_33" 	/>
+			<Size 		origin = "44_44" 	/>					
+		</Widget>
+	</list_widget>
+</GAME>

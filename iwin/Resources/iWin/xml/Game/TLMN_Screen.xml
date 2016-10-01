@@ -1,0 +1,622 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<game id="3" name="TIEN_LEN" design="960_540">
+		<player id="0">
+			<common name="value_pos"		value="22_22"	/>
+			<common name="anchor_point" 	value="0_0"		/>
+			<common name="pos_tex1" 		value="10_-50"	/>
+			<common name="pos_tex2" 		value="10_-54"	/>
+			<common name="pos_text_bonus"	value="100_50"	/>
+			<common name="rotate_control" 	value="0"		/>
+			<common name="pos_chat"     value="100_10"	/>	
+		</player>
+		
+		<player id="1" >
+			<common name="value_pos"		value="20_330"	/>
+			<common name="anchor_point" 	value="0_1"		/>
+			<common name="pos_tex1" 		value="10_-30"	/>
+			<common name="pos_tex2" 		value="10_-32"	/>
+			<common name="pos_text_bonus"	value="100_0"	/>
+			<common name="rotate_control" 	value="-90"		/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		
+		<player id="2" >
+			<common name="value_pos"		value="420_465"	/>
+			<common name="anchor_point" 	value="0_1"		/>
+			<common name="pos_tex1" 		value="108_40"	/>
+			<common name="pos_tex2" 		value="108_38"	/>
+			<common name="pos_text_bonus"	value="100_-50"	/>
+			<common name="rotate_control" 	value="0"		/>
+			<common name="pos_chat"     value="100_10"	/>
+		</player>
+		
+		<player id="3" >
+			<common name="value_pos"		value="950_330"	/>
+			<common name="anchor_point" 	value="1_1"		/>
+			<common name="pos_tex1" 		value="68_-30"	/>
+			<common name="pos_tex2" 		value="68_-32"	/>
+			<common name="pos_text_bonus"	value="-100_50"	/>
+			<common name="rotate_control" 	value="90"		/>
+			<common name="pos_chat"     value="-10_10"	/>
+		</player>
+	
+	</game>
+
+	<MenuWidget name="TLMN" designSize="960_540">
+			
+		<Widget id="0" typeRes="layout" name = "back_panel_card" idx_appear ="1">		
+			<common_value>							
+				<common 		name="clipping_enable"	    value="0"/>
+				<common 		name="background_type" 		value="0"/>
+				<common			name="stick_screen"			value="1"/>
+				<common			name="anchor_point"	 		value="0_1"/>
+				<common			name="zorder"				value="500"/>
+			</common_value>
+				<Widget id="0" typeRes="panel" name = "bg" idx_appear ="1">		
+					<common_value>							
+						<common 		name="source" 		value="gamescreen-newgui-game-common/bkg_btn_bar.9.png"/>				
+						<common			name="scale_9"		value="1"/>
+						<common 		name="use_atlas" 	value="1"/>	
+						<common			name="stick_screen"	value="1"/>
+						<common			name="use_nine_path" value="1"/>
+						<common			name="anchor_point"	 value="0.5_0.5"/>
+					</common_value>	
+					<pos 		origin = "480_33" 	/>
+					<Size 		origin = "960_66" 	/>
+				</Widget>
+					
+				<Widget id="4" typeRes="layout" name = "layout_btn_game_tlmn" 	idx_appear ="1">		
+					<common_value>
+						<common 		name="clipping_enable"	    value="0"/>
+						<common 		name="background_type" 		value="0"/>
+						<common			name="stick_screen"			value="1"/>
+						<common			name="anchor_point"			value="1_0.5"/>
+					</common_value>
+					
+					<Widget id="0" typeRes="button" name = "btn_leave_turn" 		idx_appear ="1"  visible="0">		
+						<common_value>
+							<common 		name="source" 		value="default-round.9.png"/>
+							<common 		name="press" 		value="default-round.9.png"/>
+							<common 		name="disable" 		value="default-round.9.png"/>
+							<common 		name="scale_press" 	value="-0.05"/>	
+							
+							<common 		name="use_atlas" 		value="1"/>	
+							<common			name="stick_screen"		value="1"/>
+							<common			name="scale_9"			value="1"/>
+							<common			name="use_nine_path"	value="1"/>
+							<common			name="anchor_point"		value="0_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font"   	name = "number_player" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="Bỏ lượt"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "90_30" 	/>
+							<Size 		origin = "20_20" 	/>
+							<color		origin = "255_255_255_255" />
+						</Widget>
+						
+						<Widget id="1" typeRes="layout" 	name = "_timer" idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="clipping_enable"	    value="0"/>
+								<common 		name="background_type" 		value="0"/>
+								<common			name="stick_screen"			value="1"/>
+								<common			name="anchor_point"			value="0.5_0.5"/>
+							</common_value>
+							<Widget id="0" typeRes="panel"   name = "line_top" 	idx_appear ="1" >		
+								<common_value>
+									<common 		name="source" 			value="loginscreen/nine/selectboxlistbg.9.png"/>
+									<common			name="use_atlas"		value="1"/>	
+									<common			name="anchor_point"		value="1_1"/>
+									<common			name="no_add_event"		value="1"/>
+									<common			name="scale_9"			value="1"/>
+									<common			name="use_nine_path"	value="1"/>
+								</common_value>
+								<pos 		origin = "180_60" 	/>
+								<Size 		origin = "180_4" 	/>
+								<COMMAND>
+									<cmd id="0" name="BEGIN_PROCESS">
+									{
+										"act0":
+										{
+											"single":
+											{
+												"SET_SIZE" 	: "180_4",
+												"DESIGN"	: "960_540",
+												"9SCALE" 		: 1,
+												"STICK"  		: 1	
+											}
+										}
+									}
+									</cmd>
+									<cmd id="1" name="PROCESS">
+									{
+										"act0":
+										{
+											"squence":[
+												{
+													"SIZE"   		: "0_4",
+													"ORIGIN_SIZE" 	: "180_4",
+													"DESIGN"		: "960_540",
+													"TIME"   		: 1,
+													"9SCALE" 		: 1,
+													"STICK"  		: 1
+													
+												}
+											]
+										}
+									}
+									</cmd>
+								
+								</COMMAND>
+							</Widget>
+							<Widget id="1" typeRes="panel"   name = "line_right" 	idx_appear ="1" >		
+								<common_value>
+									<common 		name="source" 			value="loginscreen/nine/selectboxlistbg.9.png"/>
+									<common			name="use_atlas"		value="1"/>	
+									<common			name="anchor_point"		value="1_0"/>
+									<common			name="no_add_event"		value="1"/>
+									<common			name="scale_9"			value="1"/>
+									<common			name="use_nine_path"	value="1"/>
+								</common_value>
+								<pos 		origin = "180_0" 	/>
+								<Size 		origin = "4_60" 	/>
+								<COMMAND>
+									<cmd id="0" name="BEGIN_PROCESS">
+									{
+										"act0":
+										{
+											"single":
+											{
+												"SET_SIZE" 	: "4_60",
+												"DESIGN"	: "960_540",
+												"9SCALE" 		: 1,
+												"STICK"  		: 1	
+											}
+										}
+									}
+									</cmd>
+									<cmd id="1" name="PROCESS">
+									{
+										"act0":
+										{
+											"squence":[
+												{
+													"SIZE"   		: "4_0",
+													"ORIGIN_SIZE" 	: "4_60",
+													"DESIGN"		: "960_540",
+													"TIME"   		: 1,
+													"9SCALE" 		: 1,
+													"STICK"  		: 1
+												}
+											]
+										}
+									}
+									</cmd>
+								</COMMAND>
+							</Widget>
+							<Widget id="2" typeRes="panel"   name = "line_bot" 	idx_appear ="1" >		
+								<common_value>
+									<common 		name="source" 			value="loginscreen/nine/selectboxlistbg.9.png"/>
+									<common			name="use_atlas"		value="1"/>	
+									<common			name="anchor_point"		value="0_0"/>
+									<common			name="no_add_event"		value="1"/>
+									<common			name="scale_9"			value="1"/>
+									<common			name="use_nine_path"	value="1"/>
+								</common_value>
+								<pos 		origin = "0_0" 	/>
+								<Size 		origin = "180_4" 	/>
+								<COMMAND>
+									<cmd id="0" name="BEGIN_PROCESS">
+									{
+										"act0":
+										{
+											"single":
+											{
+												"SET_SIZE" 	: "180_4",
+												"DESIGN"	: "960_540",
+												"9SCALE" 		: 1,
+												"STICK"  		: 1	
+											}
+										}
+									}
+									</cmd>
+									<cmd id="1" name="PROCESS">
+									{
+										"act0":
+										{
+											"squence":[
+												{
+													"SIZE"   		: "0_4",
+													"ORIGIN_SIZE" 	: "180_4",
+													"DESIGN"		: "960_540",
+													"TIME"   		: 1,
+													"9SCALE" 		: 1,
+													"STICK"  		: 1
+													
+												}
+											]
+										}
+									}
+									</cmd>
+								</COMMAND>
+							</Widget>
+							<Widget id="3" typeRes="panel"   name = "line_left" 	idx_appear ="1" >		
+								<common_value>
+									<common 		name="source" 			value="loginscreen/nine/selectboxlistbg.9.png"/>
+									<common			name="use_atlas"		value="1"/>	
+									<common			name="anchor_point"		value="0_1"/>
+									<common			name="no_add_event"		value="1"/>
+									<common			name="scale_9"			value="1"/>
+									<common			name="use_nine_path"	value="1"/>
+								</common_value>
+								<pos 		origin = "0_60" 	/>
+								<Size 		origin = "4_60" 	/>
+								<COMMAND>
+									<cmd id="0" name="BEGIN_PROCESS">
+									{
+										"act0":
+										{
+											"single":
+											{
+												"SET_SIZE" 	: "4_60",
+												"DESIGN"	: "960_540",
+												"9SCALE" 		: 1,
+												"STICK"  		: 1
+											}
+										}
+									}
+									</cmd>
+									<cmd id="1" name="PROCESS">
+									{
+										"act0":
+										{
+											"squence":[
+												{
+													"SIZE"   		: "4_0",
+													"ORIGIN_SIZE" 	: "4_60",
+													"DESIGN"		: "960_540",
+													"TIME"   		: 1,
+													"9SCALE" 		: 1,
+													"STICK"  		: 1
+													
+												}
+											]
+										}
+									}
+									</cmd>
+								</COMMAND>
+							</Widget>
+							<pos 		origin = "90_30" 	/>
+							<Size 		origin = "180_60" 	/>
+							<COMMAND>
+								<cmd id="0" name="PROCESS">
+								{
+									"act0":
+									{
+										"squence":[
+											{
+												"SET_VISIBLE" : 1
+											},
+											{
+												"SET_COLOR" : "0_255_0_255"
+											},
+											{
+												"COLOR"		: "255_0_0_255",
+												"TIME"		: 1
+											},
+											{
+												"SET_VISIBLE" : 0
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>
+						</Widget>	
+						
+						<Widget id="2" typeRes="particle"   name = "bar_particle" 		idx_appear ="1" visible="0">		
+							<common_value>
+								<common 		name="source" 			value=""/>
+								<common			name="plist"			value="iWin/Anims/fire.plist"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+							</common_value>
+							<pos 		origin = "4_60" 	/>
+							<Size 		origin = "10_10" 	/>
+							<COMMAND>
+								<cmd id="0" name="MOVING">
+								{
+									"act0":
+									{
+										"squence":[
+											{
+												"SET_VISIBLE" : 1
+											},
+											{
+												"SET_POSITION" : "4_60",
+												"DESIGN"	: "960_540"
+											},
+											{
+												"POSITION"	: "180_60",
+												"DESIGN"	: "960_540",
+												"STYLE"		: 0,
+												"TIME"		: 1
+											},
+											{
+												"POSITION"	: "180_8",
+												"DESIGN"	: "960_540",
+												"STYLE"		: 0,
+												"TIME"		: 1
+											},
+											{
+												"POSITION"	: "4_8",
+												"DESIGN"	: "960_540",
+												"STYLE"		: 0,
+												"TIME"		: 1
+											},
+											{
+												"POSITION"	: "4_60",
+												"DESIGN"	: "960_540",
+												"STYLE"		: 0,
+												"TIME"		: 1
+											},
+											{
+												"SET_VISIBLE" : 0
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>
+						</Widget>
+						
+						<Widget id="3" typeRes="panel"   	name = "eat_card_panel" 	idx_appear ="1" visible="0">		
+							<common_value>
+									<common 		name="source" 			value="gamescreen-tienlen-screen/button_eatcard.png"/>
+									<common			name="use_atlas"		value="1"/>	
+									<common			name="anchor_point"		value="0.5_0"/>
+									<common			name="no_add_event"		value="1"/>
+									<common			name="scale_9"			value="1"/>
+									<common			name="use_nine_path"	value="1"/>
+							</common_value>
+							<pos 		origin = "90_65" 	/>
+							<Size 		origin = "30_30" 	/>
+							<COMMAND>
+								<cmd id="0" name="FOCUS_ACTION">
+								{
+									
+									"act0":
+									{
+										"repeat" : -1,
+										"squence":
+										[
+											{
+												"POSITION" 	: "90_60",
+												"DESIGN"	: "960_540",
+												"TIME"		: 0.2,
+												"STYLE"		: 0
+											},
+											{
+												"POSITION" 	: "90_65",
+												"DESIGN"	: "960_540",
+												"TIME"		: 0.2,
+												"STYLE"		: 0
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>
+						</Widget>
+						<pos 		origin = "0_30" 	/>
+						<Size 		origin = "180_60" 	/>
+						<COMMAND>
+							<cmd id="0" name="SET_DISABLE">
+								{
+											"act0": {
+												"squence":
+												[
+													{
+														"SET_OPACITY":128
+													},
+													{
+														"SET_COLOR":"255_255_255_255"
+													}
+												]
+											}		
+								}	
+							</cmd>
+							<cmd id="1" name="SET_ENABLE">
+								{
+											"act0": {
+												"squence":
+												[
+													{
+														"SET_OPACITY":255
+													},
+													{
+														"SET_COLOR":"255_167_38_255"
+													}
+												]
+											}		
+								}	
+							</cmd>
+						</COMMAND>
+									
+					</Widget>
+								
+					<Widget id="1" typeRes="button" name = "btn_deal_turn" 			idx_appear ="2"  visible="0">		
+						<common_value>
+							<common 		name="source" 			value="default-round-yellow.9.png"/>
+							<common 		name="press" 			value="default-round-yellow.9.png"/>
+							<common 		name="disable" 			value="default-round-yellow.9.png"/>
+							<common 		name="use_atlas" 		value="1"/>	
+							<common			name="stick_screen"		value="1"/>
+							
+							<common			name="scale_9"			value="1"/>
+							<common 		name="scale_press" 		value="-0.05"/>
+							<common			name="use_nine_path"	value="1"/>
+							<common			name="anchor_point"		value="0_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font"   name = "number_player" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="Đánh"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "90_30" 	/>
+							<Size 		origin = "20_20" 	/>
+							<color		origin = "0_0_0_255" />
+						</Widget>
+						
+						<pos 		origin = "190_30" 	/>
+						<Size 		origin = "180_60" 	/>
+					</Widget>
+							
+					<Widget id="2" typeRes="button" name = "btn_quick_choose_turn" 	idx_appear ="2"  visible="0">		
+						<common_value>
+							<common 		name="source" 			value="default-round-yellow.9.png"/>
+							<common 		name="press" 			value="default-round-yellow.9.png"/>
+							<common 		name="disable" 			value="default-round-yellow.9.png"/>
+							<common 		name="use_atlas" 		value="1"/>	
+							<common			name="stick_screen"		value="1"/>
+							<common			name="scale_9"			value="1"/>
+							
+							<common 		name="scale_press" 		value="-0.05"/>
+							<common			name="use_nine_path"	value="1"/>
+							<common			name="anchor_point"		value="0_0.5"/>
+						</common_value>
+						
+						<Widget id="0" typeRes="font"   name = "number_player" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="Chọn nhanh"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "90_30" 	/>
+							<Size 		origin = "20_20" 	/>
+							<color		origin = "0_0_0_255" />
+						</Widget>
+
+						<pos 		origin = "380_30" 	/>
+						<Size 		origin = "180_60" 	/>
+					</Widget>
+					
+					<Widget id="3" typeRes="font"   name = "txt_wait_player" 		idx_appear ="1"  visible="0">		
+							<common_value>
+								<common 		name="source" 			value="Chờ người chơi khác"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "220_30" 	/>
+							<Size 		origin = "25_25" 	/>
+							<color		origin = "255_255_255_255" />
+							<COMMAND>
+								<cmd id="0" name="ACTION">
+								{
+									"act0" : 
+									{
+										"repeat"  : -1,
+										"squence" : [
+											{
+												"SET_COLOR" : "255_255_255_255"
+											},
+											{
+												"COLOR" : "0_0_0_255",
+												"TIME"	: 1
+											},
+											{
+												"COLOR" : "255_255_255_255",
+												"TIME"	: 1
+											}
+										]
+									}
+								}
+								</cmd>
+							</COMMAND>
+					</Widget>
+					
+					<pos 		origin = "950_33" 	/>
+					<Size 		origin = "560_60" 	/>
+				</Widget>
+							
+				<Widget id="5" typeRes="button" name = "btn_invite_player" 		idx_appear ="2" visible="0">		
+					<common_value>
+						<common 		name="source" 			value="default-round-yellow.9.png"/>
+						<common 		name="press" 			value="default-round-yellow.9.png"/>
+						<common 		name="disable" 			value="default-round-yellow.9.png"/>
+						<common 		name="use_atlas" 		value="1"/>	
+						<common			name="stick_screen"		value="0"/>
+						<common			name="scale_9"			value="1"/>
+						
+						<common 		name="scale_press" 		value="-0.05"/>
+						<common			name="use_nine_path"	value="1"/>
+						<common			name="anchor_point"		value="0_0.5"/>
+					</common_value>
+					
+					<Widget id="0" typeRes="font"   name = "number_player" 	idx_appear ="1">		
+							<common_value>
+								<common 		name="source" 			value="Mời người chơi"/>					
+								<common    		name="font_idx"			value="0"/>	
+								<common			name="anchor_point"		value="0.5_0.5"/>
+								<common			name="bitmap_font"   	value="1"/>
+							</common_value>
+							<pos 		origin = "125_25" 	/>
+							<Size 		origin = "20_20" 	/>
+							<color		origin = "0_0_0_255" />
+					</Widget>
+					
+					<pos 		origin = "323_33" 	/>
+					<Size 		origin = "250_50" 	/>
+				</Widget>													
+							
+				<pos 		origin = "0_66" 	/>
+				<Size 		origin = "960_66" 	/>
+		</Widget>
+		
+		<Widget id="1" typeRes="layout" name = "layout_fire_card" idx_appear ="1">		
+			<common_value>
+				<common 		name="clipping_enable"	    value="0"/>
+				<common 		name="background_type" 		value="0"/>
+				<common			name="stick_screen"			value="0"/>
+				<common			name="anchor_point"			value="0.5_0"/>
+			</common_value>
+								
+			<pos 		origin = "480_200" 	/>
+			<Size 		origin = "600_90" 	/>
+		</Widget>
+				
+		<Widget id="2" typeRes="animate" name = "animate_effect_1" idx_appear ="1" visible="0">		
+			<common_value>
+				<common 		name="source" 		value="gamescreen-tienlen-screen/effect_danh_1quan.png"/>
+				<common 		name="slice"		value="4_3"/>
+				<common			name="loop"			value="1"/>
+				<common			name="delay"		value="0.03"/>
+				<common			name="zorder"		value="400"/>
+			</common_value>
+			<pos 		origin = "480_300" 	/>
+			<Size 		origin = "200_200" 	/>
+		</Widget>
+		
+		<Widget id="3" typeRes="animate" name = "animate_effect_2" idx_appear ="1" visible="0">		
+			<common_value>
+				<common 		name="source" 		value="gamescreen-tienlen-screen/effect_danh_nhieuquan.png"/>
+				<common 		name="slice"		value="3_5"/>
+				<common			name="loop"			value="1"/>
+				<common			name="delay"		value="0.03"/>
+				<common			name="zorder"		value="401"/>
+			</common_value>
+			<pos 		origin = "480_300" 	/>
+			<Size 		origin = "300_160" 	/>
+		</Widget>
+		
+	</MenuWidget>
+</GAME>

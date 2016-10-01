@@ -1,0 +1,950 @@
+<GAME>
+	<Object designSize="960_540">
+		
+		<detailobject  id="0" name = "card">
+			<Main 		type_object ="7"  
+						stick_screen="0" 
+						visible = "1"
+						casca_opacity="1"
+						casca_color="1"
+			/>
+			<!-- // 0 is sprite / 1 is amature / 2 is Animate / 3 is text / 4 is processtimer/ 5 sprite patch / 6 is sprite patch / 7 is pure layer-->
+			<!--<Source 	name ="gamescreen-Cards/card.png"/>-->
+			<Size 		origin="150_200" 	first="75_100"/>
+			<Pos		origin="480_270"	/>
+			
+			<detailobject  id="0" name = "card_up">
+				<Main 	type_object ="0"  
+						stick_screen="0" 
+						visible = "0"
+						anchor_point = "0.5_0.5"
+				/>
+				<Source 	name ="gamescreen-Cards/card_bgbinhdan.png"/>
+				<Size 		origin="150_204" />
+				<Pos		origin="75_100"	/>	
+			</detailobject>
+			
+			<detailobject  id="1" name = "effect_danh_1">
+				<Main 	type_object ="2"  
+						stick_screen="0" 
+						visible = "0"
+						anchor_point = "0.5_0.5"
+				/>
+				<Animate 	time_delay="0.05"	
+							loop="1"
+							tag="50" >
+					<sprite 	source ="gamescreen-tienlen-screen/effect_exploding_circle.png" slice="10_1"/>	
+				</Animate>
+				
+				<Size 		origin="160_160" />
+				<Pos		origin="75_200"	/>
+			</detailobject>	
+			
+			<detailobject  id="2" name = "card_hightlight">
+				<Main 	type_object ="6"  
+						stick_screen="0" 
+						visible = "0"
+						anchor_point = "0.5_0.5"
+				/>
+				<Source 	name ="gamescreen-tienlen-screen/highlight_quan_bai.9.png"/>
+				<Size 		origin="180_230" />
+				<Pos		origin="75_100"	/>		
+			</detailobject>
+			
+			<detailobject  id="3" name = "card_blank">
+				<Main 	type_object ="0"  
+						stick_screen="0" 
+						visible = "1"
+						anchor_point = "0.5_0.5"
+				/>
+				<Source 	name ="gamescreen-Cards/card.png"/>
+				<Size 		origin="150_204" />
+				<Pos		origin="75_100"	/>		
+			</detailobject>
+			
+			<detailobject  id="4" name = "trans">
+				<Main 	type_object ="0"  
+						stick_screen="0" 
+						visible = "0"
+						anchor_point = "0.5_0.5"
+				/>
+				<Source 	name ="gamescreen-Cards/card.png"/>
+				<Size 		origin="150_204" />
+				<Pos		origin="75_100"	/>		
+			</detailobject>	
+			
+			<COMMAND>
+				<cmd id="0" name="CHIA_BAI">
+				{
+					"act0":
+					{
+						"squence" : [
+							{
+								"SET_POSITION":"480_270",
+								"DESIGN":"960_540"
+							},
+							{
+								"SET_SIZE"  :"60_80",
+								"DESIGN"	:"960_540"
+							},
+							{
+								"SIZE" 		:"72_96",
+								"DESIGN"	:"960_540",
+								"TIME"		: 0.05
+							},
+							{
+								"SIZE" 		:"60_80",
+								"DESIGN"	:"960_540",
+								"TIME"		: 0.02
+							},
+							{
+								"DELAY": 0.1
+							},							
+							{
+								"POSITION"  : "100_100",
+								"FORCE"	    : 1,
+								"DESIGN"	:"960_540",
+								"STYLE" 	: 0,
+								"TIME"		: 0.15
+							},
+							{
+								"SET_ROTATE_Z" : -180
+							},
+							{
+								"SIZE" 		:"75_100",
+								"DESIGN"	:"960_540",
+								"TIME"		: 0.05
+							},
+							{
+								"ROTATE_Z"  :0,
+								"TIME"		:0.5
+							}							
+						]
+					}
+				}
+				</cmd>
+				<cmd id="1" name="SELECT_CARD">
+				{
+					"act0":
+					{
+						"single_0" : 							
+						{
+							"POSITION"  : "0_10",
+							"DESIGN"	: "960_540",
+							"STYLE" 	: 2,
+							"TIME"		: 0.15
+						},
+						"squence" :
+						[
+							{
+								"SET_ROTATE" : -15
+							},
+							{
+								"ROTATE" : 15,
+								"STYLE"	 : 1,
+								"TIME"	 : 0.15
+							}
+						]
+					}
+				}
+				</cmd>
+				<cmd id="2" name="DESELECT_CARD">
+				{
+					"act0":
+					{
+						"single_0" : 	
+						{
+							"POSITION" : "0_-10",
+							"DESIGN"   : "960_540",
+							"STYLE"    : 2,
+							"TIME"	   : 0.15
+						},
+						"squence" :
+						[
+							{
+								"SET_ROTATE" : 15
+							},
+							{
+								"ROTATE" : -15,
+								"STYLE"	 : 1,
+								"TIME"	 : 0.15
+							}
+						]
+					}
+				}
+				</cmd>
+				<cmd id="3" name="MOVE_CENTER_FRONT">
+				{
+					"act0":
+					{
+						"squence" :
+						[
+							{
+								"SET_ROTATE" : -25
+							},							
+							{
+								"SET_POSITION" : "100_100",
+								"FORCE"	    	: 1,
+								"DESIGN"  	   : "960_540"
+							}
+						]
+					},
+					"act1":
+					{
+						"squence" :
+						[	
+							{
+								"POSITION" : "0_480",
+								"FORCE"	   : 1,
+								"DESIGN"   : "960_540",
+								"STYLE"    : 0,
+								"TIME"	   : 0.4
+							}
+						],
+						"squence_1" :
+						[	
+							{
+								"SIZE" : 	"150_200",
+								"DESIGN"   : "960_540",
+								"TIME"	   : 0.2
+							},
+							{
+								"SIZE" : 	"75_100",
+								"DESIGN"   : "960_540",
+								"TIME"	   : 0.2
+							}
+						],
+						"squence_2" :
+						[	
+							{
+								"ROTATE"   : 25,
+								"STYLE"	   : 1,
+								"TIME"	   : 0.4
+							}
+						]
+					},
+					"act2":				
+					{
+						"squence" :
+						[	
+							{
+								"SCALE" : "0.85_0.85",
+								"TIME"  : 0.1
+							},
+							{
+								"SCALE" : "1_1",
+								"TIME"  : 0.1
+							}
+						]		
+					}
+				}
+				</cmd>
+				<cmd id="4" name="MOVE_CENTER_BACK">
+				{
+					"act0":
+					{
+						"single_0" :
+						{
+							"ROTATE"   : -30,
+							"STYLE"	   : 0,
+							"TIME"	   : 0.1
+						}
+					},
+					"act1":
+					{
+						"squence" : 	
+						[
+							{
+								"POSITION" : "30_45",
+								"DESIGN"   : "960_540",
+								"STYLE"    : 2,
+								"TIME"	   : 0.4
+							}
+						],
+						"squence_1" : 	
+						[							
+							{
+								"ROTATE"   : -20,
+								"STYLE"	   : 0,
+								"TIME"	   : 0.1
+							},
+							{
+								"ROTATE"   : 10,
+								"STYLE"	   : 0,
+								"TIME"	   : 0.1
+							},
+							{
+								"ROTATE"   : 0,
+								"STYLE"	   : 0,
+								"TIME"	   : 0.1
+							}
+						],
+						"squence_2" : 	
+						[							
+							{
+								"SCALE"   : "0.9_0.9",
+								"TIME"	  : 0.1
+							},
+							{
+								"SCALE"   : "1_1",
+								"TIME"	  : 0.2
+							}
+						]
+					}
+				}
+				</cmd>
+				<cmd id="5" name="LAYOUT_EFFECT_1">
+				{
+					"act0":
+					{
+						"squence" :
+						[
+							{
+								"POSITION" : "-10_0",
+								"DESIGN"   : "960_540",
+								"STYLE"    : 3,
+								"TIME"	   : 0.1
+							},
+							{
+								"DELAY" : 0.05
+							},
+							{
+								"POSITION" : "10_10",
+								"DESIGN"   : "960_540",
+								"FORCE"	   : 1,
+								"STYLE"    : 0,
+								"TIME"	   : 0.1
+							}
+						]
+					}
+				}
+				</cmd>
+				<cmd id="6" name="LAYOUT_EFFECT_2">
+				{
+					"act0":
+					{					
+						"squence" :
+						[
+							{
+								"POSITION" : "10_0",
+								"DESIGN"   : "960_540",
+								"STYLE"    : 3,
+								"TIME"	   : 0.1
+							},
+							{
+								"DELAY" : 0.05
+							},
+							{
+								"POSITION" : "10_10",
+								"DESIGN"   : "960_540",
+								"FORCE"	   : 1,
+								"STYLE"    : 0,
+								"TIME"	   : 0.1
+							}
+						]
+					}
+				}
+				</cmd>
+				
+				<!-- list command for bai cao-->
+				
+				<cmd id="10" name="CHIA_BAI_CAO">
+				{
+					"act0":
+					{
+						"squence" : [
+							{
+								"SET_SIZE"  :"60_80",
+								"DESIGN"	:"960_540"
+							},
+							{
+								"SET_ROTATE" : 15
+							},
+							{
+								"DELAY": 0.1
+							}
+						]
+					},
+					"act1":
+					{
+						"squence" : 
+						[						
+							{
+								"POSITION"  : "100_100",
+								"FORCE"	    : 1,
+								"DESIGN"	:"960_540",
+								"STYLE" 	: 0,
+								"TIME"		: 0.15
+							},
+							{
+								"SIZE" 		:"75_100",
+								"DESIGN"	:"960_540",
+								"TIME"		: 0.05
+							}							
+						],
+						"squence_1":
+						[
+							{
+								"ROTATE" : -10 ,
+								"STYLE"  : 0.01
+							},
+							{
+								"ROTATE" : 0 ,
+								"STYLE"  : 0.02
+							}
+						]
+						
+					}
+				}
+				</cmd>
+				<cmd id="12" name="FLIP_BAI_CAO">
+				{
+					"act0":
+					{				
+						"squence" : [
+							{
+								"SET_ROTATE_Z" : -180
+							},
+							{
+								"SET_ROTATE" : -15
+							}
+						]
+					},
+					"act1":{
+						"squence":
+						[
+							{
+								"POSITION": "0_5",
+								"DESIGN"  : "960_540",
+								"TIME"	  : "0.1",
+								"STYLE"   : 2
+							},
+							{
+								"POSITION": "0_-5",
+								"DESIGN"  : "960_540",
+								"TIME"	  : "0.1",
+								"STYLE"   : 2
+							},
+							{
+								"DELAY"   : 0.1
+							}
+						],
+						"squence_1":
+						[
+							{
+								"ROTATE" : 20,
+								"TIME"	 : 0.15,
+								"STYLE"	 : 1
+							},
+							{
+								"ROTATE" : -5,
+								"TIME"	 : 0.15,
+								"STYLE"	 : 1
+							}
+						],
+						"single_0":
+						{
+							"ROTATE_Z"  :0,
+							"TIME"		:0.3
+						}
+					}
+				}
+				</cmd>
+				<cmd id="13" name="FLOP_BAI_CAO">
+				{
+					"act0":
+					{
+						"squence" : [
+							{
+								"SET_ANCHOR" : "0.5_0.5"
+							},
+							{
+								"SET_SIZE"  : "150_200",
+								"DESIGN"	: "960_540"
+							},
+							{
+								"SET_POSITION"  : "480_200",
+								"DESIGN"		: "960_540"
+							}
+						]
+					}
+				}
+				</cmd>
+				<cmd id="14" name="RETURN_FLOP_CARD">
+				{
+					"act0":
+					{
+						"squence" : [
+							{
+								"POSITION"  : "50_50",
+								"DESIGN"	: "960_540",
+								"FORCE"		: 1,
+								"TIME"		: 0.2
+							}
+						]
+					}
+				}
+				</cmd>
+				
+				
+			</COMMAND>
+		
+		</detailobject>
+		
+		<detailobject  id="1" name = "card_up">
+			<Main 		type_object ="0"  
+						stick_screen="0" 
+						visible = "1"
+			/>
+			<!-- // 0 is sprite / 1 is amature / 2 is Animate / 3 is text / 4 is processtimer/ 5 sprite patch / 6 is sprite patch / 7 is pure layer-->
+			<Source 	name ="gamescreen-Cards/card_bgbinhdan.png"/>
+			<Size 		origin="75_100" 	/>
+			<Pos		origin="480_270"	/>
+			
+			<COMMAND>
+				<cmd id="7" name="CHIA_BAI_OTHER_1">
+				{
+					"act0":
+					{
+						"squence" : [
+							{
+								"SET_POSITION":"480_270",
+								"DESIGN":"960_540"
+							},
+							{
+								"SET_SIZE"  :"60_80",
+								"DESIGN"	:"960_540"
+							},
+							{
+								"DELAY": 0.1
+							}
+						]
+					},
+					"act1":
+					{
+						"squence_0" : 
+						[
+							{
+								"SIZE" 		:"72_96",
+								"DESIGN"	:"960_540",
+								"TIME"		: 0.05
+							},
+							{
+								"SIZE" 		:"60_80",
+								"DESIGN"	:"960_540",
+								"TIME"		: 0.02
+							},
+							{
+								"POSITION"  : "100_100",
+								"FORCE"	    : 1,
+								"DESIGN"	:"960_540",
+								"STYLE" 	: 0,
+								"TIME"		: 0.15
+							}
+						],	
+						"squence_1" : 
+						[
+							{
+								"DELAY"		: 0.05
+							}
+						],
+						"single_0": {
+							"SIZE" 		:"37_50",
+							"DESIGN"	:"960_540",
+							"TIME"		: 0.05
+						}
+					},
+					"act2":
+					{
+						"squence_0" : 
+						[							
+							{
+								"POSITION"  : "100_100",
+								"FORCE"	    : 1,
+								"DESIGN"	:"960_540",
+								"STYLE" 	: 0,
+								"TIME"		: 0.8
+							}
+						],
+						"single_0" : 
+						{							
+							"SIZE" 		:"17_25",
+							"DESIGN"	:"960_540",
+							"TIME"		: 0.8
+						},
+						"single_1":
+						{							
+							"OPACITY" 	: 0,
+							"TIME"		: 0.8
+						}						
+					}
+				}
+				</cmd>
+				
+				<!-- list command for bai cao-->
+				
+				<cmd id="11" name="CHIA_BAI_CAO_1">
+				{
+					"act0":
+					{
+						"squence" : [
+							{
+								"SET_SIZE"  :"60_80",
+								"DESIGN"	:"960_540"
+							},
+							{
+								"SET_ROTATE" : 15
+							},
+							{
+								"DELAY": 0.1
+							}
+						]
+					},
+					"act1":
+					{
+						"squence" : 
+						[						
+							{
+								"POSITION"  : "100_100",
+								"FORCE"	    : 1,
+								"DESIGN"	:"960_540",
+								"STYLE" 	: 0,
+								"TIME"		: 0.15
+							}							
+						],
+						"squence_1":
+						[
+							{
+								"ROTATE" : -10 ,
+								"STYLE"  : 0.01
+							},
+							{
+								"ROTATE" : 0 ,
+								"STYLE"  : 0.02
+							}
+						]
+						
+					}
+				}
+				</cmd>
+			</COMMAND>
+		
+		</detailobject>
+
+		<detailobject  id="1" name = "icon_element_1">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/b.png"/>
+				<Size 		origin="95_93" 	/>
+				<Pos		origin="97_48"	/>		
+			
+		</detailobject>
+		<detailobject  id="2" name = "icon_element_2">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/ch.png"/>
+				<Size 		origin="95_93" 	/>
+				<Pos		origin="97_48"	/>		
+			
+		</detailobject>
+		<detailobject  id="3" name = "icon_element_3">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/r.png"/>
+				<Size 		origin="95_93" 	/>
+				<Pos		origin="97_48"	/>		
+			
+		</detailobject>
+		<detailobject  id="4" name = "icon_element_4">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/c.png"/>
+				<Size 		origin="95_93" 	/>
+				<Pos		origin="97_48"	/>		
+			
+		</detailobject>
+		<detailobject  id="5" name = "icon_element_1_1">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/xi_bich.png"/>
+				<Size 		origin="101_143" 	/>
+				<Pos		origin="75_100"	/>		
+			
+		</detailobject>
+		<detailobject  id="6" name = "icon_element_jack_black">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/jb.png"/>
+				<Size 		origin="104_140" 	/>
+				<Pos		origin="94_73"	/>		
+			
+		</detailobject>
+		<detailobject  id="7" name = "icon_element_jack_red">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/jc.png"/>
+				<Size 		origin="104_140" 	/>
+				<Pos		origin="94_73"	/>		
+			
+		</detailobject>
+		<detailobject  id="8" name = "icon_element_queen_black">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/qb.png"/>
+				<Size 		origin="104_140" 	/>
+				<Pos		origin="94_73"	/>		
+			
+		</detailobject>
+		<detailobject  id="9" name = "icon_element_queen_red">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/qc.png"/>
+				<Size 		origin="104_140" 	/>
+				<Pos		origin="94_73"	/>		
+			
+		</detailobject>
+		<detailobject  id="10" name = "icon_element_king_black">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/kb.png"/>
+				<Size 		origin="104_140" 	/>
+				<Pos		origin="94_73"	/>		
+			
+		</detailobject>
+		<detailobject  id="11" name = "icon_element_king_red">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/kc.png"/>
+				<Size 		origin="104_140" 	/>
+				<Pos		origin="94_73"	/>		
+			
+		</detailobject>
+		
+		<detailobject  id="12" name = "icon_element_small_1">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/mb.png"/>
+				<Size 		origin="34_33" 	/>
+				<Pos		origin="31_138"	/>		
+		</detailobject>
+		<detailobject  id="13" name = "icon_element_small_2">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/mch.png"/>
+				<Size 		origin="34_33" 	/>
+				<Pos		origin="31_138"	/>		
+		</detailobject>
+		<detailobject  id="14" name = "icon_element_small_3">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/mr.png"/>
+				<Size 		origin="34_33" 	/>
+				<Pos		origin="31_138"	/>		
+		</detailobject>
+		<detailobject  id="15" name = "icon_element_small_4">
+				<Main 		type_object ="0"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/mc.png"/>
+				<Size 		origin="34_33" 	/>
+				<Pos		origin="31_138"	/>		
+		</detailobject>
+		
+		<detailobject  id="16" name = "name_black_1">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_11" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="17" name = "name_black_2">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_12" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="18" name = "name_black_3">
+				<Main 		type_object ="5"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_0" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>		
+			
+		</detailobject>
+		<detailobject  id="19" name = "name_black_4">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_1" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>		
+		</detailobject>
+		<detailobject  id="20" name = "name_black_5">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_2" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="21" name = "name_black_6">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_3" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="22" name = "name_black_7">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_4" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="23" name = "name_black_8">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_5" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="24" name = "name_black_9">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_6" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="25" name = "name_black_10">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_7" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>	
+		</detailobject>
+		<detailobject  id="26" name = "name_black_11">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_8" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="27" name = "name_black_12">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_9" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="28" name = "name_black_13">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaiden.png" idx_sprite="0_10" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+	
+		<detailobject  id="29" name = "name_red_1">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_11" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="30" name = "name_red_2">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_12" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="31" name = "name_red_3">
+				<Main 		type_object ="5"  
+							stick_screen="0" 
+							visible = "1"
+				/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_0" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>		
+			
+		</detailobject>
+		<detailobject  id="32" name = "name_red_4">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_1" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>		
+		</detailobject>
+		<detailobject  id="33" name = "name_red_5">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_2" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="34" name = "name_red_6">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_3" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="35" name = "name_red_7">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_4" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="36" name = "name_red_8">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_5" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="37" name = "name_red_9">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_6" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="38" name = "name_red_10">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_7" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>	
+		</detailobject>
+		<detailobject  id="39" name = "name_red_11">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_8" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="40" name = "name_red_12">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_9" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		<detailobject  id="41" name = "name_red_13">
+				<Main 		type_object ="5"  stick_screen="0" visible = "1"/>
+				<Source 	name ="gamescreen-Cards/sobaido.png" idx_sprite="0_10" number_sprite="1_13"/>
+				<Size 		origin="50_40" 	/>
+				<Pos		origin="31_175"	/>
+		</detailobject>
+		
+	</Object>
+	
+</GAME>

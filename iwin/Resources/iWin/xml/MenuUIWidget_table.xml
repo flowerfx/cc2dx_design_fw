@@ -1,0 +1,34 @@
+<?xml version ='1.0' encoding='UTF-8'?>
+<GAME>
+	<list_menu_widget name="loading">
+		<UIWidget id="1"  name="loading_screen"  		path="xml\screens\LoadingScreen.xml"/>
+	</list_menu_widget>
+	
+	<list_menu_widget name="login">
+		<UIWidget id="14" name="common_screen" 			path="xml\screens\CommonScreen.xml"/>
+		<UIWidget id="3"  name="login_screen" 			path="xml\screens\LoginScreen.xml"/>
+	</list_menu_widget>
+	
+	<list_menu_widget name="main_0">
+		<UIWidget id="4"  name="main_screen" 			path="xml\screens\MainScreen.xml"/>
+		<UIWidget id="5"  name="profile_screen" 		path="xml\screens\ProfileScreen.xml"/>
+	</list_menu_widget>
+	
+	<list_menu_widget name="main_1">
+		<UIWidget id="6"  name="lobby_screen" 			path="xml\screens\LobbyScreen.xml"/>
+		<UIWidget id="12" name="new_lobby_screen" 		path="xml\screens\NewLobbyScreen.xml"/>
+		<UIWidget id="7"  name="leaderboard_screen" 	path="xml\screens\LeaderboardScreen.xml"/>
+		<UIWidget id="8"  name="event_screen" 			path="xml\screens\EventScreen.xml"/>
+		<UIWidget id="9"  name="friend_screen" 			path="xml\screens\FriendScreen.xml"/>
+	</list_menu_widget>	
+	
+	<list_menu_widget name="main_2">
+		<UIWidget id="10" name="iap_screen" 			path="xml\screens\IAPScreen.xml"/>
+		<UIWidget id="13" name="changeaward_screen" 	path="xml\screens\ChangeAward.xml"/>
+	</list_menu_widget>
+	
+	<list_menu_widget name="common">
+		<UIWidget id="11" name="hud_screen" 			path="xml\screens\HUDScreen.xml"/>
+	</list_menu_widget>
+	
+</GAME>
